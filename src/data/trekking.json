@@ -1,0 +1,725 @@
+{
+  "regions": [
+    {
+      "id": "region-001",
+      "name": "Annapurna Region",
+      "slug": "annapurna-region",
+      "image":"/images/annapurna.jpg",
+      "description": "The Annapurna region offers some of Nepal's most diverse trekking experiences, from easy family treks to challenging high-altitude adventures. Home to the world's tenth highest peak, this region features stunning mountain vistas, diverse ethnic cultures, and lush rhododendron forests.",
+      "overview": "Annapurna is Nepal's most popular trekking region, famous for its accessibility, comfortable teahouses, and breathtaking scenery. Treks range from gentle walks through traditional villages to challenging circuits crossing high mountain passes.",
+      "highlights": [
+        "Annapurna Sanctuary - natural amphitheater of towering peaks",
+        "Thorong La Pass (5,416m) - highest trekking pass",
+        "Poon Hill - famous sunrise viewpoint",
+        "Diverse landscapes from tropical forests to arid highlands",
+        "Rich Gurung and Thakali cultures"
+      ],
+      "bestSeason": ["March-May", "September-November"],
+      "altitudeRange": "800m - 5,416m",
+      "difficultyRange": "Easy to Challenging",
+      "trekkingDays": "5-21 days",
+      "icon": "⛰️",
+      "color": "#4CAF50",
+      "map": "/maps/annapurna-region.jpg",
+      "subcategories": [
+        {
+          "id": "trek-001-001",
+          "name": "Annapurna Foothills Trek for Families",
+          "slug": "annapurna-foothills-trek-families",
+          "duration": "9 Days",
+          "difficulty": "Easy",
+          "maxAltitude": "2,100m",
+          "shortDescription": "Gentle introduction to Himalayan trekking suitable for families with children",
+          "fullDescription": "This family-friendly trek takes you through picturesque villages, rhododendron forests, and offers stunning views of the Annapurna range. The trails are well-maintained and accommodation is comfortable with family rooms available. Perfect for first-time trekkers and families looking to experience the Himalayas without strenuous climbs.",
+          "highlights": [
+            "Suitable for children aged 8+",
+            "Panoramic Annapurna mountain views",
+            "Stay in family-friendly teahouses",
+            "Cultural interactions with Gurung communities",
+            "Visit Australian Camp and Pothana"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Kathmandu",
+              "altitude": "1,400m",
+              "description": "Arrive at Tribhuvan International Airport, transfer to hotel, trek briefing"
+            },
+            {
+              "day": 2,
+              "title": "Fly to Pokhara & Trek to Dhampus",
+              "altitude": "1,650m",
+              "trekTime": "4-5 hours",
+              "description": "Morning flight to Pokhara, drive to Phedi, trek to Dhampus village"
+            },
+            {
+              "day": 3,
+              "title": "Dhampus to Pothana",
+              "altitude": "1,900m",
+              "trekTime": "3-4 hours",
+              "description": "Gradual climb through forests to Pothana, Annapurna views"
+            },
+            {
+              "day": 4,
+              "title": "Pothana to Australian Camp",
+              "altitude": "2,100m",
+              "trekTime": "2-3 hours",
+              "description": "Short trek to Australian Camp, panoramic mountain views"
+            },
+            {
+              "day": 5,
+              "title": "Australian Camp to Kande",
+              "altitude": "1,700m",
+              "trekTime": "3 hours",
+              "description": "Descend through forests to Kande village"
+            },
+            {
+              "day": 6,
+              "title": "Kande to Pokhara",
+              "description": "Short trek to road head, drive to Pokhara, lakeside relaxation"
+            },
+            {
+              "day": 7,
+              "title": "Pokhara Exploration",
+              "description": "Free day for Pokhara sightseeing, boating, or relaxation"
+            },
+            {
+              "day": 8,
+              "title": "Fly to Kathmandu",
+              "description": "Morning flight to Kathmandu, free for shopping and exploration"
+            },
+            {
+              "day": 9,
+              "title": "Departure",
+              "description": "Transfer to airport for international departure"
+            }
+          ],
+          "inclusions": [
+            "All accommodation during trek",
+            "All meals during trek",
+            "Domestic flights (Kathmandu-Pokhara-Kathmandu)",
+            "Experienced trekking guide",
+            "Porter service (1 porter for 2 trekkers)",
+            "All necessary permits",
+            "First aid kit",
+            "Airport transfers"
+          ],
+          "exclusions": [
+            "International airfare",
+            "Nepal visa fee",
+            "Travel insurance",
+            "Personal expenses",
+            "Tips for guide and porter",
+            "Alcohol and beverages",
+            "Extra nights in Kathmandu/Pokhara"
+          ],
+          "price": {
+            "perPerson": 650,
+            "childDiscount": "25% for children under 12",
+            "groupDiscount": "10% for groups of 4+",
+            "singleSupplement": 100,
+            "currency": "USD"
+          },
+          "physicalRequirements": "Good health, able to walk 4-5 hours daily on moderate trails",
+          "ageRequirement": "8 years and above",
+          "accommodation": "Teahouses with private rooms (twin/triple sharing)",
+          "permits": ["ACAP Permit", "TIMS Card"],
+          "groupSize": "2-12 people",
+          "gearChecklist": ["Good hiking shoes", "Warm layers", "Daypack", "Water bottle"],
+          "images": {
+            "thumbnail": "/images/treks/annapurna-foothills-thumb.jpg",
+            "gallery": [
+              "/images/treks/annapurna-foothills-1.jpg",
+              "/images/treks/annapurna-foothills-2.jpg",
+              "/images/treks/annapurna-foothills-3.jpg"
+            ]
+          },
+          "tags": ["family-friendly", "easy", "beginner", "scenic", "cultural", "short-trek"],
+          "rating": 4.7,
+          "reviews": 89,
+          "featured": true
+        },
+        {
+          "id": "trek-001-002",
+          "name": "Annapurna Sanctuary Trek",
+          "slug": "annapurna-sanctuary-trek",
+          "duration": "10-14 Days",
+          "difficulty": "Moderate",
+          "maxAltitude": "4,130m",
+          "shortDescription": "Classic trek to the base of Annapurna mountains, surrounded by towering peaks",
+          "fullDescription": "The Annapurna Sanctuary Trek takes you to the heart of the Annapurna range, offering breathtaking views of Annapurna I, Annapurna South, Machhapuchhre (Fishtail), and Hiunchuli. This trek combines diverse landscapes from subtropical forests to alpine meadows, culminating at Annapurna Base Camp.",
+          "highlights": [
+            "Annapurna Base Camp at 4,130m",
+            "360-degree mountain views",
+            "Natural hot springs at Jhinu Danda",
+            "Gurung and Magar cultural experiences",
+            "Diverse flora and fauna"
+          ],
+          "price": {
+            "perPerson": 850,
+            "currency": "USD"
+          },
+          "permits": ["ACAP Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/annapurna-sanctuary-thumb.jpg"
+          },
+          "tags": ["classic", "base-camp", "moderate", "mountain-views", "popular"],
+          "rating": 4.9,
+          "reviews": 234
+        },
+        {
+          "id": "trek-001-003",
+          "name": "Annapurna Circuit Trek",
+          "slug": "annapurna-circuit-trek",
+          "duration": "15-21 Days",
+          "difficulty": "Challenging",
+          "maxAltitude": "5,416m",
+          "shortDescription": "One of the world's classic treks crossing Thorong La Pass",
+          "fullDescription": "The Annapurna Circuit is considered one of the world's best treks, offering incredible diversity of landscapes, cultures, and ecosystems. The trek crosses Thorong La Pass at 5,416m and takes you through subtropical forests, high-altitude deserts, and traditional villages.",
+          "highlights": [
+            "Thorong La Pass (5,416m)",
+            "Cross-cultural experience (Hindu to Buddhist)",
+            "Muktinath Temple visit",
+            "Kali Gandaki Gorge - world's deepest gorge",
+            "Manang and Mustang valleys"
+          ],
+          "price": {
+            "perPerson": 1200,
+            "currency": "USD"
+          },
+          "permits": ["ACAP Permit", "TIMS Card", "Annapurna Conservation Permit"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/annapurna-circuit-thumb.jpg"
+          },
+          "tags": ["circuit", "challenging", "high-pass", "classic", "extended"],
+          "rating": 4.8,
+          "reviews": 156
+        },
+        {
+          "id": "trek-001-004",
+          "name": "Nar Phu Valley Trek",
+          "slug": "nar-phu-valley-trek",
+          "duration": "18-21 Days",
+          "difficulty": "Challenging",
+          "maxAltitude": "5,416m",
+          "shortDescription": "Remote trek to hidden valleys with Tibetan culture",
+          "fullDescription": "The Nar Phu Valley Trek takes you to remote valleys that were opened to trekkers only in 2002. This trek offers a unique combination of high peaks, remote villages, and ancient Tibetan culture. The area is less crowded and provides an authentic wilderness experience.",
+          "highlights": [
+            "Remote Nar and Phu valleys",
+            "Ancient Tibetan Buddhist culture",
+            "Kang La Pass (5,322m)",
+            "Less crowded trails",
+            "Tilicho Lake option"
+          ],
+          "price": {
+            "perPerson": 1400,
+            "currency": "USD"
+          },
+          "permits": ["ACAP Permit", "TIMS Card", "Restricted Area Permit"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/nar-phu-valley-thumb.jpg"
+          },
+          "tags": ["remote", "tibetan-culture", "offbeat", "challenging", "wilderness"],
+          "rating": 4.7,
+          "reviews": 67
+        },
+        {
+          "id": "trek-001-005",
+          "name": "Jomsom Muktinath Trek for Families",
+          "slug": "jomsom-muktinath-trek-families",
+          "duration": "10-12 Days",
+          "difficulty": "Moderate",
+          "maxAltitude": "3,800m",
+          "shortDescription": "Family-friendly trek in Lower Mustang region with spiritual significance",
+          "fullDescription": "This family-friendly trek follows the Kali Gandaki River valley to the sacred Muktinath Temple. The trail offers relatively easy walking with gradual ascents, making it suitable for families. The trek combines natural beauty with cultural and spiritual experiences.",
+          "highlights": [
+            "Muktinath Temple - sacred to both Hindus and Buddhists",
+            "Kali Gandaki Valley - world's deepest gorge",
+            "Apple orchards of Marpha",
+            "Kagbeni - medieval village",
+            "Natural diversity from subtropical to desert"
+          ],
+          "price": {
+            "perPerson": 750,
+            "childDiscount": "20% for children under 12",
+            "currency": "USD"
+          },
+          "permits": ["ACAP Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/jomsom-muktinath-thumb.jpg"
+          },
+          "tags": ["family", "pilgrimage", "moderate", "cultural", "spiritual"],
+          "rating": 4.6,
+          "reviews": 92
+        }
+      ]
+    },
+    {
+      "id": "region-002",
+      "name": "Everest Region",
+      "slug": "everest-region",
+      "image":"/images/everest.jpg",
+      "description": "The Everest region, also known as Khumbu, is home to the world's highest peak - Mount Everest (8,848m). This region offers some of the most spectacular trekking experiences with close-up views of the world's highest mountains.",
+      "overview": "Trekking in the Everest region takes you through the homeland of the Sherpa people, past ancient monasteries, and into the heart of the Himalayas. The region features stunning glacial valleys, high mountain passes, and rich Buddhist culture.",
+      "highlights": [
+        "Mount Everest (8,848m) - world's highest peak",
+        "Namche Bazaar - gateway to Everest",
+        "Tengboche Monastery - spiritual center",
+        "Kala Patthar - best Everest viewpoint",
+        "Sherpa culture and hospitality"
+      ],
+      "bestSeason": ["March-May", "September-November"],
+      "altitudeRange": "2,800m - 5,545m",
+      "difficultyRange": "Moderate to Challenging",
+      "trekkingDays": "12-21 days",
+      "icon": "🏔️",
+      "color": "#2196F3",
+      "map": "/maps/everest-region.jpg",
+      "subcategories": [
+        {
+          "id": "trek-002-001",
+          "name": "Everest View Trek",
+          "slug": "everest-view-trek",
+          "duration": "7-10 Days",
+          "difficulty": "Moderate",
+          "maxAltitude": "3,880m",
+          "shortDescription": "Shorter trek with magnificent views of Everest without going to base camp",
+          "fullDescription": "The Everest View Trek is perfect for those with limited time who still want to experience the magic of the Everest region. This shorter trek takes you to Namche Bazaar and Tengboche, offering spectacular views of Everest, Lhotse, and Ama Dablam.",
+          "highlights": [
+            "Everest views from multiple viewpoints",
+            "Namche Bazaar exploration",
+            "Tengboche Monastery visit",
+            "Sherpa culture immersion",
+            "Scenic Lukla flight"
+          ],
+          "price": {
+            "perPerson": 950,
+            "currency": "USD"
+          },
+          "permits": ["Sagarmatha National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/everest-view-thumb.jpg"
+          },
+          "tags": ["everest", "moderate", "scenic", "cultural", "shorter"],
+          "rating": 4.7,
+          "reviews": 123
+        },
+        {
+          "id": "trek-002-002",
+          "name": "Everest Base Camp Trek",
+          "slug": "everest-base-camp-trek",
+          "duration": "14-16 Days",
+          "difficulty": "Challenging",
+          "maxAltitude": "5,364m",
+          "shortDescription": "The ultimate trek to the base of the world's highest mountain",
+          "fullDescription": "The Everest Base Camp Trek is one of the world's most famous treks, taking you to the foot of Mount Everest. This challenging trek passes through Sherpa villages, Buddhist monasteries, and offers breathtaking mountain views throughout the journey.",
+          "highlights": [
+            "Everest Base Camp (5,364m)",
+            "Kala Patthar (5,545m) - best Everest viewpoint",
+            "Tengboche Monastery",
+            "Gorak Shep - highest settlement",
+            "Sherpa culture and hospitality"
+          ],
+          "price": {
+            "perPerson": 1250,
+            "currency": "USD"
+          },
+          "permits": ["Sagarmatha National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/everest-base-camp-thumb.jpg"
+          },
+          "tags": ["everest", "base-camp", "challenging", "classic", "bucket-list"],
+          "rating": 4.9,
+          "reviews": 345
+        },
+        {
+          "id": "trek-002-003",
+          "name": "Gokyo and Everest Base Camp Trek",
+          "slug": "gokyo-everest-base-camp-trek",
+          "duration": "18-20 Days",
+          "difficulty": "Challenging",
+          "maxAltitude": "5,357m",
+          "shortDescription": "Combine Gokyo Lakes with Everest Base Camp for the ultimate Everest experience",
+          "fullDescription": "This comprehensive trek combines the best of the Everest region - the turquoise Gokyo Lakes and the iconic Everest Base Camp. The route includes crossing Cho La Pass and offers spectacular views from Gokyo Ri and Kala Patthar.",
+          "highlights": [
+            "Gokyo Lakes - six turquoise glacial lakes",
+            "Gokyo Ri (5,357m) - panoramic viewpoint",
+            "Cho La Pass (5,420m) crossing",
+            "Everest Base Camp visit",
+            "Dual acclimatization routes"
+          ],
+          "price": {
+            "perPerson": 1450,
+            "currency": "USD"
+          },
+          "permits": ["Sagarmatha National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/gokyo-everest-thumb.jpg"
+          },
+          "tags": ["everest", "gokyo-lakes", "challenging", "comprehensive", "high-pass"],
+          "rating": 4.8,
+          "reviews": 189
+        },
+        {
+          "id": "trek-002-004",
+          "name": "Three Pass with Everest Base Camp Trek",
+          "slug": "three-pass-everest-base-camp-trek",
+          "duration": "21-24 Days",
+          "difficulty": "Very Challenging",
+          "maxAltitude": "5,545m",
+          "shortDescription": "The ultimate Everest adventure crossing three high passes and visiting base camp",
+          "fullDescription": "This is the most comprehensive and challenging trek in the Everest region, crossing three high mountain passes (Renjo La, Cho La, and Kongma La) while also visiting Everest Base Camp. It offers complete 360-degree views of the Everest Himalayas.",
+          "highlights": [
+            "Three high passes: Renjo La, Cho La, Kongma La",
+            "Everest Base Camp",
+            "Gokyo Lakes and Valley",
+            "Complete circuit of Everest region",
+            "Maximum mountain exposure"
+          ],
+          "price": {
+            "perPerson": 1800,
+            "currency": "USD"
+          },
+          "permits": ["Sagarmatha National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/three-pass-everest-thumb.jpg"
+          },
+          "tags": ["everest", "three-passes", "very-challenging", "complete-circuit", "adventure"],
+          "rating": 4.9,
+          "reviews": 78
+        }
+      ]
+    },
+    {
+      "id": "region-003",
+      "name": "Langtang Region",
+      "slug": "langtang-region",
+      "image":"/images/langtang.jpg",
+      "description": "The Langtang region, closest to Kathmandu, offers spectacular trekking through beautiful valleys, alpine meadows, and high mountain scenery. Known as the 'Valley of Glaciers', it's rich in Tibetan culture and biodiversity.",
+      "overview": "Langtang is perfect for trekkers seeking a Himalayan experience without the crowds of Everest or Annapurna. The region features diverse landscapes, from subtropical forests to glacial valleys, and offers authentic cultural experiences with Tamang and Tibetan communities.",
+      "highlights": [
+        "Langtang Valley - 'Valley of Glaciers'",
+        "Gosaikunda Lake - sacred alpine lakes",
+        "Tamang Heritage Trail - cultural immersion",
+        "Kyanjin Gompa - ancient monastery",
+        "Less crowded trails"
+      ],
+      "bestSeason": ["March-May", "September-November"],
+      "altitudeRange": "1,500m - 5,000m",
+      "difficultyRange": "Moderate to Challenging",
+      "trekkingDays": "7-15 days",
+      "icon": "🌲",
+      "color": "#FF9800",
+      "map": "/maps/langtang-region.jpg",
+      "subcategories": [
+        {
+          "id": "trek-003-001",
+          "name": "Langtang Valley Trek",
+          "slug": "langtang-valley-trek",
+          "duration": "10-12 Days",
+          "difficulty": "Moderate",
+          "maxAltitude": "4,984m",
+          "shortDescription": "Beautiful trek through the 'Valley of Glaciers' close to Kathmandu",
+          "fullDescription": "The Langtang Valley Trek takes you through one of Nepal's most beautiful valleys, often called the 'Valley of Glaciers'. The trek offers stunning mountain views, diverse flora and fauna, and rich Tamang culture, all within easy reach of Kathmandu.",
+          "highlights": [
+            "Langtang Valley - spectacular glacial valley",
+            "Kyanjin Ri (4,984m) - panoramic viewpoint",
+            "Tamang villages and culture",
+            "Langtang National Park wildlife",
+            "Cheese factory at Kyanjin Gompa"
+          ],
+          "price": {
+            "perPerson": 750,
+            "currency": "USD"
+          },
+          "permits": ["Langtang National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/langtang-valley-thumb.jpg"
+          },
+          "tags": ["langtang", "valley", "moderate", "cultural", "glaciers"],
+          "rating": 4.6,
+          "reviews": 134
+        },
+        {
+          "id": "trek-003-002",
+          "name": "The Gosaikunda Trek",
+          "slug": "gosaikunda-trek",
+          "duration": "7-9 Days",
+          "difficulty": "Moderate",
+          "maxAltitude": "4,380m",
+          "shortDescription": "Sacred trek to holy alpine lakes in Langtang region",
+          "fullDescription": "The Gosaikunda Trek takes you to a series of sacred alpine lakes that are pilgrimage sites for both Hindus and Buddhists. The trek offers beautiful mountain views, rhododendron forests, and cultural insights into local religious practices.",
+          "highlights": [
+            "Gosaikunda Lake - sacred pilgrimage site",
+            "Laurebinayak Pass (4,610m)",
+            "Helambu Valley views",
+            "Rhododendron forests (spring)",
+            "Cultural and spiritual experience"
+          ],
+          "price": {
+            "perPerson": 650,
+            "currency": "USD"
+          },
+          "permits": ["Langtang National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/gosaikunda-trek-thumb.jpg"
+          },
+          "tags": ["gosaikunda", "lakes", "spiritual", "moderate", "pilgrimage"],
+          "rating": 4.7,
+          "reviews": 89
+        },
+        {
+          "id": "trek-003-003",
+          "name": "Helambu Trek",
+          "slug": "helambu-trek",
+          "duration": "7-8 Days",
+          "difficulty": "Easy to Moderate",
+          "maxAltitude": "3,640m",
+          "shortDescription": "Cultural trek through traditional Sherpa and Tamang villages near Kathmandu",
+          "fullDescription": "The Helambu Trek is a cultural journey through traditional Sherpa and Tamang villages, offering beautiful scenery and authentic cultural experiences. It's one of the most accessible treks from Kathmandu, perfect for those with limited time.",
+          "highlights": [
+            "Helambu Valley - beautiful cultural region",
+            "Sherpa and Tamang villages",
+            "Traditional architecture and culture",
+            "Easy accessibility from Kathmandu",
+            "Less crowded trails"
+          ],
+          "price": {
+            "perPerson": 550,
+            "currency": "USD"
+          },
+          "permits": ["Langtang National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/helambu-trek-thumb.jpg"
+          },
+          "tags": ["helambu", "cultural", "easy-moderate", "villages", "accessible"],
+          "rating": 4.5,
+          "reviews": 76
+        },
+        {
+          "id": "trek-003-004",
+          "name": "Tamang Heritage Trail Trek",
+          "slug": "tamang-heritage-trail-trek",
+          "duration": "8-10 Days",
+          "difficulty": "Easy to Moderate",
+          "maxAltitude": "3,165m",
+          "shortDescription": "Cultural immersion trek through traditional Tamang villages with hot spring relaxation",
+          "fullDescription": "The Tamang Heritage Trail is a relatively new trek that focuses on cultural immersion in traditional Tamang villages. The trek offers beautiful mountain views, cultural experiences, and ends with relaxation in natural hot springs.",
+          "highlights": [
+            "Tamang cultural immersion",
+            "Traditional village homestays",
+            "Tatopani hot springs",
+            "Beautiful mountain views",
+            "Less touristy experience"
+          ],
+          "price": {
+            "perPerson": 600,
+            "currency": "USD"
+          },
+          "permits": ["Langtang National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/tamang-heritage-thumb.jpg"
+          },
+          "tags": ["tamang", "heritage", "cultural", "hot-springs", "community-based"],
+          "rating": 4.7,
+          "reviews": 92
+        },
+        {
+          "id": "trek-003-005",
+          "name": "Ganjia La Pass Trek",
+          "slug": "ganjia-la-pass-trek",
+          "duration": "14-16 Days",
+          "difficulty": "Challenging",
+          "maxAltitude": "5,122m",
+          "shortDescription": "Challenging trek crossing high passes in Langtang region",
+          "fullDescription": "The Ganjia La Pass Trek is a challenging adventure that crosses high mountain passes in the Langtang region. This trek offers spectacular mountain views, remote trails, and a true wilderness experience away from the crowds.",
+          "highlights": [
+            "Ganjia La Pass (5,122m)",
+            "Remote and less crowded trails",
+            "Spectacular mountain views",
+            "Wilderness experience",
+            "Cultural diversity"
+          ],
+          "price": {
+            "perPerson": 1100,
+            "currency": "USD"
+          },
+          "permits": ["Langtang National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/ganjia-la-pass-thumb.jpg"
+          },
+          "tags": ["ganjia-la", "high-pass", "challenging", "remote", "adventure"],
+          "rating": 4.8,
+          "reviews": 45
+        },
+        {
+          "id": "trek-003-006",
+          "name": "Bhairav Kunda Trek",
+          "slug": "bhairav-kunda-trek",
+          "duration": "12-14 Days",
+          "difficulty": "Moderate to Challenging",
+          "maxAltitude": "4,250m",
+          "shortDescription": "Sacred trek to holy Bhairav Kunda Lake in Langtang region",
+          "fullDescription": "The Bhairav Kunda Trek takes you to a sacred lake that is an important pilgrimage site for Hindus. The trek offers beautiful mountain views, diverse landscapes, and cultural insights into local religious practices.",
+          "highlights": [
+            "Bhairav Kunda Lake - sacred pilgrimage site",
+            "Panoramic Himalayan views",
+            "Cultural and spiritual experience",
+            "Less crowded trails",
+            "Diverse landscapes"
+          ],
+          "price": {
+            "perPerson": 850,
+            "currency": "USD"
+          },
+          "permits": ["Langtang National Park Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/bhairav-kunda-thumb.jpg"
+          },
+          "tags": ["bhairav-kunda", "spiritual", "lake", "moderate", "pilgrimage"],
+          "rating": 4.6,
+          "reviews": 38
+        }
+      ]
+    },
+    {
+      "id": "region-004",
+      "name": "Manaslu Region",
+      "slug": "manaslu-region",
+      "image":"/images/manaslu.jpg",
+      "description": "The Manaslu region, home to the world's eighth highest peak, offers a remote and authentic trekking experience. This restricted area requires special permits and provides a true wilderness adventure with rich Tibetan culture.",
+      "overview": "Trekking in the Manaslu region is a true adventure, taking you through remote villages, across high mountain passes, and into areas with rich Tibetan Buddhist culture. The region is less crowded than Annapurna or Everest, offering a more authentic experience.",
+      "highlights": [
+        "Mount Manaslu (8,163m) - world's eighth highest peak",
+        "Larkya La Pass (5,135m)",
+        "Tsum Valley - sacred hidden valley",
+        "Tibetan Buddhist culture",
+        "Remote and pristine trails"
+      ],
+      "bestSeason": ["March-May", "September-November"],
+      "altitudeRange": "700m - 5,135m",
+      "difficultyRange": "Challenging",
+      "trekkingDays": "14-21 days",
+      "icon": "🚶‍♂️",
+      "color": "#9C27B0",
+      "map": "/maps/manaslu-region.jpg",
+      "subcategories": [
+        {
+          "id": "trek-004-001",
+          "name": "Manaslu Circuit Trek",
+          "slug": "manaslu-circuit-trek",
+          "duration": "16-18 Days",
+          "difficulty": "Challenging",
+          "maxAltitude": "5,135m",
+          "shortDescription": "Complete circuit trek around Mount Manaslu, crossing Larkya La Pass",
+          "fullDescription": "The Manaslu Circuit Trek is a spectacular journey around the world's eighth highest mountain. This challenging trek crosses the high Larkya La Pass and takes you through remote villages, diverse landscapes, and rich Tibetan Buddhist culture.",
+          "highlights": [
+            "Larkya La Pass (5,135m)",
+            "Complete circuit of Mount Manaslu",
+            "Tibetan Buddhist culture",
+            "Remote and less crowded trails",
+            "Diverse landscapes from tropical to alpine"
+          ],
+          "price": {
+            "perPerson": 1350,
+            "currency": "USD"
+          },
+          "permits": ["Manaslu Restricted Area Permit", "MCAP Permit", "ACAP Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/manaslu-circuit-thumb.jpg"
+          },
+          "tags": ["manaslu", "circuit", "challenging", "larkya-la", "remote"],
+          "rating": 4.8,
+          "reviews": 112
+        },
+        {
+          "id": "trek-004-002",
+          "name": "Manaslu Circuit TSUM Valley Trek",
+          "slug": "manaslu-circuit-tsum-valley-trek",
+          "duration": "21-24 Days",
+          "difficulty": "Very Challenging",
+          "maxAltitude": "5,135m",
+          "shortDescription": "Extended trek combining Manaslu Circuit with sacred Tsum Valley",
+          "fullDescription": "This extended trek combines the classic Manaslu Circuit with the sacred Tsum Valley, offering the ultimate Manaslu region experience. The trek takes you to remote Tibetan Buddhist communities, ancient monasteries, and spectacular mountain scenery.",
+          "highlights": [
+            "Tsum Valley - sacred hidden valley",
+            "Larkya La Pass (5,135m)",
+            "Ancient Buddhist monasteries",
+            "Tibetan cultural immersion",
+            "Complete Manaslu experience"
+          ],
+          "price": {
+            "perPerson": 1650,
+            "currency": "USD"
+          },
+          "permits": ["Manaslu Restricted Area Permit", "Tsum Valley Restricted Area Permit", "MCAP Permit", "ACAP Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/manaslu-tsum-thumb.jpg"
+          },
+          "tags": ["manaslu", "tsum-valley", "very-challenging", "extended", "spiritual"],
+          "rating": 4.9,
+          "reviews": 67
+        },
+        {
+          "id": "trek-004-003",
+          "name": "Tsum Valley Trek",
+          "slug": "tsum-valley-trek",
+          "duration": "14-16 Days",
+          "difficulty": "Moderate to Challenging",
+          "maxAltitude": "3,700m",
+          "shortDescription": "Cultural trek to the sacred Tsum Valley, known as the 'Hidden Valley'",
+          "fullDescription": "The Tsum Valley Trek takes you to a sacred Himalayan valley that was closed to foreigners until 2008. This cultural trek offers deep immersion in Tibetan Buddhist culture, ancient monasteries, and traditional villages in a remote setting.",
+          "highlights": [
+            "Tsum Valley - sacred 'Hidden Valley'",
+            "Tibetan Buddhist culture and monasteries",
+            "Mu Gompa (3,700m)",
+            "Remote and authentic experience",
+            "Cultural immersion"
+          ],
+          "price": {
+            "perPerson": 1150,
+            "currency": "USD"
+          },
+          "permits": ["Tsum Valley Restricted Area Permit", "MCAP Permit", "TIMS Card"],
+          "bestSeason": ["March-May", "September-November"],
+          "images": {
+            "thumbnail": "/images/treks/tsum-valley-thumb.jpg"
+          },
+          "tags": ["tsum-valley", "cultural", "spiritual", "remote", "buddhist"],
+          "rating": 4.7,
+          "reviews": 89
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "totalRegions": 4,
+    "totalTreks": 18,
+    "averagePrice": 1008,
+    "averageRating": 4.7,
+    "difficultyDistribution": {
+      "easy": 2,
+      "moderate": 8,
+      "challenging": 7,
+      "veryChallenging": 1
+    },
+    "lastUpdated": "2024-03-25",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,1024 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "date": "14th Apr 2025",
+      "category": "Cultural",
+      "title": "Trip to Nepal in August",
+      "author": "Levinly Travel",
+      "excerpt": "Plan your perfect summer trip to Nepal with our comprehensive guide.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/tripnepal.jpg",
+      "images": [
+        "/images/tripnepal.jpg",
+        "/images/blogs/trip-nepal-august-2.jpg",
+        "/images/blogs/trip-nepal-august-3.jpg"
+      ],
+      "slug": "trip-to-nepal-in-august",
+      "content": {
+        "introduction": "Nepal in August offers a unique blend of cultural experiences and natural beauty despite being monsoon season...",
+        "sections": [
+          {
+            "title": "Weather Conditions",
+            "content": "August falls in the monsoon season in Nepal, characterized by warm temperatures and frequent rainfall..."
+          },
+          {
+            "title": "Best Places to Visit",
+            "content": "Kathmandu Valley, Pokhara, Chitwan National Park..."
+          },
+          {
+            "title": "Festivals and Events",
+            "content": "Gai Jatra, Janai Purnima..."
+          }
+        ],
+        "tips": [
+          "Carry waterproof gear",
+          "Book accommodations in advance",
+          "Be flexible with travel plans"
+        ],
+        "conclusion": "Traveling to Nepal in August can be a rewarding experience with proper planning..."
+      },
+      "tags": [
+        "Nepal",
+        "Travel Guide",
+        "Monsoon",
+        "Culture"
+      ],
+      "published": true
+    },
+    {
+      "id": 2,
+      "date": "14th Apr 2025",
+      "category": "Temple",
+      "title": "Vishwarupa and Other Minor Shrines Around Pashupatinath",
+      "author": "Levinly Travel",
+      "excerpt": "Explore the spiritual significance of Vishwarupa and surrounding shrines near Pashupatinath Temple.",
+      "readTime": "7 min read",
+      "featuredImage": "/images/vishwarupa.jpg",
+      "images": [
+        "/images/vishwarupa.jpg",
+        "/images/blogs/vishwarupa-2.jpg"
+      ],
+      "slug": "vishwarupa-minor-shrines-pashupatinath",
+      "content": {
+        "introduction": "The Pashupatinath Temple complex houses numerous minor shrines, with Vishwarupa being one of the most significant...",
+        "sections": [
+          {
+            "title": "Vishwarupa Shrine",
+            "content": "Located within the Pashupatinath complex, Vishwarupa represents the cosmic form of Shiva..."
+          }
+        ],
+        "tips": [
+          "Visit during early morning hours",
+          "Respect photography restrictions",
+          "Dress modestly"
+        ]
+      },
+      "tags": [
+        "Pashupatinath",
+        "Temples",
+        "Hinduism",
+        "Kathmandu"
+      ],
+      "published": true
+    },
+    {
+      "id": 3,
+      "date": "14th Apr 2025",
+      "category": "Temple",
+      "title": "Things to See Around the Pashupatinath Temple Area",
+      "author": "Levinly Travel",
+      "excerpt": "A comprehensive guide to attractions and experiences in the Pashupatinath Temple vicinity.",
+      "readTime": "6 min read",
+      "featuredImage": "/images/pashupatinath1.jpg",
+      "images": [
+        "/images/pashupatinath1.jpg",
+        "/images/blogs/pashupatinath-2.jpg"
+      ],
+      "slug": "things-around-pashupatinath-temple",
+      "content": {
+        "introduction": "The area surrounding Pashupatinath Temple is rich with cultural, spiritual, and historical attractions...",
+        "sections": [
+          {
+            "title": "Arya Ghat",
+            "content": "The main cremation site along the Bagmati River..."
+          }
+        ]
+      },
+      "tags": [
+        "Pashupatinath",
+        "Kathmandu",
+        "Heritage",
+        "Culture"
+      ],
+      "published": true
+    },
+    {
+      "id": 4,
+      "date": "14th Apr 2025",
+      "category": "Temple",
+      "title": "Guhyeshwari Temple: Guhyeshwari Shaktipeeth",
+      "author": "Levinly Travel",
+      "excerpt": "Discover the sacred Guhyeshwari Temple, one of the important Shakti Peethas in Nepal.",
+      "readTime": "8 min read",
+      "featuredImage": "/images/guhyeshwari.jpg",
+      "images": [
+        "/images/guhyeshwari.jpg",
+        "/images/blogs/guhyeshwari-2.jpg"
+      ],
+      "slug": "guhyeshwari-temple-shaktipeeth",
+      "content": {
+        "introduction": "Guhyeshwari Temple, located near Pashupatinath, is one of the most significant Shakti Peethas in Nepal...",
+        "sections": [
+          {
+            "title": "Historical Significance",
+            "content": "Believed to be the place where Sati's yoni (female reproductive organ) fell..."
+          }
+        ]
+      },
+      "tags": [
+        "Shakti Peeth",
+        "Temples",
+        "Hinduism",
+        "Pashupatinath"
+      ],
+      "published": true
+    },
+    {
+      "id": 5,
+      "date": "14th Apr 2025",
+      "category": "Local Life",
+      "title": "Local Markets and Tea Shops: Daily Life Around the Pashupatinath Temple",
+      "author": "Levinly Travel",
+      "excerpt": "Experience the vibrant daily life through local markets and traditional tea shops near Pashupatinath.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/localmarket.jpg",
+      "images": [
+        "/images/localmarket.jpg",
+        "/images/blogs/markets-2.jpg"
+      ],
+      "slug": "local-markets-tea-shops-pashupatinath",
+      "content": {
+        "introduction": "The area around Pashupatinath Temple comes alive with bustling markets and cozy tea shops...",
+        "sections": [
+          {
+            "title": "Traditional Markets",
+            "content": "Local vendors sell religious items, flowers, incense, and daily necessities..."
+          }
+        ]
+      },
+      "tags": [
+        "Local Life",
+        "Markets",
+        "Food",
+        "Culture"
+      ],
+      "published": true
+    },
+    {
+      "id": 6,
+      "date": "16th Apr 2025",
+      "category": "Stupa",
+      "title": "Boudhanath Stupa",
+      "author": "Levinly Travel",
+      "excerpt": "A comprehensive guide to Boudhanath Stupa, one of Nepal's most important Buddhist sites.",
+      "readTime": "10 min read",
+      "featuredImage": "/images/boudhhanath.jpg",
+      "images": [
+        "/images/boudhhanath.jpg",
+        "/images/blogs/boudhanath-2.jpg",
+        "/images/blogs/boudhanath-3.jpg"
+      ],
+      "slug": "boudhanath-stupa-history-rituals-guide",
+      "content": {
+        "introduction": "Boudhanath Stupa is situated at Boudha, a culturally diverse neighbourhood in the northeastern part of Kathmandu, Nepal. It is located about 7 kilometres northeast of Thamel, the city's popular tourist hub. One of the most renowned and spiritually charged places in Nepal, Boudhanath Stupa rises gracefully above the Kathmandu Valley as a sign of wisdom, compassion, and the order of the universe. Having outstanding universal value as a UNESCO World Heritage Site, it is a sacred destination, meditation, and cultural diversity, especially for practitioners of Tibetan Buddhism.",
+        "heritage": "The source of Boudhanath traces back to the 5th century CE, throughout Ucchavi time, although legends suggest the possibility of an even earlier foundation. According to the traditional story, the stupa was assigned by a humble woman named Ma Jhyalima, who put in a plea for land from the king to build a shrine for a Buddha's remains.",
+        "architecture": {
+          "mandala": "The stupa is formed in the shape of a giant mandala, symbolising the universe.",
+          "dome": "The white dome symbolises the limitlessness of the universe and the clarity of thought.",
+          "spire": "The golden steeple with 13 steps shows the progression of stages on the path to enlightenment.",
+          "eyes": "The all-seeing eyes of Buddha watch over the four directions, representing wisdom and awareness.",
+          "nose": "The nose-like symbol symbolises the Nepali number 1 (unity) and the path to enlightenment.",
+          "flags": "Prayer flags carry mantras and blessings into the wind, amplifying prayers and intentions."
+        },
+        "rituals": "Daily, a large number of pilgrims and devotees come to perform kora—ritual circumambulation (pradakshina) of the stupa in a clockwise direction. The rhythmic rotation of the prayer wheels, the chanting of mantras (mainly 'Om Mani Padme Hum'), and the offering of butter lamps and incense are central to the spiritual ambience.",
+        "festivals": [
+          {
+            "name": "Losar (Tibetan New Year)",
+            "date": "February or March",
+            "description": "Defined by traditional dances, music, butter sculptures, and public blessings."
+          },
+          {
+            "name": "Buddha Jayanti (Vaisakha)",
+            "date": "Full moon of Baisakh (April–May)",
+            "description": "Glory the birth, enlightenment, and death of Lord Buddha."
+          },
+          {
+            "name": "Lhabab Duchen",
+            "description": "Celebrates the Buddha's descent from Tushita heaven."
+          }
+        ],
+        "practical": {
+          "entryFee": "NPR 400 (foreigners), free for SAARC nationals.",
+          "dressCode": "Wear clothing that covers your shoulders, chest, and knees. Avoid sleeveless tops, short skirts, or overly tight or revealing outfits.",
+          "etiquette": [
+            "Always walk clockwise around the stupa.",
+            "Refrain from loud conversations, smoking, or public displays of affection.",
+            "Be mindful when taking photos.",
+            "Remove shoes before entering monastery interiors."
+          ]
+        },
+        "attractions": [
+          "Monasteries: Shacheon Monastery, Ka-Nying Shendrub Ling, Thangtu Tashi Yangtse",
+          "Souvenir Shops: Prayer flags, singing bowls, thangka paintings",
+          "Kapan Monastery: A 15-minute drive for meditation retreats",
+          "Pashupatinath Temple: Just 3 km away"
+        ]
+      },
+      "tags": [
+        "Boudhanath",
+        "Buddhism",
+        "UNESCO",
+        "Stupa",
+        "Kathmandu"
+      ],
+      "published": true
+    },
+    {
+      "id": 7,
+      "date": "18th Apr 2025",
+      "category": "Stupa",
+      "title": "Swayambhunath Stupa (Monkey Temple)",
+      "author": "Levinly Travel",
+      "excerpt": "Explore the ancient Swayambhunath Stupa, also known as the Monkey Temple.",
+      "readTime": "7 min read",
+      "featuredImage": "/images/swayambhunath.jpg",
+      "images": [
+        "/images/swayambhunath.jpg",
+        "/images/blogs/swayambhunath-2.jpg"
+      ],
+      "slug": "swayambhunath-stupa-monkey-temple",
+      "content": {
+        "introduction": "Swayambhunath, perched atop a hill west of Kathmandu, is one of the oldest religious sites in Nepal...",
+        "sections": [
+          {
+            "title": "History and Legends",
+            "content": "According to legend, the stupa originated from a lotus flower that bloomed in the middle of a lake..."
+          }
+        ]
+      },
+      "tags": [
+        "Swayambhunath",
+        "Monkey Temple",
+        "Buddhism",
+        "Kathmandu"
+      ],
+      "published": true
+    },
+    {
+      "id": 8,
+      "date": "21st Apr 2025",
+      "category": "Durbar Square",
+      "title": "Kathmandu Durbar Square",
+      "author": "Levinly Travel",
+      "excerpt": "Discover the historical and architectural marvels of Kathmandu Durbar Square.",
+      "readTime": "8 min read",
+      "featuredImage": "/images/kathmandudurbarsquare.jpg",
+      "images": [
+        "/images/kathmandudurbarsquare.jpg",
+        "/images/blogs/kathmandu-durbar-2.jpg"
+      ],
+      "slug": "kathmandu-durbar-square",
+      "content": {
+        "introduction": "Kathmandu Durbar Square, a UNESCO World Heritage Site, showcases the rich architectural heritage of the Malla and Shah dynasties...",
+        "sections": [
+          {
+            "title": "Major Attractions",
+            "content": "Hanuman Dhoka, Taleju Temple, Kumari Ghar..."
+          }
+        ]
+      },
+      "tags": [
+        "Durbar Square",
+        "UNESCO",
+        "History",
+        "Architecture"
+      ],
+      "published": true
+    },
+    {
+      "id": 9,
+      "date": "22nd Apr 2025",
+      "category": "Durbar Square",
+      "title": "Patan Durbar Square",
+      "author": "Levinly Travel",
+      "excerpt": "Explore the artistic excellence of Patan Durbar Square, the city of fine arts.",
+      "readTime": "7 min read",
+      "featuredImage": "/images/patandurbarsquare.jpg",
+      "images": [
+        "/images/patandurbarsquare.jpg",
+        "/images/blogs/patan-durbar-2.jpg"
+      ],
+      "slug": "patan-durbar-square",
+      "content": {
+        "introduction": "Patan Durbar Square, located in Lalitpur, is renowned for its exquisite Newari architecture and intricate wood carvings...",
+        "sections": [
+          {
+            "title": "Architectural Highlights",
+            "content": "Krishna Mandir, Bhimsen Temple, Golden Temple..."
+          }
+        ]
+      },
+      "tags": [
+        "Patan",
+        "Durbar Square",
+        "Newari",
+        "Architecture"
+      ],
+      "published": true
+    },
+    {
+      "id": 10,
+      "date": "27th Apr 2025",
+      "category": "Durbar Square",
+      "title": "Bhaktapur Durbar Square",
+      "author": "Levinly Travel",
+      "excerpt": "Step back in time at Bhaktapur Durbar Square, the best-preserved medieval city in Nepal.",
+      "readTime": "9 min read",
+      "featuredImage": "/images/kathmandudurbarsquare.jpg",
+      "images": [
+        "/images/bhaktapur-durbarsquare.jpg",
+        "/images/blogs/bhaktapur-durbar-2.jpg"
+      ],
+      "slug": "bhaktapur-durbar-square",
+      "content": {
+        "introduction": "Bhaktapur Durbar Square, also known as Bhadgaon, offers a glimpse into medieval Nepal with its preserved architecture...",
+        "sections": [
+          {
+            "title": "Key Structures",
+            "content": "55-Window Palace, Nyatapola Temple, Golden Gate..."
+          }
+        ]
+      },
+      "tags": [
+        "Bhaktapur",
+        "Durbar Square",
+        "Medieval",
+        "UNESCO"
+      ],
+      "published": true
+    },
+    {
+      "id": 11,
+      "date": "25th Apr 2025",
+      "category": "Temple",
+      "title": "Manakamana Temple",
+      "author": "Levinly Travel",
+      "excerpt": "Visit the famous Manakamana Temple, accessible by cable car with stunning mountain views.",
+      "readTime": "6 min read",
+      "featuredImage": "/images/manakamana.jpg",
+      "images": [
+        "/images/manakamana.jpg",
+        "/images/blogs/manakamana-2.jpg"
+      ],
+      "slug": "manakamana-temple",
+      "content": {
+        "introduction": "Manakamana Temple, dedicated to the Hindu goddess Bhagwati, is a popular pilgrimage site known for fulfilling wishes...",
+        "sections": [
+          {
+            "title": "Cable Car Experience",
+            "content": "The temple is accessible via Nepal's first cable car system..."
+          }
+        ]
+      },
+      "tags": [
+        "Manakamana",
+        "Temple",
+        "Pilgrimage",
+        "Cable Car"
+      ],
+      "published": true
+    },
+    {
+      "id": 12,
+      "date": "1st May 2025",
+      "category": "Adventure",
+      "title": "Rafting in Nepal–White water rafting in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "Experience the thrill of white water rafting in Nepal's pristine rivers.",
+      "readTime": "6 min read",
+      "featuredImage": "/images/rafting.jpg",
+      "images": [
+        "/images/rafting.jpg",
+        "/images/blogs/rafting-2.jpg"
+      ],
+      "slug": "rafting-nepal-white-water-rafting",
+      "content": {
+        "introduction": "Nepal offers some of the world's best white water rafting experiences with rivers ranging from gentle floats to extreme rapids...",
+        "sections": [
+          {
+            "title": "Popular Rafting Rivers",
+            "content": "Trishuli River, Seti River, Bhote Koshi River, Karnali River..."
+          }
+        ]
+      },
+      "tags": [
+        "Rafting",
+        "Adventure",
+        "Water Sports",
+        "Outdoor"
+      ],
+      "published": true
+    },
+    {
+      "id": 13,
+      "date": "2nd May 2025",
+      "category": "Temple",
+      "title": "Shree Muktinath Temple",
+      "author": "Levinly Travel",
+      "excerpt": "A sacred pilgrimage site for both Hindus and Buddhists in the Mustang region.",
+      "readTime": "7 min read",
+      "featuredImage": "/images/muktinath.jpg",
+      "images": [
+        "/images/muktinath.jpg",
+        "/images/blogs/muktinath-2.jpg"
+      ],
+      "slug": "shree-muktinath-temple",
+      "content": {
+        "introduction": "Muktinath Temple, located at 3,710 meters in Mustang, is a sacred site revered by both Hindus and Buddhists...",
+        "sections": [
+          {
+            "title": "Religious Significance",
+            "content": "For Hindus, it's one of the 108 Divya Desams; for Buddhists, it's a place where Guru Rinpoche meditated..."
+          }
+        ]
+      },
+      "tags": [
+        "Muktinath",
+        "Pilgrimage",
+        "Mustang",
+        "Temple"
+      ],
+      "published": true
+    },
+    {
+      "id": 14,
+      "date": "4th May 2025",
+      "category": "Tour Package",
+      "title": "9 days Nepal tour",
+      "author": "Levinly Travel",
+      "excerpt": "Comprehensive 9-day tour covering major attractions of Nepal.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/9daystour.jpg",
+      "images": [
+        "/images/9daystour.jpg",
+        "/images/blogs/9-days-2.jpg"
+      ],
+      "slug": "9-days-nepal-tour",
+      "content": {
+        "introduction": "Our 9-day Nepal tour package offers the perfect blend of cultural exploration and natural beauty...",
+        "itinerary": [
+          "Day 1: Arrival in Kathmandu",
+          "Day 2: Kathmandu Sightseeing",
+          "Day 3: Drive to Pokhara",
+          "Day 4: Pokhara Exploration",
+          "Day 5: Sarangkot Sunrise",
+          "Day 6: Chitwan National Park",
+          "Day 7: Jungle Activities",
+          "Day 8: Return to Kathmandu",
+          "Day 9: Departure"
+        ]
+      },
+      "tags": [
+        "Tour Package",
+        "9 Days",
+        "Nepal Tour",
+        "Itinerary"
+      ],
+      "published": true
+    },
+    {
+      "id": 15,
+      "date": "10th May 2025",
+      "category": "Pilgrimage",
+      "title": "Kailash Manasarovar Yatra 2025: Cost, Route & Why Prices Are Rising for Indian Pilgrims",
+      "author": "Levinly Travel",
+      "excerpt": "Complete guide to the sacred Kailash Manasarovar Yatra including costs and routes.",
+      "readTime": "10 min read",
+      "featuredImage": "/images/kailash.jpg",
+      "images": [
+        "/images/kailash.jpg",
+        "/images/blogs/kailash-2.jpg"
+      ],
+      "slug": "kailash-manasarovar-yatra-2025",
+      "content": {
+        "introduction": "Mount Kailash and Lake Manasarovar represent one of the most sacred pilgrimages for Hindus, Buddhists, Jains, and Bonpos...",
+        "sections": [
+          {
+            "title": "Routes to Kailash",
+            "content": "Lipulekh Pass, Nathu La Pass, Simikot Route..."
+          },
+          {
+            "title": "Cost Breakdown",
+            "content": "Package costs, government fees, additional expenses..."
+          },
+          {
+            "title": "Price Trends",
+            "content": "Factors contributing to rising costs for Indian pilgrims..."
+          }
+        ]
+      },
+      "tags": [
+        "Kailash",
+        "Manasarovar",
+        "Pilgrimage",
+        "Tibet"
+      ],
+      "published": true
+    },
+    {
+      "id": 16,
+      "date": "11th May 2025",
+      "category": "Tour Package",
+      "title": "Above 11 days tour in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "Extended tour package covering Nepal's major attractions over 11+ days.",
+      "readTime": "6 min read",
+      "featuredImage": "/images/11daystour.jpg",
+      "images": [
+        "/images/11daystour.jpg",
+        "/images/blogs/11-days-2.jpg"
+      ],
+      "slug": "above-11-days-tour-nepal",
+      "content": {
+        "introduction": "Our 11+ days tour package is designed for travelers who want to explore Nepal in depth...",
+        "itinerary": [
+          "Days 1-3: Kathmandu Valley",
+          "Days 4-5: Nagarkot & Bhaktapur",
+          "Days 6-7: Pokhara",
+          "Days 8-9: Chitwan",
+          "Days 10-11: Lumbini",
+          "Day 12: Return & Departure"
+        ]
+      },
+      "tags": [
+        "Tour Package",
+        "11 Days",
+        "Extended Tour",
+        "Nepal"
+      ],
+      "published": true
+    },
+    {
+      "id": 17,
+      "date": "12th May 2025",
+      "category": "Tour Package",
+      "title": "Nepal tour–Nepal trip",
+      "author": "Levinly Travel",
+      "excerpt": "General guide to planning your Nepal tour and trip.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/nepaltrip.jpg",
+      "images": [
+        "/images/nepaltrip.jpg",
+        "/images/blogs/nepal-tour-2.jpg"
+      ],
+      "slug": "nepal-tour-trip-guide",
+      "content": {
+        "introduction": "Planning a trip to Nepal? Here's everything you need to know for an unforgettable experience...",
+        "sections": [
+          {
+            "title": "Best Time to Visit",
+            "content": "Spring (March-May) and Autumn (September-November)..."
+          },
+          {
+            "title": "Essential Documents",
+            "content": "Passport, visa, permits, insurance..."
+          }
+        ]
+      },
+      "tags": [
+        "Nepal Tour",
+        "Travel Guide",
+        "Planning",
+        "Tips"
+      ],
+      "published": true
+    },
+    {
+      "id": 18,
+      "date": "13th May 2025",
+      "category": "Tour Package",
+      "title": "8 Days Nepal Tour",
+      "author": "Levinly Travel",
+      "excerpt": "Perfect 8-day itinerary for first-time visitors to Nepal.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/8daystour.jpg",
+      "images": [
+        "/images/8daystour.jpg",
+        "/images/blogs/8-days-2.jpg"
+      ],
+      "slug": "8-days-nepal-tour",
+      "content": {
+        "introduction": "Our 8-day Nepal tour is designed to give you a comprehensive experience of the country's highlights...",
+        "itinerary": [
+          "Day 1: Arrival in Kathmandu",
+          "Day 2: Kathmandu Sightseeing",
+          "Day 3: Drive to Pokhara",
+          "Day 4: Pokhara Sightseeing",
+          "Day 5: Sunrise at Sarangkot",
+          "Day 6: Return to Kathmandu",
+          "Day 7: Bhaktapur & Patan",
+          "Day 8: Departure"
+        ]
+      },
+      "tags": [
+        "Tour Package",
+        "8 Days",
+        "Itinerary",
+        "Nepal"
+      ],
+      "published": true
+    },
+    {
+      "id": 19,
+      "date": "14th May 2025",
+      "category": "Adventure",
+      "title": "Helicopter tours in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "Experience Nepal's majestic mountains and landscapes from above with helicopter tours.",
+      "readTime": "6 min read",
+      "featuredImage": "/images/helicopter.jpg",
+      "images": [
+        "/images/helicopter.jpg",
+        "/images/blogs/helicopter-2.jpg"
+      ],
+      "slug": "helicopter-tours-nepal",
+      "content": {
+        "introduction": "Helicopter tours offer a unique way to experience Nepal's stunning landscapes and mountain vistas...",
+        "sections": [
+          {
+            "title": "Popular Helicopter Tours",
+            "content": "Everest Base Camp, Annapurna Base Camp, Langtang Valley..."
+          },
+          {
+            "title": "Cost and Duration",
+            "content": "Price ranges and tour durations for different routes..."
+          }
+        ]
+      },
+      "tags": [
+        "Helicopter",
+        "Adventure",
+        "Mountains",
+        "Luxury"
+      ],
+      "published": true
+    },
+    {
+      "id": 20,
+      "date": "15th May 2025",
+      "category": "Tour Package",
+      "title": "10 days Nepal tour",
+      "author": "Levinly Travel",
+      "excerpt": "Comprehensive 10-day tour covering cultural and natural highlights of Nepal.",
+      "readTime": "6 min read",
+      "featuredImage": "/images/10daystour.jpg",
+      "images": [
+        "/images/10daystour.jpg",
+        "/images/blogs/10-days-2.jpg"
+      ],
+      "slug": "10-days-nepal-tour",
+      "content": {
+        "introduction": "Our 10-day Nepal tour package offers a perfect balance of cultural immersion and natural exploration...",
+        "itinerary": [
+          "Days 1-2: Kathmandu",
+          "Days 3-4: Nagarkot & Bhaktapur",
+          "Days 5-6: Pokhara",
+          "Days 7-8: Chitwan",
+          "Days 9-10: Return & Exploration"
+        ]
+      },
+      "tags": [
+        "Tour Package",
+        "10 Days",
+        "Comprehensive",
+        "Nepal"
+      ],
+      "published": true
+    },
+    {
+      "id": 21,
+      "date": "16th May 2025",
+      "category": "Tour Package",
+      "title": "7 days tour in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "One-week tour package for those with limited time but wanting to experience Nepal's essence.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/7daystour.jpg",
+      "images": [
+        "/images/7daystour.jpg",
+        "/images/blogs/7-days-2.jpg"
+      ],
+      "slug": "7-days-tour-nepal",
+      "content": {
+        "introduction": "Perfect for travelers with limited time, our 7-day tour covers the must-see attractions of Nepal...",
+        "itinerary": [
+          "Day 1: Arrival & Kathmandu",
+          "Day 2: Kathmandu Valley",
+          "Day 3: Drive to Pokhara",
+          "Day 4: Pokhara Sightseeing",
+          "Day 5: Return to Kathmandu",
+          "Day 6: Bhaktapur & Patan",
+          "Day 7: Departure"
+        ]
+      },
+      "tags": [
+        "Tour Package",
+        "7 Days",
+        "Short Trip",
+        "Nepal"
+      ],
+      "published": true
+    },
+    {
+      "id": 22,
+      "date": "15th May 2025",
+      "category": "Tour Package",
+      "title": "4 days tour in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "Short 4-day tour for quick exploration of Kathmandu Valley.",
+      "readTime": "4 min read",
+      "featuredImage": "/images/4daystour.jpg",
+      "images": [
+        "/images/4daystour.jpg",
+        "/images/blogs/4-days-2.jpg"
+      ],
+      "slug": "4-days-tour-nepal",
+      "content": {
+        "introduction": "Ideal for weekend getaways or short stopovers, our 4-day tour focuses on Kathmandu Valley's highlights...",
+        "itinerary": [
+          "Day 1: Arrival & Kathmandu",
+          "Day 2: UNESCO Sites",
+          "Day 3: Bhaktapur & Patan",
+          "Day 4: Departure"
+        ]
+      },
+      "tags": [
+        "Tour Package",
+        "4 Days",
+        "Short Trip",
+        "Kathmandu"
+      ],
+      "published": true
+    },
+    {
+      "id": 23,
+      "date": "15th May 2025",
+      "category": "Tour Package",
+      "title": "3 days tour in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "Ultra-short 3-day tour covering Kathmandu's essentials.",
+      "readTime": "3 min read",
+      "featuredImage": "/images3daystour.jpg",
+      "images": [
+        "/images/3daystour.jpg",
+        "/images/blogs/3-days-2.jpg"
+      ],
+      "slug": "3-days-tour-nepal",
+      "content": {
+        "introduction": "For travelers with very limited time, our 3-day tour provides a glimpse of Kathmandu's cultural heritage...",
+        "itinerary": [
+          "Day 1: Arrival & Pashupatinath/Boudhanath",
+          "Day 2: Kathmandu Durbar Square & Swayambhunath",
+          "Day 3: Departure"
+        ]
+      },
+      "tags": [
+        "Tour Package",
+        "3 Days",
+        "Quick Tour",
+        "Kathmandu"
+      ],
+      "published": true
+    },
+    {
+      "id": 24,
+      "date": "1st Jun 2025",
+      "category": "Practical",
+      "title": "Accommodation in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "Complete guide to accommodation options in Nepal for all budgets.",
+      "readTime": "7 min read",
+      "featuredImage": "/images/accommodation.jpg",
+      "images": [
+        "/images/accommodation.jpg",
+        "/images/blogs/accommodation-2.jpg"
+      ],
+      "slug": "accommodation-in-nepal",
+      "content": {
+        "introduction": "Nepal offers a wide range of accommodation options from luxury hotels to budget guesthouses...",
+        "sections": [
+          {
+            "title": "Types of Accommodation",
+            "content": "Hotels, resorts, guesthouses, homestays, tea houses..."
+          },
+          {
+            "title": "Price Ranges",
+            "content": "Budget, mid-range, luxury options across different regions..."
+          },
+          {
+            "title": "Booking Tips",
+            "content": "Best time to book, recommended areas, seasonal variations..."
+          }
+        ]
+      },
+      "tags": [
+        "Accommodation",
+        "Hotels",
+        "Lodging",
+        "Travel Tips"
+      ],
+      "published": true
+    },
+    {
+      "id": 25,
+      "date": "1st Jun 2025",
+      "category": "Practical",
+      "title": "Meal Plan in Nepal",
+      "author": "Levinly Travel",
+      "excerpt": "Guide to food and meal options during your Nepal trip.",
+      "readTime": "6 min read",
+      "featuredImage": "/images/meal.jpg",
+      "images": [
+        "/images/meal.jpg",
+        "/images/blogs/meal-2.jpg"
+      ],
+      "slug": "meal-plan-in-nepal",
+      "content": {
+        "introduction": "Understanding meal plans and food options is essential for a comfortable trip to Nepal...",
+        "sections": [
+          {
+            "title": "Common Meal Plans",
+            "content": "Bed & Breakfast, Half Board, Full Board..."
+          },
+          {
+            "title": "Nepali Cuisine",
+            "content": "Dal Bhat, momos, Newari dishes, regional specialties..."
+          },
+          {
+            "title": "Dietary Considerations",
+            "content": "Vegetarian options, food safety, water purification..."
+          }
+        ]
+      },
+      "tags": [
+        "Food",
+        "Meal Plan",
+        "Cuisine",
+        "Dining"
+      ],
+      "published": true
+    },
+    {
+      "id": 26,
+      "date": "14th Apr 2025",
+      "category": "Cultural",
+      "title": "Trip to Nepal in August",
+      "author": "Levinly Travel",
+      "excerpt": "Plan your perfect summer trip to Nepal with our comprehensive guide.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/nepaltrip.jpg",
+      "images": [
+        "/images/nepaltrip.jpg",
+        "/images/blogs/trip-nepal-august-2.jpg",
+        "/images/blogs/trip-nepal-august-3.jpg"
+      ],
+      "slug": "trip-to-nepal-in-august",
+      "content": {
+        "introduction": "Nepal in August offers a unique blend of cultural experiences and natural beauty despite being monsoon season...",
+        "sections": [
+          {
+            "title": "Weather Conditions",
+            "content": "August falls in the monsoon season in Nepal, characterized by warm temperatures and frequent rainfall..."
+          },
+          {
+            "title": "Best Places to Visit",
+            "content": "Kathmandu Valley, Pokhara, Chitwan National Park..."
+          },
+          {
+            "title": "Festivals and Events",
+            "content": "Gai Jatra, Janai Purnima..."
+          }
+        ],
+        "tips": [
+          "Carry waterproof gear",
+          "Book accommodations in advance",
+          "Be flexible with travel plans"
+        ],
+        "conclusion": "Traveling to Nepal in August can be a rewarding experience with proper planning..."
+      },
+      "tags": [
+        "Nepal",
+        "Travel Guide",
+        "Monsoon",
+        "Culture"
+      ],
+      "published": true
+    },
+    {
+      "id": 27,
+      "date": "13th May 2025",
+      "category": "Tour Package",
+      "title": "5 Days Tour in Nepal",
+      "author": "Levilyn Travel",
+      "excerpt": "Experience the best of Nepal in 5 days - from Kathmandu's temples to Pokhara's natural beauty.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/5daystour.jpg",
+      "images": [
+        "/images/5daystour.jpg",
+        "/images/blogs/nepal-2.jpg"
+      ],
+      "slug": "5-days-tour-nepal",
+      "content": {
+        "introduction": "This 5-day tour offers a perfect blend of culture, nature, and adventure in beautiful Nepal...",
+        "sections": [
+          {
+            "title": "Day 1: Arrival in Kathmandu",
+            "content": "Arrive at Tribhuvan International Airport and transfer to your hotel..."
+          },
+          {
+            "title": "Day 2: Kathmandu Sightseeing",
+            "content": "Visit UNESCO World Heritage Sites including Swayambhunath and Pashupatinath..."
+          }
+        ],
+        "highlights": [
+          "Kathmandu Durbar Square",
+          "Pokhara Lakeside",
+          "Sarangkot Sunrise"
+        ]
+      },
+      "tags": [
+        "Nepal",
+        "Tour Package",
+        "Adventure",
+        "Culture"
+      ],
+      "published": true
+    },
+    {
+      "id": 28,
+      "date": "14th Apr 2025",
+      "category": "Temple",
+      "title": "Pashupatinath Temple: A Spiritual Journey",
+      "author": "Levilyn Travel",
+      "excerpt": "Explore one of the most sacred Hindu temples in the world, located on the banks of the Bagmati River.",
+      "readTime": "8 min read",
+      "featuredImage": "/images/pashupatinath2.jpg",
+      "images": [
+        "/images/pashupatinath2.jpg",
+        "/images/blogs/pashupatinath-2.jpg"
+      ],
+      "slug": "pashupatinath-temple-spiritual-journey",
+      "content": {
+        "introduction": "Pashupatinath Temple is not just a religious site but a living cultural heritage of Nepal...",
+        "sections": [
+          {
+            "title": "History and Significance",
+            "content": "Dating back to 400 AD, Pashupatinath is dedicated to Lord Shiva..."
+          },
+          {
+            "title": "Architecture",
+            "content": "The temple features exquisite pagoda-style architecture with silver doors..."
+          }
+        ],
+        "visitorTips": [
+          "Dress modestly",
+          "Respect photography restrictions",
+          "Visit during early morning or evening aarti"
+        ]
+      },
+      "tags": [
+        "Pashupatinath",
+        "Temple",
+        "Hinduism",
+        "Kathmandu",
+        "UNESCO"
+      ],
+      "published": true
+    }
+  ],
+  "categories": [
+    "Cultural",
+    "Temple",
+    "Local Life",
+    "Stupa",
+    "Durbar Square",
+    "Adventure",
+    "Tour Package",
+    "Pilgrimage",
+    "Practical"
+  ],
+  "authors": [
+    "Levinly Travel"
+  ]
+}
