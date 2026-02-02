@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import LatestBlogs from "../components/LatestBlogs";
 import Navbar from "../components/Navbar"
 import Popular from "../components/Popular";
-import Tours from "../components/tours";
+import Tours from "../components/Tours";
 import Trekking from "../components/Trekking";
 import Video from "../components/Video";
 import VideoGallery from "../components/VideoGallery";
