@@ -15,7 +15,7 @@ const ToursDropdown = ({ onClose }) => {
   return (
     <div
       className="
-        w-[1500px] h-[760px]
+        w-[1490px] h-[650px]
         bg-[#fdf7f3]
         rounded-[32px]
         border border-[#eee2d8]
@@ -28,11 +28,11 @@ const ToursDropdown = ({ onClose }) => {
         {/* LEFT — CATEGORIES */}
         <div
           className="
-            w-[34%]
+            w-[40%]
             relative
             bg-gradient-to-b from-[#fdf7f3] via-[#faf3ee] to-[#f6ede6]
             border-r border-[#eee2d8]
-            p-5
+            p-4
             overflow-y-auto
           "
         >
@@ -101,13 +101,13 @@ const ToursDropdown = ({ onClose }) => {
         </div>
 
         {/* RIGHT — TOURS */}
-        <div className="w-[66%] p-10 flex flex-col relative">
+        <div className="w-[66%] p-10 flex flex-col overflow-y-auto relative">
           {/* Header */}
           <div className="mb-8">
             <h3 className="text-xl font-semibold text-gray-800 tracking-tight">
               {activeCategory?.name}
             </h3>
-            <p className="text-sm text-gray-500 mt-1 max-w-md">
+            <p className="text-sm text-gray-500 mt-1 ">
               Hand-picked journeys crafted for unforgettable travel experiences
             </p>
           </div>

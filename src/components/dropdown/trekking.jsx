@@ -15,7 +15,7 @@ const TrekkingDropdown = ({ onClose }) => {
   return (
     <div
       className="
-        w-[1500px] h-[440px]
+        w-[1270px] h-[470px]
         bg-[#fdf7f3]
         rounded-[32px]
         border border-[#eee2d8]
@@ -28,15 +28,15 @@ const TrekkingDropdown = ({ onClose }) => {
         {/* LEFT — REGIONS */}
         <div
           className="
-            w-[34%]
+            w-[32%]
             relative
             bg-gradient-to-b from-[#fdf7f3] via-[#faf3ee] to-[#f6ede6]
             border-r border-[#eee2d8]
-            p-4
-            overflow-y-auto
+            p-6
+            
           "
         >
-          <div className="space-y-2">
+          <div className="space-y-10">
             {trekkingData.regions.map((region) => {
               const isActive = hoveredRegion === region.id;
 
@@ -100,13 +100,13 @@ const TrekkingDropdown = ({ onClose }) => {
         </div>
 
         {/* RIGHT — TREKS */}
-        <div className="w-[66%] p-10 overflow-y-auto relative">
+        <div className="w-[68%] p-10  relative">
           {/* Header */}
           <div className="mb-8">
             <h3 className="text-xl font-semibold text-gray-800 tracking-tight">
               {activeRegion?.name}
             </h3>
-            <p className="text-sm text-gray-500 mt-1 max-w-md">
+            <p className="text-sm text-gray-500 mt-1 ">
               Handpicked Himalayan trekking journeys designed for unforgettable experiences
             </p>
           </div>

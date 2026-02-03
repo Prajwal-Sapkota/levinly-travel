@@ -7,23 +7,42 @@ const Tours = () => {
   const [active, setActive] = useState(0);
   const sectionRef = useRef(null);
   const [inView, setInView] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
   
   // Get only 5 categories for recommended tours
   const displayedCategories = toursData.categories.slice(0, 5);
 
-  const prev = () => {
+  const handlePrev = () => {
+    if (isTransitioning) return;
+    setIsTransitioning(true);
     setActive((prev) => (prev === 0 ? displayedCategories.length - 1 : prev - 1));
+    setTimeout(() => setIsTransitioning(false), 700);
   };
 
-  const next = () => {
+  const handleNext = () => {
+    if (isTransitioning) return;
+    setIsTransitioning(true);
     setActive((prev) => (prev === displayedCategories.length - 1 ? 0 : prev + 1));
+    setTimeout(() => setIsTransitioning(false), 700);
   };
 
-  // Auto-slide effect
+  const goToSlide = (index) => {
+    if (isTransitioning) return;
+    setIsTransitioning(true);
+    setActive(index);
+    setTimeout(() => setIsTransitioning(false), 700);
+  };
+
+  // Auto-slide effect - FIXED: using useRef to persist interval
   useEffect(() => {
-    const interval = setInterval(next, 5000);
+    const interval = setInterval(() => {
+      if (!isTransitioning) {
+        setActive((prev) => (prev === displayedCategories.length - 1 ? 0 : prev + 1));
+      }
+    }, 5000);
+    
     return () => clearInterval(interval);
-  }, [active]);
+  }, [isTransitioning]); // Only depends on isTransitioning
 
   // Scroll animation
   useEffect(() => {
@@ -49,8 +68,7 @@ const Tours = () => {
       {/* Main container with max-w-7xl */}
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center ">
-         
+        <div className="text-center">
           <h1 className="text-3xl md:text-4xl font-serif text-[#0b1c3d] pt-4 md:pt-6">
             Recommended Tours
           </h1>
@@ -58,8 +76,35 @@ const Tours = () => {
 
         {/* Coverflow Container with max-w-7xl constraint */}
         <div className="relative max-w-7xl mx-auto">
+          {/* Navigation Arrows */}
+          <button
+            onClick={handlePrev}
+            disabled={isTransitioning}
+            className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-20
+                       bg-white shadow-xl w-10 h-10 md:w-12 md:h-12 rounded-full
+                       flex items-center justify-center
+                       hover:bg-gray-900 hover:text-white transition z-20
+                       disabled:opacity-50 disabled:cursor-not-allowed"
+            aria-label="Previous tour"
+          >
+            <FaChevronLeft className="text-lg md:text-xl" />
+          </button>
+
+          <button
+            onClick={handleNext}
+            disabled={isTransitioning}
+            className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-20
+                       bg-white shadow-xl w-10 h-10 md:w-12 md:h-12 rounded-full
+                       flex items-center justify-center
+                       hover:bg-gray-900 hover:text-white transition z-20
+                       disabled:opacity-50 disabled:cursor-not-allowed"
+            aria-label="Next tour"
+          >
+            <FaChevronRight className="text-lg md:text-xl" />
+          </button>
+
           {/* INCREASED small screen height slightly, increased for large screens */}
-          <div className="relative flex items-center justify-center h-[26rem] md:h-[28rem] lg:h-[36rem] xl:h-[40rem] overflow-visible ">
+          <div className="relative flex items-center justify-center h-[26rem] md:h-[28rem] lg:h-[36rem] xl:h-[40rem] overflow-visible">
             {displayedCategories.map((category, index) => {
               const offset = index - active;
               let displayOffset = offset;
@@ -174,16 +219,29 @@ const Tours = () => {
             })}
           </div>
 
-         
+          {/* Navigation Dots */}
+          <div className="flex justify-center gap-2 mt-6 md:mt-8">
+            {displayedCategories.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                disabled={isTransitioning}
+                className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                  active === index 
+                    ? "bg-[#0b1c3d] w-6" 
+                    : "bg-gray-300 hover:bg-gray-400"
+                } disabled:opacity-50 disabled:cursor-not-allowed`}
+                aria-label={`Go to tour ${index + 1}`}
+              />
+            ))}
+          </div>
         </div>
 
-        
-
         {/* View All Button */}
-        <div className=" flex justify-center">
+        <div className="flex justify-center mt-8 md:mt-12">
           <Link
-            to = "/tours"
-            className=" inline-flex items-center gap-2 px-8 py-4 bg-[#6dc5f1] text-white
+            to="/tours"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-[#6dc5f1] text-white
                      rounded-full font-medium hover:bg-[#0b1c3d] hover:text-[#6dc5f1] transition"
           >
             View All Tours

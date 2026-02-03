@@ -104,7 +104,9 @@ const Navbar = () => {
         <div className="lg:hidden flex items-center justify-between h-20">
           <div className="flex items-center">
             <div className="bg-[#fdf7f3] px-3 py-2 rounded-b-full border-x border-b border-[#eee2d8]">
-              <img src="/images/logo1.png" alt="Travel Logo" className="h-14" />
+              <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+                <img src="/images/logo1.png" alt="Travel Logo" className="h-14" />
+              </Link>
             </div>
           </div>
 
@@ -119,16 +121,16 @@ const Navbar = () => {
         {/* Desktop Grid */}
         <div className="hidden lg:grid grid-cols-3 items-center h-24">
           {/* LEFT MENU */}
-          <ul className="flex justify-start gap-12 text-[11px] tracking-[0.28em] text-gray-600 items-center">
+          <ul className="flex justify-start gap-12 text-[13px] tracking-[0.28em] text-gray-600 items-center ">
             <li
               ref={el => leftMenuRefs.current[0] = el}
               className="group"
               style={hasAnimated ? {} : { opacity: 0, transform: 'translateY(-15px)' }}
             >
-              <span className="relative py-1 inline-block align-middle leading-[normal]">
+              <Link to="/" onClick={() => window.scrollTo(0, 0)} className="relative py-1 inline-block align-middle leading-[normal]">
                 HOME
                 <span className="absolute left-0 -bottom-0.5 h-[1px] w-0 bg-gray-800 group-hover:w-full transition-all" />
-              </span>
+              </Link>
             </li>
 
             {/* TOURS */}
@@ -139,13 +141,16 @@ const Navbar = () => {
               onMouseLeave={() => setActiveDropdown(null)}
               style={hasAnimated ? {} : { opacity: 0, transform: 'translateY(-15px)' }}
             >
-              <span className="relative py-1 inline-block align-middle leading-[normal]">
+              <Link to="/tours" onClick={() => window.scrollTo(0, 0)} className="relative py-1 inline-block align-middle leading-[normal]">
                 TOURS
                 <span className={`absolute left-0 -bottom-0.5 h-[1px] bg-gray-800 transition-all duration-300 ${activeDropdown === "tours" ? "w-full" : "w-0 group-hover:w-full"}`} />
-              </span>
-              <FiChevronDown className={`w-3 h-3 ml-1 transition-all duration-300 ${activeDropdown === "tours" ? "rotate-180 text-gray-800" : "text-gray-400"}`} />
-              {activeDropdown === "tours" && <div className="absolute top-full -left-56 pt-6"><ToursDropdown onClose={() => setActiveDropdown(null)} /></div>}
-            </li>
+              </Link>
+              <FiChevronDown className={`w-3 h-3 ml-1 transition-all duration-300 ${activeDropdown === "tours" ? "rotate-180 text-gray-800" : "text-gray-600"}`} />
+              {activeDropdown === "tours" && (
+                <div className="absolute top-full left-1/2 -translate-x-[18%] pt-6">
+                  <ToursDropdown onClose={() => setActiveDropdown(null)} />
+                </div>
+              )}            </li>
 
             {/* TREKKING */}
             <li
@@ -155,52 +160,60 @@ const Navbar = () => {
               onMouseLeave={() => setActiveDropdown(null)}
               style={hasAnimated ? {} : { opacity: 0, transform: 'translateY(-15px)' }}
             >
-              <span className="relative py-1 inline-block align-middle leading-[normal]">
+              <Link to="/trekking" onClick={() => window.scrollTo(0, 0)} className="relative py-1 inline-block align-middle leading-[normal]">
                 TREKKING
                 <span className={`absolute left-0 -bottom-0.5 h-[1px] bg-gray-800 transition-all duration-300 ${activeDropdown === "trekking" ? "w-full" : "w-0 group-hover:w-full"}`} />
-              </span>
-              <FiChevronDown className={`w-3 h-3 ml-1 transition-all duration-300 ${activeDropdown === "trekking" ? "rotate-180 text-gray-800" : "text-gray-400"}`} />
-              {activeDropdown === "trekking" && <div className="absolute top-full -left-85 pt-6"><TrekkingDropdown onClose={() => setActiveDropdown(null)} /></div>}
+              </Link>
+              <FiChevronDown className={`w-3 h-3 ml-1 transition-all duration-300 ${activeDropdown === "trekking" ? "rotate-180 text-gray-800" : "text-gray-600"}`} />
+              {activeDropdown === "trekking" && (
+                <div className="absolute top-full left-1/2 -translate-x-[24%] pt-6">
+                  <TrekkingDropdown onClose={() => setActiveDropdown(null)} />
+                </div>
+              )}
             </li>
           </ul>
 
           {/* CENTER LOGO - KEEPING YOUR ORIGINAL SCROLL ANIMATION */}
           <div className="flex justify-center">
-            <div className="relative">
-              <div
-                ref={el => {
-                  logoRef.current = el;
-                  // Only set initial styles if not animated yet
-                  if (el && !hasAnimated) {
-                    el.style.opacity = '0';
-                    el.style.transform = 'translateY(-20px)';
+            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
 
-                    // Remove the inline styles after animation
-                    setTimeout(() => {
-                      el.style.transition = 'transform 0.6s ease, opacity 0.6s ease';
-                      el.style.opacity = '1';
-                      el.style.transform = 'translateY(0)';
+              <div className="relative">
+                <div
+                  ref={el => {
+                    logoRef.current = el;
+                    // Only set initial styles if not animated yet
+                    if (el && !hasAnimated) {
+                      el.style.opacity = '0';
+                      el.style.transform = 'translateY(-20px)';
 
-                      // After animation completes, remove inline styles so Tailwind classes work
+                      // Remove the inline styles after animation
                       setTimeout(() => {
-                        el.style.transition = '';
-                        el.style.opacity = '';
-                        el.style.transform = '';
-                      }, 600);
-                    }, 200);
-                  }
-                }}
-                className={`relative bg-[#fdf7f3] px-4 rounded-b-full border-x border-b border-[#eee2d8] transition-all duration-500 ease-out ${scrolled ? "translate-y-2 py-4" : "py-2"}`}
-              >
-                <img src="/images/logo1.png" alt="Travel Logo" className="h-20 transition-all duration-500 ease-out" />
+                        el.style.transition = 'transform 0.6s ease, opacity 0.6s ease';
+                        el.style.opacity = '1';
+                        el.style.transform = 'translateY(0)';
+
+                        // After animation completes, remove inline styles so Tailwind classes work
+                        setTimeout(() => {
+                          el.style.transition = '';
+                          el.style.opacity = '';
+                          el.style.transform = '';
+                        }, 600);
+                      }, 200);
+                    }
+                  }}
+                  className={`relative bg-[#fdf7f3] px-4 rounded-b-full border-x border-b border-[#eee2d8] transition-all duration-500 ease-out ${scrolled ? "translate-y-2 py-4" : "py-2"}`}
+                >
+                  <img src="/images/logo1.png" alt="Travel Logo" className="h-20 transition-all duration-500 ease-out" />
+                </div>
+
+                {/* KEEPING YOUR ORIGINAL GRADIENT EFFECT - ADJUSTED */}
+                <div className={`absolute inset-0 rounded-b-full bg-gradient-to-b from-[#eee2d8]/30 via-transparent to-transparent transition-all duration-500 ${scrolled ? "translate-y-2 opacity-100" : "opacity-0"}`} />
               </div>
-              {/* KEEPING YOUR ORIGINAL GRADIENT EFFECT - ADJUSTED */}
-              <div className={`absolute inset-0 rounded-b-full bg-gradient-to-b from-[#eee2d8]/30 via-transparent to-transparent transition-all duration-500 ${scrolled ? "translate-y-2 opacity-100" : "opacity-0"}`} />
-            </div>
+            </Link>
           </div>
 
           {/* RIGHT MENU */}
-          <ul className="flex justify-end gap-12 text-[11px] tracking-[0.28em] text-gray-600 items-center">
+          <ul className="flex justify-end gap-12 text-[13px] tracking-[0.28em] text-gray-600 items-center">
             {["ABOUT US", "BLOGS", "CONTACT"].map((item, index) => (
               <li
                 key={item}
@@ -208,10 +221,10 @@ const Navbar = () => {
                 className="group"
                 style={hasAnimated ? {} : { opacity: 0, transform: 'translateY(-15px)' }}
               >
-                <span className="relative py-1 inline-block align-middle leading-[normal]">
+                <Link to={`/${item.toLowerCase().replace(" ", "-")}`} onClick={() => window.scrollTo(0, 0)} className="relative py-1 inline-block align-middle leading-[normal]">
                   {item}
                   <span className="absolute right-0 -bottom-0.5 h-[1px] w-0 bg-gray-800 group-hover:w-full transition-all" />
-                </span>
+                </Link>
               </li>
             ))}
           </ul>
@@ -219,13 +232,15 @@ const Navbar = () => {
 
         {/* Full Screen Mobile Menu */}
         {mobileOpen && (
-          <div className="lg:hidden fixed inset-0 z-40 bg-white">
+          <div className="lg:hidden fixed inset-0 z-40 bg-[#fcf6f2]">
             {/* Header with Logo and Close Button */}
             <div className="p-6 border-b border-[#eee2d8]">
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
                   <div className="bg-[#fdf7f3] px-3 py-2 rounded-b-full border-x border-b border-[#eee2d8]">
-                    <img src="/images/logo1.png" alt="Travel Logo" className="h-12" />
+                    <Link to="/" onClick={() => { window.scrollTo(0, 0); setMobileOpen(false); }}>
+                      <img src="/images/logo1.png" alt="Travel Logo" className="h-12" />
+                    </Link>
                   </div>
                 </div>
                 <button
@@ -240,15 +255,16 @@ const Navbar = () => {
             {/* Menu Content */}
             <div className="p-6 h-[calc(100vh-120px)] overflow-y-auto">
               {/* HOME */}
-              <button
-                onClick={() => setMobileOpen(false)}
-                className="w-full p-5 text-left border-b border-[#eee2d8] hover:bg-gray-50 transition-colors"
+              <Link
+                to="/"
+                onClick={() => { window.scrollTo(0, 0); setMobileOpen(false); }}
+                className="w-full p-5 text-left border-b border-[#eee2d8] hover:bg-gray-50 transition-colors block opacity-0 animate-[fadeIn_0.3s_ease-out_0.1s_forwards]"
               >
                 <span className="text-lg font-medium text-gray-800">HOME</span>
-              </button>
+              </Link>
 
               {/* TOURS Section */}
-              <div className="border-b border-[#eee2d8]">
+              <div className="border-b border-[#eee2d8] opacity-0 animate-[fadeIn_0.3s_ease-out_0.2s_forwards]">
                 <button
                   onClick={() => setMobileSubmenu(mobileSubmenu === "TOURS" ? null : "TOURS")}
                   className="w-full p-5 text-left hover:bg-gray-50 transition-colors flex items-center justify-between"
@@ -260,12 +276,13 @@ const Navbar = () => {
                 {/* TOURS Submenu */}
                 {mobileSubmenu === "TOURS" && (
                   <div className="bg-gray-50/50">
-                    {toursData.categories.map((category) => (
+                    {toursData.categories.map((category, index) => (
                       <Link
                         key={category.id}
                         to={`/tours/${category.slug}`}
-                        onClick={() => setMobileOpen(false)}
-                        className="block p-4 border-b border-[#eee2d8]/30 hover:bg-white transition-colors"
+                        onClick={() => { window.scrollTo(0, 0); setMobileOpen(false); }}
+                        className="block p-4 border-b border-[#eee2d8]/30 hover:bg-white transition-colors opacity-0 animate-[fadeIn_0.3s_ease-out_forwards]"
+                        style={{ animationDelay: `${index * 0.05}s` }}
                       >
                         <div className="text-base font-medium text-gray-800">{category.name}</div>
                         <div className="text-sm text-gray-500 mt-1">{category.duration}</div>
@@ -276,7 +293,7 @@ const Navbar = () => {
               </div>
 
               {/* TREKKING Section */}
-              <div className="border-b border-[#eee2d8]">
+              <div className="border-b border-[#eee2d8] opacity-0 animate-[fadeIn_0.3s_ease-out_0.3s_forwards]">
                 <button
                   onClick={() => setMobileSubmenu(mobileSubmenu === "TREKKING" ? null : "TREKKING")}
                   className="w-full p-5 text-left hover:bg-gray-50 transition-colors flex items-center justify-between"
@@ -288,12 +305,13 @@ const Navbar = () => {
                 {/* TREKKING Submenu */}
                 {mobileSubmenu === "TREKKING" && (
                   <div className="bg-gray-50/50">
-                    {trekkingData.regions.map((region) => (
+                    {trekkingData.regions.map((region, index) => (
                       <Link
                         key={region.id}
                         to={`/trekking/${region.slug}`}
-                        onClick={() => setMobileOpen(false)}
-                        className="block p-4 border-b border-[#eee2d8]/30 hover:bg-white transition-colors"
+                        onClick={() => { window.scrollTo(0, 0); setMobileOpen(false); }}
+                        className="block p-4 border-b border-[#eee2d8]/30 hover:bg-white transition-colors opacity-0 animate-[fadeIn_0.3s_ease-out_forwards]"
+                        style={{ animationDelay: `${index * 0.05}s` }}
                       >
                         <div className="text-base font-medium text-gray-800">{region.name}</div>
                         <div className="text-sm text-gray-500 mt-1">{region.difficultyRange}</div>
@@ -304,16 +322,30 @@ const Navbar = () => {
               </div>
 
               {/* Other Menu Items */}
-              {["ABOUT US", "BLOGS", "CONTACT"].map((item) => (
-                <button
+              {["ABOUT US", "BLOGS", "CONTACT"].map((item, index) => (
+                <Link
                   key={item}
-                  onClick={() => setMobileOpen(false)}
-                  className="w-full p-5 text-left border-b border-[#eee2d8] hover:bg-gray-50 transition-colors"
+                  to={`/${item.toLowerCase().replace(" ", "-")}`}
+                  onClick={() => { window.scrollTo(0, 0); setMobileOpen(false); }}
+                  className="w-full p-5 text-left border-b border-[#eee2d8] hover:bg-gray-50 transition-colors block opacity-0 animate-[fadeIn_0.3s_ease-out_forwards]"
+                  style={{ animationDelay: `${0.4 + (index * 0.1)}s` }}
                 >
                   <span className="text-lg font-medium text-gray-800">{item}</span>
-                </button>
+                </Link>
               ))}
             </div>
+            <style jsx>{`
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    `}</style>
           </div>
         )}
       </nav>

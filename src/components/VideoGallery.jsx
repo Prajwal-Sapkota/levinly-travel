@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { FaYoutube } from "react-icons/fa";
+import { FaYoutube, FaPlay, FaPause } from "react-icons/fa";
 
 const VideoGallery = () => {
   const [activeVideo, setActiveVideo] = useState(0);
@@ -8,6 +8,7 @@ const VideoGallery = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const videoSectionRef = useRef(null);
+  const iframeRef = useRef(null);
 
   const videos = [
     { id: "0HugkLb7rw4", title: "Mountain Peaks", duration: "2:45" },
@@ -26,7 +27,7 @@ const VideoGallery = () => {
           setMuted(true);
         }
       },
-      { 
+      {
         threshold: 0.2,
         rootMargin: '100px'
       }
@@ -39,7 +40,10 @@ const VideoGallery = () => {
   // Keyboard controls
   useEffect(() => {
     const handleKeyPress = (e) => {
-      if (e.key === " ") setPlaying((prev) => !prev);
+      if (e.key === " ") {
+        setPlaying((prev) => !prev);
+        e.preventDefault();
+      }
       if (e.key === "m" || e.key === "M") setMuted((prev) => !prev);
       if (e.key === "ArrowRight") {
         setActiveVideo((prev) => (prev + 1) % videos.length);
@@ -54,17 +58,22 @@ const VideoGallery = () => {
     return () => window.removeEventListener("keydown", handleKeyPress);
   }, [videos.length]);
 
+  // Handle mobile play/pause by toggling the iframe src
+  const togglePlay = () => {
+    setPlaying(!playing);
+  };
+
   const getYouTubeEmbedUrl = (videoId) =>
-    `https://www.youtube.com/embed/${videoId}?autoplay=${playing ? 1 : 0}&mute=1&modestbranding=1&rel=0&controls=1&playsinline=1`;
+    `https://www.youtube.com/embed/${videoId}?autoplay=${playing ? 1 : 0}&mute=${muted ? 1 : 0}&modestbranding=1&rel=0&controls=1&playsinline=1&enablejsapi=1`;
 
   return (
     <div
       ref={videoSectionRef}
-      className="relative  bg-[#fcf6f2] flex flex-col items-center justify-center px-4 sm:px-6 py-18 md:py-20 overflow-hidden"
+      className="relative bg-[#fcf6f2] flex flex-col items-center justify-center px-4 sm:px-6 py-18 md:py-20 overflow-hidden"
     >
       {/* Floating Background Shapes - Animated */}
       <div className="absolute inset-0">
-        <div 
+        <div
           className="absolute top-1/3 left-1/4 w-48 sm:w-64 md:w-96 h-48 sm:h-64 md:h-96 bg-blue-500/5 rounded-full blur-2xl md:blur-3xl"
           style={{
             transform: isVisible ? 'scale(1)' : 'scale(0.5)',
@@ -72,7 +81,7 @@ const VideoGallery = () => {
             transition: 'all 1200ms ease 300ms',
           }}
         ></div>
-        <div 
+        <div
           className="absolute bottom-1/4 right-1/4 w-48 sm:w-64 md:w-96 h-48 sm:h-64 md:h-96 bg-purple-500/5 rounded-full blur-2xl md:blur-3xl"
           style={{
             transform: isVisible ? 'scale(1)' : 'scale(0.5)',
@@ -83,7 +92,7 @@ const VideoGallery = () => {
       </div>
 
       {/* Main Video - Animated */}
-      <div 
+      <div
         className="relative z-10 w-full max-w-6xl aspect-video rounded-2xl sm:rounded-3xl md:rounded-[40px] overflow-hidden bg-black shadow-lg md:shadow-2xl"
         style={{
           opacity: isVisible ? 1 : 0,
@@ -92,16 +101,58 @@ const VideoGallery = () => {
         }}
       >
         <iframe
+          ref={iframeRef}
           src={getYouTubeEmbedUrl(videos[activeVideo].id)}
           title={videos[activeVideo].title}
           className="w-full h-full"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          onLoad={() => {
+            // Auto-play when iframe loads
+            if (playing) {
+              // This helps with mobile autoplay
+              iframeRef.current?.contentWindow?.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+            }
+          }}
         />
-        
+
+        {/* Play/Pause Button Overlay */}
+        <div
+          className="absolute inset-0 flex items-center justify-center"
+          style={{
+            opacity: isVisible ? 1 : 0,
+            transition: 'opacity 300ms ease',
+            pointerEvents: playing ? 'none' : 'auto',
+          }}
+        >
+          {/* Play Button - Only visible when NOT playing */}
+          {!playing && (
+            <button
+              onClick={togglePlay}
+              className="flex items-center justify-center w-16 h-16 md:w-20 md:h-20 bg-white/95 rounded-full hover:bg-white hover:scale-110 active:scale-105 transition-all duration-300 shadow-2xl group"
+              aria-label="Play video"
+            >
+              <FaPlay className="text-blue-600 w-8 h-8 md:w-10 md:h-10 ml-1 group-hover:scale-105 transition-transform duration-300" />
+            </button>
+          )}
+          
+          {/* Pause Button - Visible on hover when playing */}
+          {playing && (
+            <div className="opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <button
+                onClick={togglePlay}
+                className="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 bg-white/90 rounded-full hover:bg-white hover:scale-110 active:scale-105 transition-all duration-300 shadow-lg group"
+                aria-label="Pause video"
+              >
+                <FaPause className="text-blue-600 w-5 h-5 md:w-6 md:h-6" />
+              </button>
+            </div>
+          )}
+        </div>
+
         {/* YouTube Badge */}
-        <div 
-          className="absolute top-3 sm:top-4 md:top-6 right-3 sm:right-4 md:right-6 flex items-center gap-1 sm:gap-2 bg-white/20 backdrop-blur-sm px-2 sm:px-3 py-1 rounded-full text-white text-xs sm:text-sm font-semibold"
+        <div
+          className="absolute top-3 sm:top-4 md:top-6 right-3 sm:right-4 md:right-6 flex items-center gap-1 sm:gap-2 bg-white/20 backdrop-blur-sm px-2 sm:px-3 py-1 rounded-full text-white text-xs sm:text-sm font-semibold z-10"
           style={{
             opacity: isVisible ? 1 : 0,
             transform: isVisible ? 'translateX(0)' : 'translateX(30px)',
@@ -114,7 +165,7 @@ const VideoGallery = () => {
       </div>
 
       {/* Horizontal Thumbnails - Animated */}
-      <div 
+      <div
         className="relative z-10 mt-6 md:mt-8 flex items-center justify-center sm:justify-center gap-3 sm:gap-4 overflow-x-auto w-full max-w-6xl py-2 px-2"
         style={{
           opacity: isVisible ? 1 : 0,
@@ -128,11 +179,10 @@ const VideoGallery = () => {
               setActiveVideo(idx);
               setPlaying(true);
             }}
-            className={`relative flex-shrink-0 w-32 sm:w-36 md:w-44 h-16 sm:h-20 md:h-24 rounded-lg sm:rounded-xl cursor-pointer overflow-hidden transition-all duration-500 ${
-              activeVideo === idx 
-                ? "ring-2 sm:ring-3 md:ring-4 ring-blue-500 scale-105 sm:scale-110 z-20" 
-                : "opacity-70 hover:scale-102 sm:hover:scale-105 z-10"
-            }`}
+            className={`relative flex-shrink-0 w-32 sm:w-36 md:w-44 h-16 sm:h-20 md:h-24 rounded-lg sm:rounded-xl cursor-pointer overflow-hidden transition-all duration-500 ${activeVideo === idx
+              ? "ring-2 sm:ring-3 md:ring-4 ring-blue-500 scale-105 sm:scale-110 z-20"
+              : "opacity-70 hover:scale-102 sm:hover:scale-105 z-10"
+              }`}
             style={{
               transform: isVisible ? 'translateY(0)' : `translateY(${20 + (idx * 10)}px)`,
               opacity: isVisible ? 1 : 0,
@@ -149,12 +199,19 @@ const VideoGallery = () => {
             <div className="absolute bottom-1 sm:bottom-2 right-1 sm:right-2 bg-black/70 text-white text-[10px] sm:text-xs px-1 py-0.5 rounded">
               {video.duration}
             </div>
+
+            {/* Play icon on thumbnails */}
+            <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <div className="flex items-center justify-center w-8 h-8 md:w-10 md:h-10 bg-black/30 rounded-full">
+                <FaPlay className="w-4 h-4 md:w-5 md:h-5 text-white/60 ml-0.5" />
+              </div>
+            </div>
           </div>
         ))}
       </div>
 
       {/* Navigation Dots - Animated */}
-      <div 
+      <div
         className="flex gap-2 mt-4 sm:mt-6 z-10"
         style={{
           opacity: isVisible ? 1 : 0,
@@ -168,11 +225,10 @@ const VideoGallery = () => {
               setActiveVideo(idx);
               setPlaying(true);
             }}
-            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all cursor-pointer ${
-              activeVideo === idx 
-                ? "bg-gradient-to-r from-[#0B4DBA] to-[#6dc5f1] scale-110 sm:scale-125" 
-                : "bg-gray-300"
-            }`}
+            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all cursor-pointer ${activeVideo === idx
+              ? "bg-gradient-to-r from-[#0B4DBA] to-[#6dc5f1] scale-110 sm:scale-125"
+              : "bg-gray-300"
+              }`}
           />
         ))}
       </div>
