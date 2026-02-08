@@ -106,7 +106,7 @@ const Hero = () => {
               about travel possibilities, we're ready to assist.
             </p>
 
-            <button className="group inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 border border-black text-black font-medium hover:bg-black hover:text-white transition-all duration-300 text-sm sm:text-base pb-6 sm:pb-8">
+            <button className="group inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 border border-black text-black font-medium hover:bg-black hover:text-white transition-all duration-300 text-sm sm:text-base mb-6 sm:mb-8">
               Schedule a Consultation
               <FiArrowRight className="w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" />
             </button>
