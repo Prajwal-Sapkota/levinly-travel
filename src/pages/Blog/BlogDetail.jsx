@@ -65,7 +65,7 @@ const BlogDetail = () => {
       <div className="min-h-screen bg-[#fcf6f2] flex items-center justify-center">
         <div className="text-center">
           <div className="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#2c5aa0]"></div>
-          <p className="mt-4 text-gray-600">Loading blog post...</p>
+          <p className="pt-4 text-gray-600">Loading blog post...</p>
         </div>
       </div>
     );
@@ -76,8 +76,8 @@ const BlogDetail = () => {
       <div className="min-h-screen bg-[#fcf6f2]">
         <Navbar />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-32 text-center">
-          <h1 className="text-3xl font-serif text-[#1a365d] mb-6">Blog Not Found</h1>
-          <p className="text-gray-600 mb-8 max-w-md mx-auto">The blog post you're looking for doesn't exist or has been moved.</p>
+          <h1 className="text-3xl font-serif text-[#1a365d] pb-6">Blog Not Found</h1>
+          <p className="text-gray-600 pb-8 max-w-md mx-auto">The blog post you're looking for doesn't exist or has been moved.</p>
           <Link
             to="/blogs"
             className="inline-flex items-center gap-3 px-8 py-4 bg-[#1a365d] text-white rounded-xl hover:bg-[#2c5aa0] transition-all duration-300"
@@ -97,13 +97,13 @@ const BlogDetail = () => {
       switch (section.type) {
         case 'paragraph':
           return (
-            <p key={index} className="text-gray-700 leading-relaxed mb-6">
+            <p key={index} className="text-gray-700 leading-relaxed pb-6">
               {section.content}
             </p>
           );
         case 'subheading':
           return (
-            <h3 key={index} className="text-2xl font-serif text-[#1a365d] mt-10 mb-6 pb-3 border-b border-gray-200">
+            <h3 key={index} className="text-2xl font-serif text-[#1a365d] pt-10 pb-6 pb-3 border-b border-gray-200">
               {section.content}
             </h3>
           );
@@ -111,7 +111,7 @@ const BlogDetail = () => {
           return (
             <div key={index} className="my-10">
               <div className="relative pl-6 sm:pl-8 border-l-4 border-[#2c5aa0]">
-                <p className="text-lg sm:text-xl italic text-gray-700 mb-3 sm:mb-4">"{section.content}"</p>
+                <p className="text-lg sm:text-xl italic text-gray-700 pb-3 sm:pb-4">"{section.content}"</p>
                 {section.author && (
                   <p className="text-gray-600 font-medium">— {section.author}</p>
                 )}
@@ -121,13 +121,13 @@ const BlogDetail = () => {
         case 'tip':
           return (
             <div key={index} className="my-10 bg-gradient-to-br from-[#fcf6f2] to-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100">
-              <h4 className="text-lg font-semibold text-[#1a365d] mb-3 sm:mb-4 flex items-center gap-2">
+              <h4 className="text-lg font-semibold text-[#1a365d] pb-3 sm:pb-4 flex items-center gap-2">
                 <FiStar className="text-[#2c5aa0]" /> {section.title}
               </h4>
               <ul className="space-y-2">
                 {section.items.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
-                    <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-[#2c5aa0]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-[#2c5aa0]/10 flex items-center justify-center flex-shrink-0 pt-0.5">
                       <FiChevronsRight className="text-[#2c5aa0] w-3 h-3" />
                     </div>
                     <span className="text-gray-700 text-sm sm:text-base">{item}</span>
@@ -156,12 +156,12 @@ const BlogDetail = () => {
               
 
               {/* Title */}
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-serif font-light leading-tight text-gray-900 mb-4 sm:mb-6">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-serif font-light leading-tight text-gray-900 pb-4 sm:pb-6">
                 {blog.title}
               </h1>
 
               {/* Excerpt */}
-              <p className="text-gray-600 text-base leading-relaxed mb-6 sm:mb-8">
+              <p className="text-gray-600 text-base leading-relaxed pb-6 sm:pb-8">
                 {blog.excerpt}
               </p>
 
@@ -208,36 +208,36 @@ const BlogDetail = () => {
       </section>
 
       {/* Quick Stats Bar */}
-      <div className="relative -mt-4 sm:-mt-6 mb-6 sm:mb-12">
+      <div className="relative -pt-4 sm:-pt-6 pb-6 sm:pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl border border-gray-100 p-4 sm:p-6 lg:p-8">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
               <div className="text-center">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto mb-2 sm:mb-3 text-[#2c5aa0]">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto pb-2 sm:pb-3 text-[#2c5aa0]">
                   <FiCalendar />
                 </div>
-                <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Published</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wider pb-1">Published</div>
                 <div className="font-semibold text-[#1a365d] text-sm sm:text-base">{blog.date}</div>
               </div>
               <div className="text-center">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto mb-2 sm:mb-3 text-[#2c5aa0]">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto pb-2 sm:pb-3 text-[#2c5aa0]">
                   <FiClock />
                 </div>
-                <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Read Time</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wider pb-1">Read Time</div>
                 <div className="font-semibold text-[#1a365d] text-sm sm:text-base">{blog.readTime}</div>
               </div>
               <div className="text-center">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto mb-2 sm:mb-3 text-[#2c5aa0]">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto pb-2 sm:pb-3 text-[#2c5aa0]">
                   <FiTrendingUp />
                 </div>
-                <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Popularity</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wider pb-1">Popularity</div>
                 <div className="font-semibold text-[#1a365d] text-sm sm:text-base">{blog.views} views</div>
               </div>
               <div className="text-center">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto mb-2 sm:mb-3 text-[#2c5aa0]">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#fcf6f2] flex items-center justify-center mx-auto pb-2 sm:pb-3 text-[#2c5aa0]">
                   <FiMessageSquare />
                 </div>
-                <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Engagement</div>
+                <div className="text-xs text-gray-500 uppercase tracking-wider pb-1">Engagement</div>
                 <div className="font-semibold text-[#1a365d] text-sm sm:text-base">{blog.comments} comments</div>
               </div>
             </div>
@@ -251,14 +251,14 @@ const BlogDetail = () => {
           {/* Main Content Column */}
           <div className="lg:w-2/3">
             {/* Introduction Card */}
-            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 border border-gray-100 shadow-sm mb-6 sm:mb-8">
-              <div className="flex items-center gap-3 mb-4 sm:mb-6">
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 border border-gray-100 shadow-sm pb-6 sm:pb-8">
+              <div className="flex items-center gap-3 pb-4 sm:pb-6">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-[#2c5aa0] flex items-center justify-center">
                   <FiBookOpen className="text-white text-lg sm:text-xl" />
                 </div>
                 <h2 className="text-xl sm:text-2xl lg:text-3xl font-serif text-[#1a365d]">Introduction</h2>
               </div>
-              <p className="text-gray-700 leading-relaxed text-sm sm:text-base lg:text-lg mb-6 sm:mb-8">{blog.content.introduction}</p>
+              <p className="text-gray-700 leading-relaxed text-sm sm:text-base lg:text-lg pb-6 sm:pb-8">{blog.content.introduction}</p>
               
               {/* Tags Preview */}
               <div className="flex flex-wrap gap-2 pt-4 border-t border-gray-100">
@@ -279,15 +279,15 @@ const BlogDetail = () => {
             </div>
 
             {/* Body Content */}
-            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 border border-gray-100 shadow-sm mb-6 sm:mb-8">
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 border border-gray-100 shadow-sm pb-6 sm:pb-8">
               <div className="prose prose-sm sm:prose-base lg:prose-lg max-w-none">
                 {renderContent(blog.content)}
               </div>
 
               {/* Conclusion */}
               {blog.content.conclusion && (
-                <div className="mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-gray-200">
-                  <div className="flex items-center gap-3 mb-4 sm:mb-6">
+                <div className="pt-8 sm:pt-10 pt-6 sm:pt-8 border-t border-gray-200">
+                  <div className="flex items-center gap-3 pb-4 sm:pb-6">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-[#1a365d] flex items-center justify-center">
                       <FiEdit className="text-white text-lg sm:text-xl" />
                     </div>
@@ -301,8 +301,8 @@ const BlogDetail = () => {
             </div>
 
             {/* Tags Section */}
-            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm mb-6 sm:mb-8">
-              <h3 className="text-lg sm:text-xl font-semibold text-[#1a365d] mb-3 sm:mb-4">Article Tags</h3>
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm pb-6 sm:pb-8">
+              <h3 className="text-lg sm:text-xl font-semibold text-[#1a365d] pb-3 sm:pb-4">Article Tags</h3>
               <div className="flex flex-wrap gap-2">
                 {blog.tags.map((tag, index) => (
                   <Link
@@ -317,10 +317,10 @@ const BlogDetail = () => {
             </div>
 
             {/* Social Sharing */}
-            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm mb-6 sm:mb-8">
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm pb-6 sm:pb-8">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
-                  <h3 className="text-lg sm:text-xl font-semibold text-[#1a365d] mb-3">Share This Article</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold text-[#1a365d] pb-3">Share This Article</h3>
                   <p className="text-gray-600 text-sm">Help others discover this story</p>
                 </div>
                 <div className="flex gap-2">
@@ -346,7 +346,7 @@ const BlogDetail = () => {
             {/* Gallery */}
             {blog.images && blog.images.length > 1 && (
               <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm">
-                <div className="flex items-center gap-3 mb-4 sm:mb-6">
+                <div className="flex items-center gap-3 pb-4 sm:pb-6">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-[#2c5aa0] flex items-center justify-center">
                     <FiCamera className="text-white text-lg sm:text-xl" />
                   </div>
@@ -373,11 +373,11 @@ const BlogDetail = () => {
               {/* Author Profile */}
               <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm">
                 <div className="text-center">
-                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-[#2c5aa0] to-[#1a365d] mx-auto mb-3 sm:mb-4 flex items-center justify-center">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-[#2c5aa0] to-[#1a365d] mx-auto pb-3 sm:pb-4 flex items-center justify-center">
                     <span className="text-white text-xl sm:text-2xl font-bold">{blog.author.charAt(0)}</span>
                   </div>
-                  <h3 className="text-lg sm:text-xl font-serif text-[#1a365d] mb-1 sm:mb-2">{blog.author}</h3>
-                  <p className="text-gray-600 text-sm mb-3 sm:mb-4">{blog.authorTitle}</p>
+                  <h3 className="text-lg sm:text-xl font-serif text-[#1a365d] pb-1 sm:pb-2">{blog.author}</h3>
+                  <p className="text-gray-600 text-sm pb-3 sm:pb-4">{blog.authorTitle}</p>
                   <p className="text-gray-700 text-xs sm:text-sm">
                     Sharing authentic travel experiences, cultural insights, and practical tips from journeys across Nepal.
                   </p>
@@ -386,7 +386,7 @@ const BlogDetail = () => {
 
               {/* Popular Articles */}
               <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm">
-                <div className="flex items-center gap-2 mb-4 sm:mb-6">
+                <div className="flex items-center gap-2 pb-4 sm:pb-6">
                   <FiTrendingUp className="text-[#2c5aa0]" />
                   <h3 className="text-lg sm:text-xl font-semibold text-[#1a365d]">Popular Reads</h3>
                 </div>
@@ -413,7 +413,7 @@ const BlogDetail = () => {
                           <h4 className="font-medium text-gray-900 group-hover:text-[#2c5aa0] transition-colors line-clamp-2 text-xs sm:text-sm">
                             {popular.title}
                           </h4>
-                          <div className="flex items-center gap-2 text-gray-500 text-xs mt-1">
+                          <div className="flex items-center gap-2 text-gray-500 text-xs pt-1">
                             <FiEye className="w-3 h-3" />
                             <span>{popular.views} views</span>
                           </div>
@@ -426,7 +426,7 @@ const BlogDetail = () => {
               {/* Related Articles */}
               {relatedBlogs.length > 0 && (
                 <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 shadow-sm">
-                  <div className="flex items-center gap-2 mb-4 sm:mb-6">
+                  <div className="flex items-center gap-2 pb-4 sm:pb-6">
                     <FiNavigation className="text-[#2c5aa0]" />
                     <h3 className="text-lg sm:text-xl font-semibold text-[#1a365d]">Related Stories</h3>
                   </div>
@@ -449,7 +449,7 @@ const BlogDetail = () => {
                           <h4 className="font-medium text-gray-900 group-hover:text-[#2c5aa0] transition-colors line-clamp-2 text-xs sm:text-sm">
                             {related.title}
                           </h4>
-                          <div className="flex items-center gap-2 text-gray-500 text-xs mt-1">
+                          <div className="flex items-center gap-2 text-gray-500 text-xs pt-1">
                             <FiCalendar className="w-3 h-3" />
                             <span>{related.date}</span>
                           </div>
@@ -462,9 +462,9 @@ const BlogDetail = () => {
 
               {/* Newsletter */}
               <div className="bg-gradient-to-br from-[#2c5aa0] to-[#1a365d] rounded-xl sm:rounded-2xl p-4 sm:p-6 text-white shadow-lg">
-                <div className="text-center mb-3 sm:mb-4">
-                  <FiMail className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-2 sm:mb-3" />
-                  <h3 className="text-lg sm:text-xl font-serif mb-1 sm:mb-2">Travel Insights</h3>
+                <div className="text-center pb-3 sm:pb-4">
+                  <FiMail className="w-6 h-6 sm:w-8 sm:h-8 mx-auto pb-2 sm:pb-3" />
+                  <h3 className="text-lg sm:text-xl font-serif pb-1 sm:pb-2">Travel Insights</h3>
                   <p className="text-white/80 text-xs sm:text-sm">
                     Get weekly stories, tips, and inspiration in your inbox.
                   </p>
