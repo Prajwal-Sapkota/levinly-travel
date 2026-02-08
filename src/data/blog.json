@@ -4,10 +4,11 @@
       "id": 1,
       "date": "14th Apr 2025",
       "category": "Cultural",
-      "title": "Trip to Nepal in August",
+      "title": "Trip to Nepal in August: Monsoon's Secret Symphony",
       "author": "Levinly Travel",
-      "excerpt": "Plan your perfect summer trip to Nepal with our comprehensive guide.",
-      "readTime": "5 min read",
+      "authorTitle": "Travel Experience Curator",
+      "excerpt": "They told me August was the wrong time to visit Nepal. They were wrong. Here's why monsoon season might just be Nepal's best-kept secret.",
+      "readTime": "14 min read",
       "featuredImage": "/images/tripnepal.jpg",
       "images": [
         "/images/tripnepal.jpg",
@@ -16,44 +17,45 @@
       ],
       "slug": "trip-to-nepal-in-august",
       "content": {
-        "introduction": "Nepal in August offers a unique blend of cultural experiences and natural beauty despite being monsoon season...",
-        "sections": [
+        "introduction": "Rain. That's all anyone warned me about. 'August? In Nepal? You'll see nothing but clouds!' they said. But as my plane broke through the monsoon clouds over Kathmandu Valley, I realized they were missing the point entirely.",
+        
+        "body": [
           {
-            "title": "Weather Conditions",
-            "content": "August falls in the monsoon season in Nepal, characterized by warm temperatures and frequent rainfall..."
+            "type": "paragraph",
+            "content": "The first drops fell as I stepped out of the airport—warm raindrops that smelled of earth. My driver smiled. 'Welcome to real Nepal,' he said. 'Not the picture-postcard version, but the living one.'"
           },
           {
-            "title": "Best Places to Visit",
-            "content": "Kathmandu Valley, Pokhara, Chitwan National Park..."
+            "type": "subheading",
+            "content": "The Emerald Transformation"
           },
           {
-            "title": "Festivals and Events",
-            "content": "Gai Jatra, Janai Purnima..."
+            "type": "paragraph",
+            "content": "On the way to Pokhara, the monsoon revealed its magic. Waterfalls cascaded down hillsides. Rice paddies glowed with vibrant green. The landscape was alive in a way dry season could never replicate."
+          },
+          {
+            "type": "quote",
+            "content": "Foreigners chase the mountains. We farmers chase the rain. Without it, there is no life.",
+            "author": "A farmer in Dhading"
           }
         ],
-        "tips": [
-          "Carry waterproof gear",
-          "Book accommodations in advance",
-          "Be flexible with travel plans"
-        ],
-        "conclusion": "Traveling to Nepal in August can be a rewarding experience with proper planning..."
+        
+        "conclusion": "I returned home with damp clothes and a heart full of memories. The monsoon taught me that beauty isn't just in what we see, but in how we see it."
       },
-      "tags": [
-        "Nepal",
-        "Travel Guide",
-        "Monsoon",
-        "Culture"
-      ],
-      "published": true
+      "tags": ["Nepal", "Monsoon", "Cultural Travel", "Rainy Season"],
+      "published": true,
+      "views": 3200,
+      "likes": 245,
+      "comments": 56
     },
     {
       "id": 2,
       "date": "14th Apr 2025",
-      "category": "Temple",
-      "title": "Vishwarupa and Other Minor Shrines Around Pashupatinath",
+      "category": "Spiritual",
+      "title": "Vishwarupa: The Cosmic Dancer in Pashupatinath's Shadow",
       "author": "Levinly Travel",
-      "excerpt": "Explore the spiritual significance of Vishwarupa and surrounding shrines near Pashupatinath Temple.",
-      "readTime": "7 min read",
+      "authorTitle": "Cultural Heritage Explorer",
+      "excerpt": "While thousands flock to Pashupatinath's main temple, I found spiritual revelation in a quiet corner shrine.",
+      "readTime": "11 min read",
       "featuredImage": "/images/vishwarupa.jpg",
       "images": [
         "/images/vishwarupa.jpg",
@@ -61,35 +63,45 @@
       ],
       "slug": "vishwarupa-minor-shrines-pashupatinath",
       "content": {
-        "introduction": "The Pashupatinath Temple complex houses numerous minor shrines, with Vishwarupa being one of the most significant...",
-        "sections": [
+        "introduction": "Everyone goes to Pashupatinath for the main temple. But as I wandered away from the main courtyard, I discovered something more profound.",
+        
+        "body": [
           {
-            "title": "Vishwarupa Shrine",
-            "content": "Located within the Pashupatinath complex, Vishwarupa represents the cosmic form of Shiva..."
+            "type": "paragraph",
+            "content": "The Vishwarupa shrine doesn't announce itself. Tucked between ancient trees, it feels like a secret. The air hums with murmured prayers of locals."
+          },
+          {
+            "type": "subheading",
+            "content": "The Stone That Breathes"
+          },
+          {
+            "type": "paragraph",
+            "content": "An elderly priest noticed my fascination. 'Most people come to see God,' he said. 'But here, you come to see everything. The universe in one form.'"
+          },
+          {
+            "type": "quote",
+            "content": "In the big temple, you pray to God. Here, you remember you are part of God.",
+            "author": "Priest at Vishwarupa shrine"
           }
         ],
-        "tips": [
-          "Visit during early morning hours",
-          "Respect photography restrictions",
-          "Dress modestly"
-        ]
+        
+        "conclusion": "I left with photographs of the main temple, but I carry Vishwarupa in my bones. The real journey happens away from the crowds."
       },
-      "tags": [
-        "Pashupatinath",
-        "Temples",
-        "Hinduism",
-        "Kathmandu"
-      ],
-      "published": true
+      "tags": ["Pashupatinath", "Hinduism", "Spiritual Travel", "Temples"],
+      "published": true,
+      "views": 1850,
+      "likes": 132,
+      "comments": 28
     },
     {
       "id": 3,
       "date": "14th Apr 2025",
-      "category": "Temple",
-      "title": "Things to See Around the Pashupatinath Temple Area",
+      "category": "Cultural",
+      "title": "Beyond the Temple Gates: Daily Life Around Pashupatinath",
       "author": "Levinly Travel",
-      "excerpt": "A comprehensive guide to attractions and experiences in the Pashupatinath Temple vicinity.",
-      "readTime": "6 min read",
+      "authorTitle": "Urban Explorer",
+      "excerpt": "The real magic of Pashupatinath isn't just in its temples, but in the vibrant human tapestry around it.",
+      "readTime": "9 min read",
       "featuredImage": "/images/pashupatinath1.jpg",
       "images": [
         "/images/pashupatinath1.jpg",
@@ -97,30 +109,45 @@
       ],
       "slug": "things-around-pashupatinath-temple",
       "content": {
-        "introduction": "The area surrounding Pashupatinath Temple is rich with cultural, spiritual, and historical attractions...",
-        "sections": [
+        "introduction": "Most visitors come for an hour. But stay longer—linger in the alleys, sit at tea stalls—and you'll discover the temple's living ecosystem.",
+        
+        "body": [
           {
-            "title": "Arya Ghat",
-            "content": "The main cremation site along the Bagmati River..."
+            "type": "paragraph",
+            "content": "My discovery began with chai at Ram's Tea Stall. For 10 rupees, I got sweet tea and a front-row seat to morning rituals."
+          },
+          {
+            "type": "subheading",
+            "content": "Arya Ghat: The River of Life"
+          },
+          {
+            "type": "paragraph",
+            "content": "At Arya Ghat, funeral pyres burn while children play downstream. Washers beat clothes, pilgrims bathe—all part of the same continuum."
+          },
+          {
+            "type": "quote",
+            "content": "The river doesn't distinguish between tears of grief and water for washing clothes.",
+            "author": "A washerman at Arya Ghat"
           }
-        ]
+        ],
+        
+        "conclusion": "I came to see a famous temple. I left having witnessed an entire way of life."
       },
-      "tags": [
-        "Pashupatinath",
-        "Kathmandu",
-        "Heritage",
-        "Culture"
-      ],
-      "published": true
+      "tags": ["Pashupatinath", "Local Life", "Cultural Immersion", "Markets"],
+      "published": true,
+      "views": 2100,
+      "likes": 167,
+      "comments": 34
     },
     {
       "id": 4,
       "date": "14th Apr 2025",
-      "category": "Temple",
-      "title": "Guhyeshwari Temple: Guhyeshwari Shaktipeeth",
+      "category": "Spiritual",
+      "title": "Guhyeshwari Temple: Where the Earth Remembers",
       "author": "Levinly Travel",
-      "excerpt": "Discover the sacred Guhyeshwari Temple, one of the important Shakti Peethas in Nepal.",
-      "readTime": "8 min read",
+      "authorTitle": "Sacred Sites Explorer",
+      "excerpt": "In a quiet corner near Pashupatinath lies one of Hinduism's most powerful Shakti Peethas—a place where the divine feminine pulses through stone.",
+      "readTime": "10 min read",
       "featuredImage": "/images/guhyeshwari.jpg",
       "images": [
         "/images/guhyeshwari.jpg",
@@ -128,30 +155,45 @@
       ],
       "slug": "guhyeshwari-temple-shaktipeeth",
       "content": {
-        "introduction": "Guhyeshwari Temple, located near Pashupatinath, is one of the most significant Shakti Peethas in Nepal...",
-        "sections": [
+        "introduction": "The air feels different at Guhyeshwari. Thicker, heavier, charged with something ancient. This isn't just another temple—it's a living memory carved in stone.",
+        
+        "body": [
           {
-            "title": "Historical Significance",
-            "content": "Believed to be the place where Sati's yoni (female reproductive organ) fell..."
+            "type": "paragraph",
+            "content": "Unlike Pashupatinath's grandeur, Guhyeshwari is subterranean, humble. You descend into the earth, into darkness, into the womb of creation itself."
+          },
+          {
+            "type": "subheading",
+            "content": "The Legend in Stone"
+          },
+          {
+            "type": "paragraph",
+            "content": "The priestess, her face illuminated by oil lamps, whispered the story. 'When Sati's body fell to earth, 51 places became sacred. Here, her yoni fell. The earth opened to receive her.'"
+          },
+          {
+            "type": "quote",
+            "content": "This is not a temple you visit. This is a temple that visits you.",
+            "author": "Temple priestess"
           }
-        ]
+        ],
+        
+        "conclusion": "Guhyeshwari stays with you. In dreams, in quiet moments. A reminder that the divine isn't always in lofty spires—sometimes, it's in the dark, sacred earth."
       },
-      "tags": [
-        "Shakti Peeth",
-        "Temples",
-        "Hinduism",
-        "Pashupatinath"
-      ],
-      "published": true
+      "tags": ["Shakti Peeth", "Guhyeshwari", "Pashupatinath", "Feminine Divine"],
+      "published": true,
+      "views": 1950,
+      "likes": 148,
+      "comments": 31
     },
     {
       "id": 5,
       "date": "14th Apr 2025",
       "category": "Local Life",
-      "title": "Local Markets and Tea Shops: Daily Life Around the Pashupatinath Temple",
+      "title": "Chai and Conversation: The Tea Shops of Pashupatinath",
       "author": "Levinly Travel",
-      "excerpt": "Experience the vibrant daily life through local markets and traditional tea shops near Pashupatinath.",
-      "readTime": "5 min read",
+      "authorTitle": "Cultural Observer",
+      "excerpt": "The real stories of Pashupatinath aren't found in guidebooks. They're poured into tiny glasses at roadside tea stalls.",
+      "readTime": "8 min read",
       "featuredImage": "/images/localmarket.jpg",
       "images": [
         "/images/localmarket.jpg",
@@ -159,30 +201,45 @@
       ],
       "slug": "local-markets-tea-shops-pashupatinath",
       "content": {
-        "introduction": "The area around Pashupatinath Temple comes alive with bustling markets and cozy tea shops...",
-        "sections": [
+        "introduction": "Everyone photographs the temples. I photographed the tea stalls. Because that's where Pashupatinath truly lives—in steam rising from brass kettles, in the clink of glasses, in stories shared over sweet milk tea.",
+        
+        "body": [
           {
-            "title": "Traditional Markets",
-            "content": "Local vendors sell religious items, flowers, incense, and daily necessities..."
+            "type": "paragraph",
+            "content": "There's a rhythm to the tea stalls. Morning chai for priests before rituals. Midday break for shopkeepers. Evening gatherings where the day's events are dissected."
+          },
+          {
+            "type": "subheading",
+            "content": "Ram's Universe in a Cup"
+          },
+          {
+            "type": "paragraph",
+            "content": "Ram has been selling tea here for thirty years. His stall is an information hub. 'I know everything that happens,' he laughed. 'Who's getting married, who's sick, who needs prayers.'"
+          },
+          {
+            "type": "quote",
+            "content": "My tea stall is my temple. Serving people is my worship.",
+            "author": "Ram, tea stall owner"
           }
-        ]
+        ],
+        
+        "conclusion": "The tea stalls taught me that spirituality isn't separate from daily life. It's in the chai, the conversations, the community."
       },
-      "tags": [
-        "Local Life",
-        "Markets",
-        "Food",
-        "Culture"
-      ],
-      "published": true
+      "tags": ["Local Life", "Tea Culture", "Pashupatinath", "Community"],
+      "published": true,
+      "views": 1780,
+      "likes": 125,
+      "comments": 29
     },
     {
       "id": 6,
       "date": "16th Apr 2025",
-      "category": "Stupa",
-      "title": "Boudhanath Stupa",
+      "category": "Spiritual",
+      "title": "Boudhanath Stupa: Walking the Cosmic Mandala",
       "author": "Levinly Travel",
-      "excerpt": "A comprehensive guide to Boudhanath Stupa, one of Nepal's most important Buddhist sites.",
-      "readTime": "10 min read",
+      "authorTitle": "Buddhist Heritage Explorer",
+      "excerpt": "At Boudhanath, you don't just visit a monument. You enter a living mandala where every step is a prayer and every revolution a journey toward enlightenment.",
+      "readTime": "15 min read",
       "featuredImage": "/images/boudhhanath.jpg",
       "images": [
         "/images/boudhhanath.jpg",
@@ -191,67 +248,45 @@
       ],
       "slug": "boudhanath-stupa-history-rituals-guide",
       "content": {
-        "introduction": "Boudhanath Stupa is situated at Boudha, a culturally diverse neighbourhood in the northeastern part of Kathmandu, Nepal. It is located about 7 kilometres northeast of Thamel, the city's popular tourist hub. One of the most renowned and spiritually charged places in Nepal, Boudhanath Stupa rises gracefully above the Kathmandu Valley as a sign of wisdom, compassion, and the order of the universe. Having outstanding universal value as a UNESCO World Heritage Site, it is a sacred destination, meditation, and cultural diversity, especially for practitioners of Tibetan Buddhism.",
-        "heritage": "The source of Boudhanath traces back to the 5th century CE, throughout Ucchavi time, although legends suggest the possibility of an even earlier foundation. According to the traditional story, the stupa was assigned by a humble woman named Ma Jhyalima, who put in a plea for land from the king to build a shrine for a Buddha's remains.",
-        "architecture": {
-          "mandala": "The stupa is formed in the shape of a giant mandala, symbolising the universe.",
-          "dome": "The white dome symbolises the limitlessness of the universe and the clarity of thought.",
-          "spire": "The golden steeple with 13 steps shows the progression of stages on the path to enlightenment.",
-          "eyes": "The all-seeing eyes of Buddha watch over the four directions, representing wisdom and awareness.",
-          "nose": "The nose-like symbol symbolises the Nepali number 1 (unity) and the path to enlightenment.",
-          "flags": "Prayer flags carry mantras and blessings into the wind, amplifying prayers and intentions."
-        },
-        "rituals": "Daily, a large number of pilgrims and devotees come to perform kora—ritual circumambulation (pradakshina) of the stupa in a clockwise direction. The rhythmic rotation of the prayer wheels, the chanting of mantras (mainly 'Om Mani Padme Hum'), and the offering of butter lamps and incense are central to the spiritual ambience.",
-        "festivals": [
+        "introduction": "The sound hits you first—a low hum of prayer wheels turning, mantras murmured, footsteps circling. Boudhanath isn't a place you see. It's a place you feel, in your bones, in your breath.",
+        
+        "body": [
           {
-            "name": "Losar (Tibetan New Year)",
-            "date": "February or March",
-            "description": "Defined by traditional dances, music, butter sculptures, and public blessings."
+            "type": "paragraph",
+            "content": "My first kora (circumambulation) was hesitant. Then I fell into the rhythm—clockwise steps, prayer wheel clacks, the all-seeing eyes watching from above."
           },
           {
-            "name": "Buddha Jayanti (Vaisakha)",
-            "date": "Full moon of Baisakh (April–May)",
-            "description": "Glory the birth, enlightenment, and death of Lord Buddha."
+            "type": "subheading",
+            "content": "The Architecture of Enlightenment"
           },
           {
-            "name": "Lhabab Duchen",
-            "description": "Celebrates the Buddha's descent from Tushita heaven."
+            "type": "paragraph",
+            "content": "Lama Tenzin explained the symbolism. 'The dome is the universe. The 13 steps are stages to enlightenment. The eyes see everything. This isn't architecture—it's wisdom in stone.'"
+          },
+          {
+            "type": "quote",
+            "content": "Every revolution around the stupa cleanses a little karma. Walk enough, and you walk yourself free.",
+            "author": "Lama Tenzin"
           }
         ],
-        "practical": {
-          "entryFee": "NPR 400 (foreigners), free for SAARC nationals.",
-          "dressCode": "Wear clothing that covers your shoulders, chest, and knees. Avoid sleeveless tops, short skirts, or overly tight or revealing outfits.",
-          "etiquette": [
-            "Always walk clockwise around the stupa.",
-            "Refrain from loud conversations, smoking, or public displays of affection.",
-            "Be mindful when taking photos.",
-            "Remove shoes before entering monastery interiors."
-          ]
-        },
-        "attractions": [
-          "Monasteries: Shacheon Monastery, Ka-Nying Shendrub Ling, Thangtu Tashi Yangtse",
-          "Souvenir Shops: Prayer flags, singing bowls, thangka paintings",
-          "Kapan Monastery: A 15-minute drive for meditation retreats",
-          "Pashupatinath Temple: Just 3 km away"
-        ]
+        
+        "conclusion": "Boudhanath taught me that pilgrimage isn't about distance traveled, but attention paid. Each step around the stupa was a step inward."
       },
-      "tags": [
-        "Boudhanath",
-        "Buddhism",
-        "UNESCO",
-        "Stupa",
-        "Kathmandu"
-      ],
-      "published": true
+      "tags": ["Boudhanath", "Buddhism", "UNESCO", "Meditation", "Kathmandu"],
+      "published": true,
+      "views": 4200,
+      "likes": 312,
+      "comments": 67
     },
     {
       "id": 7,
       "date": "18th Apr 2025",
-      "category": "Stupa",
-      "title": "Swayambhunath Stupa (Monkey Temple)",
+      "category": "Spiritual",
+      "title": "Swayambhunath: Where Monkeys Guard Enlightenment",
       "author": "Levinly Travel",
-      "excerpt": "Explore the ancient Swayambhunath Stupa, also known as the Monkey Temple.",
-      "readTime": "7 min read",
+      "authorTitle": "Ancient Sites Explorer",
+      "excerpt": "Perched above Kathmandu, Swayambhunath watches over the valley with ancient eyes. And yes, the monkeys are definitely in charge.",
+      "readTime": "12 min read",
       "featuredImage": "/images/swayambhunath.jpg",
       "images": [
         "/images/swayambhunath.jpg",
@@ -259,30 +294,45 @@
       ],
       "slug": "swayambhunath-stupa-monkey-temple",
       "content": {
-        "introduction": "Swayambhunath, perched atop a hill west of Kathmandu, is one of the oldest religious sites in Nepal...",
-        "sections": [
+        "introduction": "365 steps. That's what stands between you and one of Nepal's oldest spiritual sites. Or you can cheat and drive up. But climbing those steps—that's where the pilgrimage begins.",
+        
+        "body": [
           {
-            "title": "History and Legends",
-            "content": "According to legend, the stupa originated from a lotus flower that bloomed in the middle of a lake..."
+            "type": "paragraph",
+            "content": "Halfway up, breathless, I met an elderly Tibetan woman doing prostrations—stretching full-length on each step. 'It's not about reaching the top,' she smiled. 'It's about being present for each step.'"
+          },
+          {
+            "type": "subheading",
+            "content": "The Monkey Business"
+          },
+          {
+            "type": "paragraph",
+            "content": "The monkeys of Swayambhunath are infamous. They steal sunglasses, snatch food, pose for photos. But watching them, I realized: they're not pests. They're the original inhabitants, reminding us we're guests here."
+          },
+          {
+            "type": "quote",
+            "content": "The monkeys were here before the stupa. They'll be here after. We're just temporary visitors.",
+            "author": "Local shopkeeper"
           }
-        ]
+        ],
+        
+        "conclusion": "From Swayambhunath's heights, Kathmandu spreads below like a mandala. The climb changes you. The view changes everything."
       },
-      "tags": [
-        "Swayambhunath",
-        "Monkey Temple",
-        "Buddhism",
-        "Kathmandu"
-      ],
-      "published": true
+      "tags": ["Swayambhunath", "Monkey Temple", "Buddhism", "Kathmandu", "UNESCO"],
+      "published": true,
+      "views": 3800,
+      "likes": 278,
+      "comments": 58
     },
     {
       "id": 8,
       "date": "21st Apr 2025",
-      "category": "Durbar Square",
-      "title": "Kathmandu Durbar Square",
+      "category": "Heritage",
+      "title": "Kathmandu Durbar Square: Where Kings Once Walked",
       "author": "Levinly Travel",
-      "excerpt": "Discover the historical and architectural marvels of Kathmandu Durbar Square.",
-      "readTime": "8 min read",
+      "authorTitle": "Historical Explorer",
+      "excerpt": "In the heart of old Kathmandu, stone lions guard empty courtyards where Malla kings held court. But the square isn't a museum—it's a living chronicle.",
+      "readTime": "13 min read",
       "featuredImage": "/images/kathmandudurbarsquare.jpg",
       "images": [
         "/images/kathmandudurbarsquare.jpg",
@@ -290,30 +340,45 @@
       ],
       "slug": "kathmandu-durbar-square",
       "content": {
-        "introduction": "Kathmandu Durbar Square, a UNESCO World Heritage Site, showcases the rich architectural heritage of the Malla and Shah dynasties...",
-        "sections": [
+        "introduction": "The 2015 earthquake left scars on Kathmandu Durbar Square. But as I walked through the reconstructed courtyards, I realized: the soul of this place wasn't in the stones, but in the stories they hold.",
+        
+        "body": [
           {
-            "title": "Major Attractions",
-            "content": "Hanuman Dhoka, Taleju Temple, Kumari Ghar..."
+            "type": "paragraph",
+            "content": "At Hanuman Dhoka, the stone Hanuman statue wears a red cloak and vermilion paste. 'He's been guarding this gate for 400 years,' a guide told me. 'Through earthquakes, invasions, revolutions. Some things don't change.'"
+          },
+          {
+            "type": "subheading",
+            "content": "The Living Goddess"
+          },
+          {
+            "type": "paragraph",
+            "content": "At Kumari Ghar, the Living Goddess's window remained shuttered. 'She only appears at certain times,' explained a local. 'But you can feel her presence. The whole square feels it.'"
+          },
+          {
+            "type": "quote",
+            "content": "This square isn't about what was. It's about what continues.",
+            "author": "Heritage conservationist"
           }
-        ]
+        ],
+        
+        "conclusion": "Kathmandu Durbar Square taught me that heritage isn't preserved in glass cases. It's lived, rebuilt, remembered—with every festival, every prayer, every stone laid anew."
       },
-      "tags": [
-        "Durbar Square",
-        "UNESCO",
-        "History",
-        "Architecture"
-      ],
-      "published": true
+      "tags": ["Durbar Square", "UNESCO", "History", "Architecture", "Kathmandu"],
+      "published": true,
+      "views": 2950,
+      "likes": 210,
+      "comments": 42
     },
     {
       "id": 9,
       "date": "22nd Apr 2025",
-      "category": "Durbar Square",
-      "title": "Patan Durbar Square",
+      "category": "Heritage",
+      "title": "Patan Durbar Square: The City of Fine Arts",
       "author": "Levinly Travel",
-      "excerpt": "Explore the artistic excellence of Patan Durbar Square, the city of fine arts.",
-      "readTime": "7 min read",
+      "authorTitle": "Art and Architecture Explorer",
+      "excerpt": "In Patan, every brick tells a story, every wood carving holds a myth, and the entire city feels like an open-air museum created by divine hands.",
+      "readTime": "12 min read",
       "featuredImage": "/images/patandurbarsquare.jpg",
       "images": [
         "/images/patandurbarsquare.jpg",
@@ -321,61 +386,91 @@
       ],
       "slug": "patan-durbar-square",
       "content": {
-        "introduction": "Patan Durbar Square, located in Lalitpur, is renowned for its exquisite Newari architecture and intricate wood carvings...",
-        "sections": [
+        "introduction": "They call Patan 'the city of fine arts,' but that feels inadequate. It's more like walking through a dream carved in stone and wood—a dream that's been dreaming for centuries.",
+        
+        "body": [
           {
-            "title": "Architectural Highlights",
-            "content": "Krishna Mandir, Bhimsen Temple, Golden Temple..."
+            "type": "paragraph",
+            "content": "At Krishna Mandir, I met a woodcarver restoring a damaged panel. 'My great-grandfather worked on this temple,' he said, chisel in hand. 'Now I continue. It's not a job. It's dharma.'"
+          },
+          {
+            "type": "subheading",
+            "content": "The Golden Temple's Whisper"
+          },
+          {
+            "type": "paragraph",
+            "content": "Inside Hiranya Varna Mahavihar (Golden Temple), the air is thick with centuries of butter lamp smoke. A young monk explained, 'This temple has been burning lamps continuously since the 12th century. That's faith—not letting the light go out.'"
+          },
+          {
+            "type": "quote",
+            "content": "In Patan, we don't build buildings. We build prayers in brick and mortar.",
+            "author": "Local artisan"
           }
-        ]
+        ],
+        
+        "conclusion": "Patan doesn't just display art—it lives it. Every courtyard, every temple, every carved window is a verse in an epic poem written in wood and stone."
       },
-      "tags": [
-        "Patan",
-        "Durbar Square",
-        "Newari",
-        "Architecture"
-      ],
-      "published": true
+      "tags": ["Patan", "Durbar Square", "Newari Architecture", "Wood Carving", "UNESCO"],
+      "published": true,
+      "views": 2650,
+      "likes": 195,
+      "comments": 38
     },
     {
       "id": 10,
       "date": "27th Apr 2025",
-      "category": "Durbar Square",
-      "title": "Bhaktapur Durbar Square",
+      "category": "Heritage",
+      "title": "Bhaktapur Durbar Square: A Medieval Dream Preserved",
       "author": "Levinly Travel",
-      "excerpt": "Step back in time at Bhaktapur Durbar Square, the best-preserved medieval city in Nepal.",
-      "readTime": "9 min read",
-      "featuredImage": "/images/kathmandudurbarsquare.jpg",
+      "authorTitle": "Medieval History Enthusiast",
+      "excerpt": "Step through Bhaktapur's gate and you step back 500 years. Here, time moves differently—measured not in minutes, but in pottery wheels turning and loom shuttles flying.",
+      "readTime": "14 min read",
+      "featuredImage": "/images/bhaktapur-durbarsquare.jpg",
       "images": [
         "/images/bhaktapur-durbarsquare.jpg",
         "/images/blogs/bhaktapur-durbar-2.jpg"
       ],
       "slug": "bhaktapur-durbar-square",
       "content": {
-        "introduction": "Bhaktapur Durbar Square, also known as Bhadgaon, offers a glimpse into medieval Nepal with its preserved architecture...",
-        "sections": [
+        "introduction": "Bhaktapur feels like a city that decided to stop time. Or perhaps time decided to be gentle here. The medieval atmosphere isn't recreated—it's preserved, like amber preserving ancient life.",
+        
+        "body": [
           {
-            "title": "Key Structures",
-            "content": "55-Window Palace, Nyatapola Temple, Golden Gate..."
+            "type": "paragraph",
+            "content": "At the 55-Window Palace, I watched the afternoon light paint golden rectangles on the ancient facade. A local historian shared, 'Each window tells a story. Of kings, of queens, of ceremonies, of secrets.'"
+          },
+          {
+            "type": "subheading",
+            "content": "Nyatapola's Five Stories"
+          },
+          {
+            "type": "paragraph",
+            "content": "Climbing Nyatapola Temple's steep steps, I realized: each of the five tiers represents an element—earth, water, fire, air, ether. 'You're not just climbing stairs,' a priest explained. 'You're ascending through layers of existence.'"
+          },
+          {
+            "type": "quote",
+            "content": "Bhaktapur isn't frozen in time. It's dancing with time, in slow, graceful movements.",
+            "author": "Local potter"
           }
-        ]
+        ],
+        
+        "conclusion": "Bhaktapur taught me that preservation isn't about stopping change. It's about choosing what to carry forward—the pottery skills, the woodcarving traditions, the stories in stone."
       },
-      "tags": [
-        "Bhaktapur",
-        "Durbar Square",
-        "Medieval",
-        "UNESCO"
-      ],
-      "published": true
+      "tags": ["Bhaktapur", "Medieval", "Durbar Square", "UNESCO", "Newari Culture"],
+      "published": true,
+      "views": 3100,
+      "likes": 225,
+      "comments": 51
     },
     {
       "id": 11,
       "date": "25th Apr 2025",
-      "category": "Temple",
-      "title": "Manakamana Temple",
+      "category": "Pilgrimage",
+      "title": "Manakamana: Where Wishes Take the Cable Car",
       "author": "Levinly Travel",
-      "excerpt": "Visit the famous Manakamana Temple, accessible by cable car with stunning mountain views.",
-      "readTime": "6 min read",
+      "authorTitle": "Mountain Pilgrim",
+      "excerpt": "They say Manakamana Temple grants wishes. To test the theory, you must first board Nepal's first cable car and ascend into the clouds where goddesses listen.",
+      "readTime": "10 min read",
       "featuredImage": "/images/manakamana.jpg",
       "images": [
         "/images/manakamana.jpg",
@@ -383,30 +478,45 @@
       ],
       "slug": "manakamana-temple",
       "content": {
-        "introduction": "Manakamana Temple, dedicated to the Hindu goddess Bhagwati, is a popular pilgrimage site known for fulfilling wishes...",
-        "sections": [
+        "introduction": "The cable car to Manakamana feels like a journey between worlds. As the valley drops away and the Himalayas appear, you understand: pilgrimage isn't just about destination. It's about the space between.",
+        
+        "body": [
           {
-            "title": "Cable Car Experience",
-            "content": "The temple is accessible via Nepal's first cable car system..."
+            "type": "paragraph",
+            "content": "In the cable car, I shared space with a family bringing their newborn for blessings, an elderly couple fulfilling a vow, and teenagers taking selfies. All journeys, all different, all ascending together."
+          },
+          {
+            "type": "subheading",
+            "content": "The Wish Market"
+          },
+          {
+            "type": "paragraph",
+            "content": "At the temple, vendors sell everything needed for wishes—flowers, coconuts, bells, red cloth. 'Choose carefully,' one vendor advised. 'The goddess knows if your offering comes from the heart or just your wallet.'"
+          },
+          {
+            "type": "quote",
+            "content": "Some wishes get answered on the way up. Some on the way down. Some take years. All get heard.",
+            "author": "Temple priest"
           }
-        ]
+        ],
+        
+        "conclusion": "My wish? To remember this feeling—of suspension between earth and sky, of faith as tangible as the cable in my hands."
       },
-      "tags": [
-        "Manakamana",
-        "Temple",
-        "Pilgrimage",
-        "Cable Car"
-      ],
-      "published": true
+      "tags": ["Manakamana", "Cable Car", "Pilgrimage", "Temple", "Wishes"],
+      "published": true,
+      "views": 2750,
+      "likes": 198,
+      "comments": 45
     },
     {
       "id": 12,
       "date": "1st May 2025",
       "category": "Adventure",
-      "title": "Rafting in Nepal–White water rafting in Nepal",
+      "title": "River Songs: White Water Rafting in Nepal's Wild Heart",
       "author": "Levinly Travel",
-      "excerpt": "Experience the thrill of white water rafting in Nepal's pristine rivers.",
-      "readTime": "6 min read",
+      "authorTitle": "River Adventurer",
+      "excerpt": "In Nepal, rivers aren't just water. They're liquid mountains, carving canyons, telling stories, and offering the purest adrenaline rush on earth.",
+      "readTime": "11 min read",
       "featuredImage": "/images/rafting.jpg",
       "images": [
         "/images/rafting.jpg",
@@ -414,30 +524,45 @@
       ],
       "slug": "rafting-nepal-white-water-rafting",
       "content": {
-        "introduction": "Nepal offers some of the world's best white water rafting experiences with rivers ranging from gentle floats to extreme rapids...",
-        "sections": [
+        "introduction": "The Trishuli River doesn't care about your fears. It only cares about flow. As our raft hit the first rapid, I learned: to raft in Nepal is to have a conversation with raw power.",
+        
+        "body": [
           {
-            "title": "Popular Rafting Rivers",
-            "content": "Trishuli River, Seti River, Bhote Koshi River, Karnali River..."
+            "type": "paragraph",
+            "content": "'Paddle forward! Harder!' Our guide, Ramesh, shouted over the roar. The river boiled around us, the raft bucked like a wild horse, and for three glorious seconds, we were flying."
+          },
+          {
+            "type": "subheading",
+            "content": "Between Rapids"
+          },
+          {
+            "type": "paragraph",
+            "content": "In calm stretches, Ramesh pointed out riverbank life—women washing clothes, children swimming, fishermen with handwoven nets. 'The river gives life,' he said. 'Even as we play in its power.'"
+          },
+          {
+            "type": "quote",
+            "content": "You don't conquer Nepali rivers. You dance with them. Sometimes they lead, sometimes you lead. Always, you respect.",
+            "author": "Rafting guide Ramesh"
           }
-        ]
+        ],
+        
+        "conclusion": "Drenched, exhausted, and utterly alive, I understood: rafting in Nepal isn't a sport. It's an initiation into the country's wild, water-beating heart."
       },
-      "tags": [
-        "Rafting",
-        "Adventure",
-        "Water Sports",
-        "Outdoor"
-      ],
-      "published": true
+      "tags": ["Rafting", "Adventure", "Trishuli River", "Water Sports", "Outdoor"],
+      "published": true,
+      "views": 2450,
+      "likes": 187,
+      "comments": 39
     },
     {
       "id": 13,
       "date": "2nd May 2025",
-      "category": "Temple",
-      "title": "Shree Muktinath Temple",
+      "category": "Pilgrimage",
+      "title": "Muktinath: Where Earth Meets Sky in Prayer",
       "author": "Levinly Travel",
-      "excerpt": "A sacred pilgrimage site for both Hindus and Buddhists in the Mustang region.",
-      "readTime": "7 min read",
+      "authorTitle": "High Altitude Pilgrim",
+      "excerpt": "At 3,710 meters, where breath comes thin and prayers come thick, Muktinath sits on the roof of the world—a sacred space where Hindu and Buddhist paths converge.",
+      "readTime": "13 min read",
       "featuredImage": "/images/muktinath.jpg",
       "images": [
         "/images/muktinath.jpg",
@@ -445,30 +570,45 @@
       ],
       "slug": "shree-muktinath-temple",
       "content": {
-        "introduction": "Muktinath Temple, located at 3,710 meters in Mustang, is a sacred site revered by both Hindus and Buddhists...",
-        "sections": [
+        "introduction": "The air in Muktinath has weight—the weight of altitude, of devotion, of centuries of pilgrims who've gasped their way to this high sanctuary.",
+        
+        "body": [
           {
-            "title": "Religious Significance",
-            "content": "For Hindus, it's one of the 108 Divya Desams; for Buddhists, it's a place where Guru Rinpoche meditated..."
+            "type": "paragraph",
+            "content": "At the temple complex, I witnessed something rare: Hindu priests and Buddhist monks performing rituals side by side. 'Here, all paths lead to the same truth,' explained a priest. 'The 108 waterspouts cleanse Hindu sins. The eternal flame honors Buddhist wisdom.'"
+          },
+          {
+            "type": "subheading",
+            "content": "The Eternal Flame"
+          },
+          {
+            "type": "paragraph",
+            "content": "Behind the temple, natural gas burns from rock—a flame that's never gone out. 'Science says it's methane,' a monk smiled. 'Faith says it's divine. Can't both be true?'"
+          },
+          {
+            "type": "quote",
+            "content": "At this altitude, you're closer to heaven. Or maybe heaven is closer to you.",
+            "author": "Pilgrim from India"
           }
-        ]
+        ],
+        
+        "conclusion": "Descending from Muktinath, I carried more than photographs. I carried the memory of thin air thick with devotion, of a place where different faiths don't just tolerate each other—they complement, complete, celebrate each other."
       },
-      "tags": [
-        "Muktinath",
-        "Pilgrimage",
-        "Mustang",
-        "Temple"
-      ],
-      "published": true
+      "tags": ["Muktinath", "Pilgrimage", "Mustang", "High Altitude", "Hindu-Buddhist"],
+      "published": true,
+      "views": 3350,
+      "likes": 248,
+      "comments": 52
     },
     {
       "id": 14,
       "date": "4th May 2025",
-      "category": "Tour Package",
-      "title": "9 days Nepal tour",
+      "category": "Travel Guide",
+      "title": "Nine Days in Nepal: A First Timer's Perfect Introduction",
       "author": "Levinly Travel",
-      "excerpt": "Comprehensive 9-day tour covering major attractions of Nepal.",
-      "readTime": "5 min read",
+      "authorTitle": "Itinerary Architect",
+      "excerpt": "How do you experience Nepal's essence in just nine days? Follow this journey from ancient temples to jungle safaris to mountain vistas.",
+      "readTime": "8 min read",
       "featuredImage": "/images/9daystour.jpg",
       "images": [
         "/images/9daystour.jpg",
@@ -476,35 +616,45 @@
       ],
       "slug": "9-days-nepal-tour",
       "content": {
-        "introduction": "Our 9-day Nepal tour package offers the perfect blend of cultural exploration and natural beauty...",
-        "itinerary": [
-          "Day 1: Arrival in Kathmandu",
-          "Day 2: Kathmandu Sightseeing",
-          "Day 3: Drive to Pokhara",
-          "Day 4: Pokhara Exploration",
-          "Day 5: Sarangkot Sunrise",
-          "Day 6: Chitwan National Park",
-          "Day 7: Jungle Activities",
-          "Day 8: Return to Kathmandu",
-          "Day 9: Departure"
-        ]
+        "introduction": "Nine days. It sounds impossible to capture Nepal. But with the right rhythm—culture, nature, adventure, reflection—you can touch the country's soul.",
+        
+        "body": [
+          {
+            "type": "paragraph",
+            "content": "Day 3: The drive to Pokhara became my favorite. Not for efficiency (it's slow), but for revelation. Every turn revealed another vista, another village, another slice of Nepali life."
+          },
+          {
+            "type": "subheading",
+            "content": "The Sarangkot Revelation"
+          },
+          {
+            "type": "paragraph",
+            "content": "At 4:30 AM on Day 5, we climbed to Sarangkot in darkness. Then dawn broke, painting the Annapurnas gold. No photo prepares you. You just stand there, small and grateful."
+          },
+          {
+            "type": "quote",
+            "content": "Nepal isn't experienced in days. It's experienced in moments. This itinerary is just a framework for those moments.",
+            "author": "Tour guide"
+          }
+        ],
+        
+        "conclusion": "Nine days taught me that Nepal doesn't reveal itself all at once. It reveals itself in layers—ancient stones, mountain light, jungle whispers, human smiles."
       },
-      "tags": [
-        "Tour Package",
-        "9 Days",
-        "Nepal Tour",
-        "Itinerary"
-      ],
-      "published": true
+      "tags": ["Tour Package", "9 Days", "Itinerary", "First Time", "Nepal Highlights"],
+      "published": true,
+      "views": 4200,
+      "likes": 305,
+      "comments": 72
     },
     {
       "id": 15,
       "date": "10th May 2025",
       "category": "Pilgrimage",
-      "title": "Kailash Manasarovar Yatra 2025: Cost, Route & Why Prices Are Rising for Indian Pilgrims",
+      "title": "Kailash Manasarovar 2025: The Pilgrimage That Changes You",
       "author": "Levinly Travel",
-      "excerpt": "Complete guide to the sacred Kailash Manasarovar Yatra including costs and routes.",
-      "readTime": "10 min read",
+      "authorTitle": "Sacred Journey Documentarian",
+      "excerpt": "Mount Kailash isn't climbed. It's circumambulated. And that journey around the sacred mountain changes everything—including the pilgrim.",
+      "readTime": "16 min read",
       "featuredImage": "/images/kailash.jpg",
       "images": [
         "/images/kailash.jpg",
@@ -512,38 +662,45 @@
       ],
       "slug": "kailash-manasarovar-yatra-2025",
       "content": {
-        "introduction": "Mount Kailash and Lake Manasarovar represent one of the most sacred pilgrimages for Hindus, Buddhists, Jains, and Bonpos...",
-        "sections": [
+        "introduction": "They say a Kailash pilgrimage erases the sins of a lifetime. What they don't say: it also erases your old self, leaving someone new, someone lighter, someone changed.",
+        
+        "body": [
           {
-            "title": "Routes to Kailash",
-            "content": "Lipulekh Pass, Nathu La Pass, Simikot Route..."
+            "type": "paragraph",
+            "content": "At Lipulekh Pass, the air grew thin but spirits grew thick. Our group of 50 strangers became a family, bound by shared breath, shared struggle, shared purpose."
           },
           {
-            "title": "Cost Breakdown",
-            "content": "Package costs, government fees, additional expenses..."
+            "type": "subheading",
+            "content": "The First Sight"
           },
           {
-            "title": "Price Trends",
-            "content": "Factors contributing to rising costs for Indian pilgrims..."
+            "type": "paragraph",
+            "content": "When Kailash first appeared—a perfect pyramid of snow against impossible blue—the entire group fell silent. Then someone began weeping. Then we all were. Not from sadness. From recognition."
+          },
+          {
+            "type": "quote",
+            "content": "You don't complete the Kora. The Kora completes you.",
+            "author": "Tibetan guide"
           }
-        ]
+        ],
+        
+        "conclusion": "I returned with blistered feet and a renewed soul. Kailash doesn't just change your passport stamps. It changes your inner landscape."
       },
-      "tags": [
-        "Kailash",
-        "Manasarovar",
-        "Pilgrimage",
-        "Tibet"
-      ],
-      "published": true
+      "tags": ["Kailash", "Manasarovar", "Pilgrimage", "Tibet", "Sacred Mountains"],
+      "published": true,
+      "views": 5100,
+      "likes": 398,
+      "comments": 89
     },
     {
       "id": 16,
       "date": "11th May 2025",
-      "category": "Tour Package",
-      "title": "Above 11 days tour in Nepal",
+      "category": "Travel Guide",
+      "title": "Eleven Days and Beyond: When Nepal Gets Under Your Skin",
       "author": "Levinly Travel",
-      "excerpt": "Extended tour package covering Nepal's major attractions over 11+ days.",
-      "readTime": "6 min read",
+      "authorTitle": "Extended Journey Specialist",
+      "excerpt": "Some trips scratch the surface. This one digs deeper—into ancient cities, jungle mysteries, Buddhist tranquility, and your own capacity for wonder.",
+      "readTime": "9 min read",
       "featuredImage": "/images/11daystour.jpg",
       "images": [
         "/images/11daystour.jpg",
@@ -551,32 +708,45 @@
       ],
       "slug": "above-11-days-tour-nepal",
       "content": {
-        "introduction": "Our 11+ days tour package is designed for travelers who want to explore Nepal in depth...",
-        "itinerary": [
-          "Days 1-3: Kathmandu Valley",
-          "Days 4-5: Nagarkot & Bhaktapur",
-          "Days 6-7: Pokhara",
-          "Days 8-9: Chitwan",
-          "Days 10-11: Lumbini",
-          "Day 12: Return & Departure"
-        ]
+        "introduction": "Eleven days in Nepal isn't a vacation. It's a transformation. You arrive as a tourist. You leave as... something else. A witness. A participant. A temporary local.",
+        
+        "body": [
+          {
+            "type": "paragraph",
+            "content": "The extra days allowed for unexpected moments—a morning learning pottery in Bhaktapur, an afternoon helping monks hang prayer flags, an evening sharing stories with a Tharu family."
+          },
+          {
+            "type": "subheading",
+            "content": "Lumbini's Stillness"
+          },
+          {
+            "type": "paragraph",
+            "content": "At Buddha's birthplace, time slows. The modern world feels distant. 'People come here seeking something,' a monk told me. 'Often, they find it was inside them all along.'"
+          },
+          {
+            "type": "quote",
+            "content": "The longer you stay, the less you see with your eyes and the more you feel with your heart.",
+            "author": "Tour participant"
+          }
+        ],
+        
+        "conclusion": "Eleven days taught me that Nepal's magic isn't in ticking off sights. It's in the spaces between—the chai breaks, the roadside conversations, the silent moments watching mountains breathe."
       },
-      "tags": [
-        "Tour Package",
-        "11 Days",
-        "Extended Tour",
-        "Nepal"
-      ],
-      "published": true
+      "tags": ["Extended Tour", "11 Days", "Lumbini", "In-depth", "Cultural Immersion"],
+      "published": true,
+      "views": 2850,
+      "likes": 210,
+      "comments": 47
     },
     {
       "id": 17,
       "date": "12th May 2025",
-      "category": "Tour Package",
-      "title": "Nepal tour–Nepal trip",
+      "category": "Travel Guide",
+      "title": "Planning Your Nepal Trip: Between Dreams and Details",
       "author": "Levinly Travel",
-      "excerpt": "General guide to planning your Nepal tour and trip.",
-      "readTime": "5 min read",
+      "authorTitle": "Practical Dreamer",
+      "excerpt": "Planning a Nepal trip is a dance between Himalayan dreams and practical details. Here's how to keep both in rhythm.",
+      "readTime": "7 min read",
       "featuredImage": "/images/nepaltrip.jpg",
       "images": [
         "/images/nepaltrip.jpg",
@@ -584,34 +754,45 @@
       ],
       "slug": "nepal-tour-trip-guide",
       "content": {
-        "introduction": "Planning a trip to Nepal? Here's everything you need to know for an unforgettable experience...",
-        "sections": [
+        "introduction": "Every Nepal trip begins with two lists: one of dreams (Everest base camp! Tiger sightings! Enlightenment!), and one of details (visas, permits, waterproof gear). The art is honoring both.",
+        
+        "body": [
           {
-            "title": "Best Time to Visit",
-            "content": "Spring (March-May) and Autumn (September-November)..."
+            "type": "paragraph",
+            "content": "Season matters more than you think. Spring brings rhododendrons. Autumn brings clear skies. Monsoon brings... well, adventure of a different kind."
           },
           {
-            "title": "Essential Documents",
-            "content": "Passport, visa, permits, insurance..."
+            "type": "subheading",
+            "content": "The Permit Puzzle"
+          },
+          {
+            "type": "paragraph",
+            "content": "TIMS card, national park permits, restricted area permits—it feels bureaucratic until you realize: these aren't obstacles. They're the country's way of protecting what makes it special."
+          },
+          {
+            "type": "quote",
+            "content": "The best Nepal itinerary leaves room for the unplanned. Because that's where the magic happens.",
+            "author": "Travel planner"
           }
-        ]
+        ],
+        
+        "conclusion": "Planning taught me that the perfect Nepal trip isn't about perfect plans. It's about perfect flexibility—to change, to adapt, to be surprised."
       },
-      "tags": [
-        "Nepal Tour",
-        "Travel Guide",
-        "Planning",
-        "Tips"
-      ],
-      "published": true
+      "tags": ["Travel Planning", "Practical Tips", "Seasons", "Permits", "Preparation"],
+      "published": true,
+      "views": 3950,
+      "likes": 287,
+      "comments": 63
     },
     {
       "id": 18,
       "date": "13th May 2025",
-      "category": "Tour Package",
-      "title": "8 Days Nepal Tour",
+      "category": "Travel Guide",
+      "title": "Eight Perfect Days: Nepal's Greatest Hits",
       "author": "Levinly Travel",
-      "excerpt": "Perfect 8-day itinerary for first-time visitors to Nepal.",
-      "readTime": "5 min read",
+      "authorTitle": "Curated Experience Designer",
+      "excerpt": "One week to capture Nepal's essence? It's possible. With careful curation, you can touch culture, nature, and adventure in eight perfect days.",
+      "readTime": "8 min read",
       "featuredImage": "/images/8daystour.jpg",
       "images": [
         "/images/8daystour.jpg",
@@ -619,34 +800,45 @@
       ],
       "slug": "8-days-nepal-tour",
       "content": {
-        "introduction": "Our 8-day Nepal tour is designed to give you a comprehensive experience of the country's highlights...",
-        "itinerary": [
-          "Day 1: Arrival in Kathmandu",
-          "Day 2: Kathmandu Sightseeing",
-          "Day 3: Drive to Pokhara",
-          "Day 4: Pokhara Sightseeing",
-          "Day 5: Sunrise at Sarangkot",
-          "Day 6: Return to Kathmandu",
-          "Day 7: Bhaktapur & Patan",
-          "Day 8: Departure"
-        ]
+        "introduction": "Eight days feels short until you experience them in Nepal. Then each day expands, filled with moments that linger long after you've returned home.",
+        
+        "body": [
+          {
+            "type": "paragraph",
+            "content": "The key? Rhythm. Culture (Kathmandu), then nature (Pokhara), then reflection (return). Like a symphony with three movements, each essential, each building on the last."
+          },
+          {
+            "type": "subheading",
+            "content": "Pokhara's Magic"
+          },
+          {
+            "type": "paragraph",
+            "content": "Lakeside Pokhara could be a week alone. But in two days? Sunrise at Sarangkot. Boating on Phewa Lake. A taste of mountain peace. A promise to return."
+          },
+          {
+            "type": "quote",
+            "content": "We don't show you all of Nepal. We show you enough to want to see the rest.",
+            "author": "Tour operator"
+          }
+        ],
+        
+        "conclusion": "Eight days proved that depth matters more than breadth. Better to truly experience a few places than to skim many."
       },
-      "tags": [
-        "Tour Package",
-        "8 Days",
-        "Itinerary",
-        "Nepal"
-      ],
-      "published": true
+      "tags": ["8 Days", "Best of Nepal", "Kathmandu-Pokhara", "Week Trip", "Curated"],
+      "published": true,
+      "views": 3650,
+      "likes": 265,
+      "comments": 58
     },
     {
       "id": 19,
       "date": "14th May 2025",
       "category": "Adventure",
-      "title": "Helicopter tours in Nepal",
+      "title": "Helicopter Views: Nepal From the Gods' Perspective",
       "author": "Levinly Travel",
-      "excerpt": "Experience Nepal's majestic mountains and landscapes from above with helicopter tours.",
-      "readTime": "6 min read",
+      "authorTitle": "Aerial Adventurer",
+      "excerpt": "They say only birds and gods see Nepal this way. With a helicopter tour, you join them—floating above peaks that humble kings and inspire poets.",
+      "readTime": "10 min read",
       "featuredImage": "/images/helicopter.jpg",
       "images": [
         "/images/helicopter.jpg",
@@ -654,34 +846,45 @@
       ],
       "slug": "helicopter-tours-nepal",
       "content": {
-        "introduction": "Helicopter tours offer a unique way to experience Nepal's stunning landscapes and mountain vistas...",
-        "sections": [
+        "introduction": "The helicopter's blades beat like a giant heart as we lifted off. Kathmandu shrank to a toy city. Then the Himalayas rose—not as distant peaks, but as close companions.",
+        
+        "body": [
           {
-            "title": "Popular Helicopter Tours",
-            "content": "Everest Base Camp, Annapurna Base Camp, Langtang Valley..."
+            "type": "paragraph",
+            "content": "At Everest Base Camp, we landed on a patch of rock and ice. The silence was absolute. The mountains weren't scenery. They were presence."
           },
           {
-            "title": "Cost and Duration",
-            "content": "Price ranges and tour durations for different routes..."
+            "type": "subheading",
+            "content": "The Cost of Perspective"
+          },
+          {
+            "type": "paragraph",
+            "content": "Yes, it's expensive. But as our pilot said, 'You're not paying for a flight. You're paying for a new relationship with the planet.'"
+          },
+          {
+            "type": "quote",
+            "content": "From up here, you understand: these aren't mountains. They're the earth's thoughts, frozen in stone.",
+            "author": "Helicopter pilot"
           }
-        ]
+        ],
+        
+        "conclusion": "The helicopter returned us to Kathmandu, but part of me stayed up there—with the peaks, the perspective, the profound understanding of scale."
       },
-      "tags": [
-        "Helicopter",
-        "Adventure",
-        "Mountains",
-        "Luxury"
-      ],
-      "published": true
+      "tags": ["Helicopter", "Everest", "Aerial", "Luxury", "Mountain Views"],
+      "published": true,
+      "views": 3100,
+      "likes": 232,
+      "comments": 51
     },
     {
       "id": 20,
       "date": "15th May 2025",
-      "category": "Tour Package",
-      "title": "10 days Nepal tour",
+      "category": "Travel Guide",
+      "title": "Ten Days to Fall in Love with Nepal",
       "author": "Levinly Travel",
-      "excerpt": "Comprehensive 10-day tour covering cultural and natural highlights of Nepal.",
-      "readTime": "6 min read",
+      "authorTitle": "Romantic Travel Specialist",
+      "excerpt": "Some trips you take. Some trips take you. In ten days, Nepal will capture your heart in ancient temples, mountain vistas, and jungle mysteries.",
+      "readTime": "9 min read",
       "featuredImage": "/images/10daystour.jpg",
       "images": [
         "/images/10daystour.jpg",
@@ -689,31 +892,45 @@
       ],
       "slug": "10-days-nepal-tour",
       "content": {
-        "introduction": "Our 10-day Nepal tour package offers a perfect balance of cultural immersion and natural exploration...",
-        "itinerary": [
-          "Days 1-2: Kathmandu",
-          "Days 3-4: Nagarkot & Bhaktapur",
-          "Days 5-6: Pokhara",
-          "Days 7-8: Chitwan",
-          "Days 9-10: Return & Exploration"
-        ]
+        "introduction": "Ten days is the perfect courtship with Nepal. Long enough to move beyond infatuation, short enough to leave you yearning for more.",
+        
+        "body": [
+          {
+            "type": "paragraph",
+            "content": "The extra days allowed for Nagarkot—waking to Himalayan sunrise from your balcony. That moment, coffee in hand, mountains painted gold... that's when infatuation becomes love."
+          },
+          {
+            "type": "subheading",
+            "content": "Chitwan's Rhythms"
+          },
+          {
+            "type": "paragraph",
+            "content": "In Chitwan, time moves to jungle rhythms—dawn canoe rides, afternoon elephant baths, evening Tharu dances. The modern world feels like someone else's dream."
+          },
+          {
+            "type": "quote",
+            "content": "Ten days lets Nepal get under your skin. Then it stays there, like a happy infection of wonder.",
+            "author": "Repeat visitor"
+          }
+        ],
+        
+        "conclusion": "I returned home with Nepal in my veins. Ten days was enough to fall in love. A lifetime wouldn't be enough to explore that love completely."
       },
-      "tags": [
-        "Tour Package",
-        "10 Days",
-        "Comprehensive",
-        "Nepal"
-      ],
-      "published": true
+      "tags": ["10 Days", "Comprehensive", "Nagarkot", "Chitwan", "Perfect Length"],
+      "published": true,
+      "views": 3450,
+      "likes": 255,
+      "comments": 59
     },
     {
       "id": 21,
       "date": "16th May 2025",
-      "category": "Tour Package",
-      "title": "7 days tour in Nepal",
+      "category": "Travel Guide",
+      "title": "Seven Days: When Time is Short but Dreams are Big",
       "author": "Levinly Travel",
-      "excerpt": "One-week tour package for those with limited time but wanting to experience Nepal's essence.",
-      "readTime": "5 min read",
+      "authorTitle": "Efficient Explorer",
+      "excerpt": "One week in Nepal? It's not about seeing everything. It's about experiencing enough to know you must return.",
+      "readTime": "7 min read",
       "featuredImage": "/images/7daystour.jpg",
       "images": [
         "/images/7daystour.jpg",
@@ -721,33 +938,45 @@
       ],
       "slug": "7-days-tour-nepal",
       "content": {
-        "introduction": "Perfect for travelers with limited time, our 7-day tour covers the must-see attractions of Nepal...",
-        "itinerary": [
-          "Day 1: Arrival & Kathmandu",
-          "Day 2: Kathmandu Valley",
-          "Day 3: Drive to Pokhara",
-          "Day 4: Pokhara Sightseeing",
-          "Day 5: Return to Kathmandu",
-          "Day 6: Bhaktapur & Patan",
-          "Day 7: Departure"
-        ]
+        "introduction": "Seven days feels impossible until you're living them. Then each day stretches, filled with enough wonder to fuel years of memories.",
+        
+        "body": [
+          {
+            "type": "paragraph",
+            "content": "The secret? Focus. Kathmandu's culture. Pokhara's nature. The journey between. Three elements, perfectly balanced."
+          },
+          {
+            "type": "subheading",
+            "content": "The Drive That Defines"
+          },
+          {
+            "type": "paragraph",
+            "content": "The Kathmandu-Pokhara drive isn't transit. It's the trip's heart—river gorges, hill villages, roadside dhabas, changing landscapes."
+          },
+          {
+            "type": "quote",
+            "content": "We don't have time to waste, so we don't waste time. Every moment matters. Every view is a gift.",
+            "author": "Time-pressed traveler"
+          }
+        ],
+        
+        "conclusion": "Seven days proved that depth of experience beats quantity of sights. Better to truly feel two places than to barely touch ten."
       },
-      "tags": [
-        "Tour Package",
-        "7 Days",
-        "Short Trip",
-        "Nepal"
-      ],
-      "published": true
+      "tags": ["7 Days", "Short Trip", "Efficient", "Kathmandu-Pokhara", "Week Vacation"],
+      "published": true,
+      "views": 3250,
+      "likes": 240,
+      "comments": 55
     },
     {
       "id": 22,
       "date": "15th May 2025",
-      "category": "Tour Package",
-      "title": "4 days tour in Nepal",
+      "category": "Travel Guide",
+      "title": "Four Days in the Kathmandu Valley: A Cultural Immersion",
       "author": "Levinly Travel",
-      "excerpt": "Short 4-day tour for quick exploration of Kathmandu Valley.",
-      "readTime": "4 min read",
+      "authorTitle": "Urban Culture Specialist",
+      "excerpt": "Can't leave the valley? Don't need to. In four days, you can dive deep into a civilization that's been refining beauty for millennia.",
+      "readTime": "6 min read",
       "featuredImage": "/images/4daystour.jpg",
       "images": [
         "/images/4daystour.jpg",
@@ -755,60 +984,91 @@
       ],
       "slug": "4-days-tour-nepal",
       "content": {
-        "introduction": "Ideal for weekend getaways or short stopovers, our 4-day tour focuses on Kathmandu Valley's highlights...",
-        "itinerary": [
-          "Day 1: Arrival & Kathmandu",
-          "Day 2: UNESCO Sites",
-          "Day 3: Bhaktapur & Patan",
-          "Day 4: Departure"
-        ]
+        "introduction": "Four days, one valley, infinite discoveries. The Kathmandu Valley isn't a limitation—it's a concentration of Nepal's soul.",
+        
+        "body": [
+          {
+            "type": "paragraph",
+            "content": "Day 1: Hindu spirituality (Pashupatinath). Day 2: Buddhist peace (Boudhanath, Swayambhunath). Day 3: Living heritage (Bhaktapur). Day 4: Artistic legacy (Patan)."
+          },
+          {
+            "type": "subheading",
+            "content": "Bhaktapur's Timelessness"
+          },
+          {
+            "type": "paragraph",
+            "content": "Wandering Bhaktapur's car-free streets feels like entering a medieval dream. Pottery Square, the palace, Nyatapola—time doesn't just slow. It changes quality."
+          },
+          {
+            "type": "quote",
+            "content": "The valley contains multitudes. You could spend four years here and still be discovering.",
+            "author": "Local historian"
+          }
+        ],
+        
+        "conclusion": "Four days in the valley taught me that sometimes going deep in one place reveals more than going wide through many."
       },
-      "tags": [
-        "Tour Package",
-        "4 Days",
-        "Short Trip",
-        "Kathmandu"
-      ],
-      "published": true
+      "tags": ["4 Days", "Kathmandu Valley", "Cultural", "UNESCO", "Short Stay"],
+      "published": true,
+      "views": 2850,
+      "likes": 210,
+      "comments": 48
     },
     {
       "id": 23,
       "date": "15th May 2025",
-      "category": "Tour Package",
-      "title": "3 days tour in Nepal",
+      "category": "Travel Guide",
+      "title": "Three Days: Nepal's Spiritual Heartbeat",
       "author": "Levinly Travel",
-      "excerpt": "Ultra-short 3-day tour covering Kathmandu's essentials.",
-      "readTime": "3 min read",
-      "featuredImage": "/images3daystour.jpg",
+      "authorTitle": "Spiritual Quick-trip Expert",
+      "excerpt": "Just a weekend? In three days, you can touch the spiritual core of Nepal—where ancient prayers echo in temple courtyards and stupas watch over the valley.",
+      "readTime": "5 min read",
+      "featuredImage": "/images/3daystour.jpg",
       "images": [
         "/images/3daystour.jpg",
         "/images/blogs/3-days-2.jpg"
       ],
       "slug": "3-days-tour-nepal",
       "content": {
-        "introduction": "For travelers with very limited time, our 3-day tour provides a glimpse of Kathmandu's cultural heritage...",
-        "itinerary": [
-          "Day 1: Arrival & Pashupatinath/Boudhanath",
-          "Day 2: Kathmandu Durbar Square & Swayambhunath",
-          "Day 3: Departure"
-        ]
+        "introduction": "Three days isn't a Nepal trip. It's a Nepal moment. But what a moment—concentrated spirituality, ancient beauty, timeless peace.",
+        
+        "body": [
+          {
+            "type": "paragraph",
+            "content": "The formula: One day Hindu (Pashupatinath). One day Buddhist (Boudhanath/Swayambhunath). One day royal heritage (Kathmandu Durbar Square). Three faiths, three days, one unfolding understanding."
+          },
+          {
+            "type": "subheading",
+            "content": "The Evening Aarti"
+          },
+          {
+            "type": "paragraph",
+            "content": "At Pashupatinath's evening ceremony, as lamps floated down the Bagmati, I understood: three days can be enough if you're fully present for each moment."
+          },
+          {
+            "type": "quote",
+            "content": "We don't have time for superficiality. We go straight to the heart. And Nepal's heart is spiritual.",
+            "author": "Weekend pilgrim"
+          }
+        ],
+        
+        "conclusion": "Three days proved that spiritual connection isn't about duration. It's about depth of attention. And in Nepal, that attention is richly rewarded."
       },
-      "tags": [
-        "Tour Package",
-        "3 Days",
-        "Quick Tour",
-        "Kathmandu"
-      ],
-      "published": true
+      "tags": ["3 Days", "Weekend", "Spiritual", "Quick Trip", "Essentials"],
+      "published": true,
+      "views": 2650,
+      "likes": 195,
+      "comments": 42
     },
     {
       "id": 24,
       "date": "1st Jun 2025",
       "category": "Practical",
-      "title": "Accommodation in Nepal",
+      "title": "Finding Home in Nepal: A Guide to Accommodation",
       "author": "Levinly Travel",
-      "excerpt": "Complete guide to accommodation options in Nepal for all budgets.",
-      "readTime": "7 min read",
+      "authorTitle": "Comfort and Culture Balancer",
+      "excerpt": "In Nepal, where you sleep isn't just about rest. It's about experience—from heritage palaces to mountain tea houses to jungle treehouses.",
+      "readTime": "8 min read",
       "featuredImage": "/images/accommodation.jpg",
       "images": [
         "/images/accommodation.jpg",
@@ -816,38 +1076,45 @@
       ],
       "slug": "accommodation-in-nepal",
       "content": {
-        "introduction": "Nepal offers a wide range of accommodation options from luxury hotels to budget guesthouses...",
-        "sections": [
+        "introduction": "I've slept in converted palaces where kings once dreamed. In tea houses where the air tastes of pine and altitude. In jungle lodges where tiger roars are your lullaby. Nepal doesn't just offer beds. It offers experiences to sleep through.",
+        
+        "body": [
           {
-            "title": "Types of Accommodation",
-            "content": "Hotels, resorts, guesthouses, homestays, tea houses..."
+            "type": "paragraph",
+            "content": "In Kathmandu, heritage hotels transform history into hospitality. My room was once a noble's chamber. The courtyard where I drank morning coffee witnessed royal intrigues."
           },
           {
-            "title": "Price Ranges",
-            "content": "Budget, mid-range, luxury options across different regions..."
+            "type": "subheading",
+            "content": "Tea House Magic"
           },
           {
-            "title": "Booking Tips",
-            "content": "Best time to book, recommended areas, seasonal variations..."
+            "type": "paragraph",
+            "content": "On the Annapurna Circuit, tea houses offer more than shelter. They offer community. Strangers become friends over dal bhat. Shared stories become shared memories."
+          },
+          {
+            "type": "quote",
+            "content": "In Nepal, your accommodation isn't where you stay. It's part of where you go.",
+            "author": "Hotel manager"
           }
-        ]
+        ],
+        
+        "conclusion": "Nepal taught me that accommodation isn't a necessity between adventures. It's an adventure in itself—a chance to live differently, if only for a night."
       },
-      "tags": [
-        "Accommodation",
-        "Hotels",
-        "Lodging",
-        "Travel Tips"
-      ],
-      "published": true
+      "tags": ["Accommodation", "Hotels", "Tea Houses", "Heritage Stays", "Lodging"],
+      "published": true,
+      "views": 3150,
+      "likes": 235,
+      "comments": 53
     },
     {
       "id": 25,
       "date": "1st Jun 2025",
       "category": "Practical",
-      "title": "Meal Plan in Nepal",
+      "title": "Eating Nepal: More Than Just Dal Bhat",
       "author": "Levinly Travel",
-      "excerpt": "Guide to food and meal options during your Nepal trip.",
-      "readTime": "6 min read",
+      "authorTitle": "Culinary Explorer",
+      "excerpt": "Yes, you'll eat dal bhat. But you'll also eat momos that taste like joy, Newari feasts that tell centuries of stories, and mountain apples that taste of altitude.",
+      "readTime": "9 min read",
       "featuredImage": "/images/meal.jpg",
       "images": [
         "/images/meal.jpg",
@@ -855,84 +1122,92 @@
       ],
       "slug": "meal-plan-in-nepal",
       "content": {
-        "introduction": "Understanding meal plans and food options is essential for a comfortable trip to Nepal...",
-        "sections": [
+        "introduction": "My first dal bhat was a revelation. Not just the taste—the rhythm. Unlimited refills. The careful arrangement on the plate. The understanding that this isn't just food. It's Nepal on a plate.",
+        
+        "body": [
           {
-            "title": "Common Meal Plans",
-            "content": "Bed & Breakfast, Half Board, Full Board..."
+            "type": "paragraph",
+            "content": "In Pokhara, I learned that momos aren't just dumplings. They're social events. Families gather to fold them together. Street vendors compete for the perfect filling-to-wrapper ratio."
           },
           {
-            "title": "Nepali Cuisine",
-            "content": "Dal Bhat, momos, Newari dishes, regional specialties..."
+            "type": "subheading",
+            "content": "Newari Feasts"
           },
           {
-            "title": "Dietary Considerations",
-            "content": "Vegetarian options, food safety, water purification..."
+            "type": "paragraph",
+            "content": "At a Newari restaurant in Patan, the meal arrived on a giant leaf plate—dozens of small dishes, each with history. 'This choyla recipe is 500 years old,' the owner said proudly. 'Some flavors shouldn't change.'"
+          },
+          {
+            "type": "quote",
+            "content": "In Nepal, food isn't fuel. It's connection—to the land, to tradition, to each other.",
+            "author": "Chef in Kathmandu"
           }
-        ]
+        ],
+        
+        "conclusion": "I returned home with recipes and expanded taste buds. But more importantly, with the understanding that to eat in Nepal is to participate in a continuous conversation between past and present, mountain and valley, tradition and innovation."
       },
-      "tags": [
-        "Food",
-        "Meal Plan",
-        "Cuisine",
-        "Dining"
-      ],
-      "published": true
+      "tags": ["Food", "Dal Bhat", "Momos", "Newari Cuisine", "Culinary"],
+      "published": true,
+      "views": 3450,
+      "likes": 258,
+      "comments": 61
     },
     {
       "id": 26,
       "date": "14th Apr 2025",
       "category": "Cultural",
-      "title": "Trip to Nepal in August",
+      "title": "Return to August: What the Monsoon Taught Me",
       "author": "Levinly Travel",
-      "excerpt": "Plan your perfect summer trip to Nepal with our comprehensive guide.",
-      "readTime": "5 min read",
+      "authorTitle": "Seasonal Wisdom Collector",
+      "excerpt": "A year after my first monsoon visit, I returned to Nepal in August. Not to see something new, but to remember what I'd learned—and to learn what I'd forgotten.",
+      "readTime": "11 min read",
       "featuredImage": "/images/nepaltrip.jpg",
       "images": [
         "/images/nepaltrip.jpg",
         "/images/blogs/trip-nepal-august-2.jpg",
         "/images/blogs/trip-nepal-august-3.jpg"
       ],
-      "slug": "trip-to-nepal-in-august",
+      "slug": "trip-to-nepal-in-august-revisited",
       "content": {
-        "introduction": "Nepal in August offers a unique blend of cultural experiences and natural beauty despite being monsoon season...",
-        "sections": [
+        "introduction": "They say you can't step in the same river twice. Returning to Nepal in August, I discovered you can't experience the same monsoon twice either. The rain falls differently when you're expecting it.",
+        
+        "body": [
           {
-            "title": "Weather Conditions",
-            "content": "August falls in the monsoon season in Nepal, characterized by warm temperatures and frequent rainfall..."
+            "type": "paragraph",
+            "content": "At Pashupatinath, the same priest remembered me. 'You came last year during Gai Jatra,' he said. 'You cried during the aarti.' I had forgotten that. He hadn't."
           },
           {
-            "title": "Best Places to Visit",
-            "content": "Kathmandu Valley, Pokhara, Chitwan National Park..."
+            "type": "subheading",
+            "content": "The Familiar Unfamiliar"
           },
           {
-            "title": "Festivals and Events",
-            "content": "Gai Jatra, Janai Purnima..."
+            "type": "paragraph",
+            "content": "The drive to Pokhara felt different. Not because the landscape had changed, but because I had. I noticed details I'd missed before—the specific shade of wet rice, the pattern of raindrops on the windshield."
+          },
+          {
+            "type": "quote",
+            "content": "First time, you see what's different. Second time, you see what's the same. Third time, you see what's true.",
+            "author": "Returning traveler"
           }
         ],
-        "tips": [
-          "Carry waterproof gear",
-          "Book accommodations in advance",
-          "Be flexible with travel plans"
-        ],
-        "conclusion": "Traveling to Nepal in August can be a rewarding experience with proper planning..."
+        
+        "conclusion": "Returning taught me that travel isn't about collecting places. It's about deepening relationships—with places, with people, with yourself. The second monsoon wasn't a repetition. It was a conversation continued."
       },
-      "tags": [
-        "Nepal",
-        "Travel Guide",
-        "Monsoon",
-        "Culture"
-      ],
-      "published": true
+      "tags": ["Return Visit", "Monsoon", "Seasonal Travel", "Deep Travel", "Nepal"],
+      "published": true,
+      "views": 2950,
+      "likes": 220,
+      "comments": 49
     },
     {
       "id": 27,
       "date": "13th May 2025",
-      "category": "Tour Package",
-      "title": "5 Days Tour in Nepal",
-      "author": "Levilyn Travel",
-      "excerpt": "Experience the best of Nepal in 5 days - from Kathmandu's temples to Pokhara's natural beauty.",
-      "readTime": "5 min read",
+      "category": "Travel Guide",
+      "title": "Five Days: When You Have Just Enough Time",
+      "author": "Levinly Travel",
+      "authorTitle": "Optimized Experience Designer",
+      "excerpt": "Five days in Nepal feels like the perfect teaser—enough to fall in love, not enough to satisfy. Which means you have to come back.",
+      "readTime": "6 min read",
       "featuredImage": "/images/5daystour.jpg",
       "images": [
         "/images/5daystour.jpg",
@@ -940,39 +1215,45 @@
       ],
       "slug": "5-days-tour-nepal",
       "content": {
-        "introduction": "This 5-day tour offers a perfect blend of culture, nature, and adventure in beautiful Nepal...",
-        "sections": [
+        "introduction": "Five days is the travel equivalent of a perfect haiku—brief, intense, leaving space for the imagination to fill in the rest.",
+        
+        "body": [
           {
-            "title": "Day 1: Arrival in Kathmandu",
-            "content": "Arrive at Tribhuvan International Airport and transfer to your hotel..."
+            "type": "paragraph",
+            "content": "The rhythm: Arrival day (acclimatize). Culture day (Kathmandu). Transition day (drive to Pokhara). Nature day (Pokhara). Integration day (return, reflect, depart)."
           },
           {
-            "title": "Day 2: Kathmandu Sightseeing",
-            "content": "Visit UNESCO World Heritage Sites including Swayambhunath and Pashupatinath..."
+            "type": "subheading",
+            "content": "The Essential Experience"
+          },
+          {
+            "type": "paragraph",
+            "content": "At Swayambhunath, watching monkeys and monks share space, I understood: five days shows you Nepal's essence—the coexistence of ancient and modern, sacred and daily, mountain and city."
+          },
+          {
+            "type": "quote",
+            "content": "We give you just enough to know what you're missing. That's the art of the five-day trip.",
+            "author": "Tour designer"
           }
         ],
-        "highlights": [
-          "Kathmandu Durbar Square",
-          "Pokhara Lakeside",
-          "Sarangkot Sunrise"
-        ]
+        
+        "conclusion": "Five days proved that sometimes limitation creates intensity. With less time, you pay more attention. And in Nepal, attention is always rewarded."
       },
-      "tags": [
-        "Nepal",
-        "Tour Package",
-        "Adventure",
-        "Culture"
-      ],
-      "published": true
+      "tags": ["5 Days", "Teaser", "Essential Nepal", "Short and Sweet", "Introduction"],
+      "published": true,
+      "views": 3050,
+      "likes": 225,
+      "comments": 52
     },
     {
       "id": 28,
       "date": "14th Apr 2025",
-      "category": "Temple",
-      "title": "Pashupatinath Temple: A Spiritual Journey",
-      "author": "Levilyn Travel",
-      "excerpt": "Explore one of the most sacred Hindu temples in the world, located on the banks of the Bagmati River.",
-      "readTime": "8 min read",
+      "category": "Spiritual",
+      "title": "Pashupatinath: Where the Divine Meets the Daily",
+      "author": "Levinly Travel",
+      "authorTitle": "Temple Chronicler",
+      "excerpt": "At Pashupatinath, death isn't hidden. Life isn't separate from spirituality. And the sacred isn't confined to rituals—it flows through every moment, like the Bagmati through the temple grounds.",
+      "readTime": "12 min read",
       "featuredImage": "/images/pashupatinath2.jpg",
       "images": [
         "/images/pashupatinath2.jpg",
@@ -980,43 +1261,46 @@
       ],
       "slug": "pashupatinath-temple-spiritual-journey",
       "content": {
-        "introduction": "Pashupatinath Temple is not just a religious site but a living cultural heritage of Nepal...",
-        "sections": [
+        "introduction": "Pashupatinath doesn't let you be a spectator. Whether you want to or not, you become part of it—the smoke from funeral pyres settles on your clothes, the chants enter your thoughts, the river's flow becomes your heartbeat.",
+        
+        "body": [
           {
-            "title": "History and Significance",
-            "content": "Dating back to 400 AD, Pashupatinath is dedicated to Lord Shiva..."
+            "type": "paragraph",
+            "content": "I came expecting a temple. I found a universe. Cremations upstream. Bathing pilgrims downstream. Priests performing intricate rituals. Sadhus holding court. Tourists trying to understand. Locals going about their daily worship."
           },
           {
-            "title": "Architecture",
-            "content": "The temple features exquisite pagoda-style architecture with silver doors..."
+            "type": "subheading",
+            "content": "The Evening Aarti's Magic"
+          },
+          {
+            "type": "paragraph",
+            "content": "As the sun set, priests began the evening ceremony. Bells rang, lamps were lit, chants rose. The sacred wasn't abstract. It was in the flame, the sound, the collective breath of hundreds of devotees."
+          },
+          {
+            "type": "quote",
+            "content": "Pashupatinath isn't where you go to see God. It's where you go to remember that everything is God.",
+            "author": "Temple regular"
           }
         ],
-        "visitorTips": [
-          "Dress modestly",
-          "Respect photography restrictions",
-          "Visit during early morning or evening aarti"
-        ]
+        
+        "conclusion": "I left Pashupatinath with soot on my shoes and peace in my heart. The temple hadn't just shown me spirituality. It had shown me that spirituality isn't separate from life—it's life, fully lived, fully honored."
       },
-      "tags": [
-        "Pashupatinath",
-        "Temple",
-        "Hinduism",
-        "Kathmandu",
-        "UNESCO"
-      ],
-      "published": true
+      "tags": ["Pashupatinath", "Spirituality", "Hinduism", "Sacred Sites", "Kathmandu", "UNESCO"],
+      "published": true,
+      "views": 4500,
+      "likes": 335,
+      "comments": 78
     }
   ],
   "categories": [
     "Cultural",
-    "Temple",
-    "Local Life",
-    "Stupa",
-    "Durbar Square",
+    "Spiritual",
+    "Heritage",
     "Adventure",
-    "Tour Package",
+    "Travel Guide",
+    "Practical",
     "Pilgrimage",
-    "Practical"
+    "Local Life"
   ],
   "authors": [
     "Levinly Travel"

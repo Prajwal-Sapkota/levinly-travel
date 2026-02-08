@@ -166,7 +166,7 @@ const VideoGallery = () => {
 
       {/* Horizontal Thumbnails - Animated */}
       <div
-        className="relative z-10 mt-6 md:mt-8 flex items-center justify-center sm:justify-center gap-3 sm:gap-4 overflow-x-auto w-full max-w-6xl py-2 px-2"
+        className="relative z-10 pt-6 md:pt-8 flex items-center justify-center sm:justify-center gap-3 sm:gap-4 overflow-x-auto w-full max-w-6xl py-2 px-2"
         style={{
           opacity: isVisible ? 1 : 0,
           transition: 'opacity 600ms ease 600ms',
@@ -212,7 +212,7 @@ const VideoGallery = () => {
 
       {/* Navigation Dots - Animated */}
       <div
-        className="flex gap-2 mt-4 sm:mt-6 z-10"
+        className="flex gap-2 pt-4 sm:pt-6 z-10"
         style={{
           opacity: isVisible ? 1 : 0,
           transition: 'opacity 600ms ease 1000ms',

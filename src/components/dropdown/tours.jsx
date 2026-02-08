@@ -77,7 +77,7 @@ const ToursDropdown = ({ onClose }) => {
                       <h4 className="text-[15px] font-medium text-gray-800">
                         {category.name}
                       </h4>
-                      <p className="text-xs text-gray-500 mt-0.5 flex items-center gap-1">
+                      <p className="text-xs text-gray-500 pt-0.5 flex items-center gap-1">
                         <FiClock className="w-3 h-3" />
                         {category.duration}
                       </p>
@@ -103,11 +103,11 @@ const ToursDropdown = ({ onClose }) => {
         {/* RIGHT — TOURS */}
         <div className="w-[66%] p-10 flex flex-col overflow-y-auto relative">
           {/* Header */}
-          <div className="mb-8">
+          <div className="pb-8">
             <h3 className="text-xl font-semibold text-gray-800 tracking-tight">
               {activeCategory?.name}
             </h3>
-            <p className="text-sm text-gray-500 mt-1 ">
+            <p className="text-sm text-gray-500 pt-1 ">
               Hand-picked journeys crafted for unforgettable travel experiences
             </p>
           </div>
@@ -144,7 +144,7 @@ const ToursDropdown = ({ onClose }) => {
                     {tour.name}
                   </h4>
 
-                  <p className="relative mt-2 text-xs text-gray-500 flex items-center gap-2">
+                  <p className="relative pt-2 text-xs text-gray-500 flex items-center gap-2">
                     <span className="inline-block w-1.5 h-1.5 rounded-full bg-amber-400" />
                     {tour.duration}
                   </p>

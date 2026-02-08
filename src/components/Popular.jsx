@@ -1,4 +1,3 @@
-"use client";
 
 import React, { useEffect, useRef, useState } from "react";
 import { FaCalendarAlt, FaArrowRight } from "react-icons/fa";
@@ -25,15 +24,20 @@ const Popular = () => {
     const picked = [];
     toursData.categories.forEach((cat) => {
       if (cat.subcategories?.length) {
-        picked.push(
-          cat.subcategories[
+        const randomTour = cat.subcategories[
           Math.floor(Math.random() * cat.subcategories.length)
-          ]
-        );
+        ];
+        // Add the region slug to each tour for routing
+        randomTour.regionSlug = cat.slug;
+        picked.push(randomTour);
       }
     });
     setTours(picked.slice(0, 8));
   }, []);
+
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <section
@@ -43,7 +47,7 @@ const Popular = () => {
 
       <div className="relative max-w-7xl mx-auto px-6">
         {/* heading */}
-        <div className="text-center mb-20">
+        <div className="text-center pb-20">
           <h2 className="text-3xl md:text-4xl font-serif text-[#0b1c3d]">
             Popular Tours
           </h2>
@@ -53,8 +57,10 @@ const Popular = () => {
         {/* cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {tours.map((tour, i) => (
-            <div
+            <Link
               key={i}
+              to={`/tours/${tour.regionSlug}/${tour.slug}`}
+              onClick={handleClick}
               style={{
                 opacity: visible ? 1 : 0,
                 transform: visible
@@ -64,7 +70,7 @@ const Popular = () => {
               }}
               className="group relative h-[380px] rounded-[28px]
                          overflow-hidden
-                         [perspective:1200px]"
+                         [perspective:1200px] block"
             >
               {/* glow border */}
               <div
@@ -127,21 +133,21 @@ const Popular = () => {
                   <h3 className="text-lg font-bold text-[#0b1c3d] line-clamp-2">
                     {tour.name}
                   </h3>
-                  <p className="text-sm text-gray-700 mt-1 line-clamp-2">
+                  <p className="text-sm text-gray-700 pt-1 line-clamp-2">
                     {tour.description || ""}
                   </p>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         {/* CTA */}
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center pt-20">
           <Link
-            href="/tours"
+            to="/tours"
+            onClick={handleClick}
             className="inline-flex items-center gap-2 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-[#6dc5f1] text-white text-sm sm:text-base md:text-lg rounded-full font-medium hover:bg-[#0b1c3d] hover:text-[#6dc5f1] transition-all duration-300 shadow-md md:shadow-lg hover:shadow-xl"
-
           >
             Explore All Tours
             <FaArrowRight className="group-hover:translate-x-2 transition-transform" />

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import trekkingData from "../data/trekking.json";
 
 const Trekking = () => {
@@ -30,6 +31,10 @@ const Trekking = () => {
         };
     }, [hasAnimated]);
 
+    const handleClick = () => {
+        window.scrollTo(0, 0);
+    };
+
     return (
         <section 
             ref={sectionRef}
@@ -37,14 +42,14 @@ const Trekking = () => {
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header - Mobile optimized */}
-                <div className="text-center mb-6 sm:mb-8 md:mb-12">
+                <div className="text-center pb-6 sm:pb-8 md:pb-12">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#0b1c3d] pt-4 md:pt-6">
                         Trekking Destinations
                     </h1>
                 </div>
 
                 {/* Destinations Grid - Mobile responsive */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 py-4 sm:py-6 ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 py-4 sm:py-6">
                     {regions.map((region, index) => {
                         // Animation style for each card
                         const animationStyle = {
@@ -58,10 +63,12 @@ const Trekking = () => {
                         };
 
                         return (
-                            <div
+                            <Link
                                 key={region.id}
-                                className="group relative h-[280px] sm:h-[320px] md:h-[380px] lg:h-[420px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
+                                to={`/trekking/${region.slug}`}
+                                className="group relative h-[280px] sm:h-[320px] md:h-[380px] lg:h-[420px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 block"
                                 style={animationStyle}
+                                onClick={handleClick}
                             >
                                 {/* Background Image */}
                                 <img
@@ -78,14 +85,17 @@ const Trekking = () => {
                                     <h3 className="text-xl sm:text-2xl font-bold text-white">
                                         {region.name}
                                     </h3>
+                                    <div className="mt-2 flex items-center">
+                                        <span className="text-sm sm:text-base text-white/90">
+                                            {region.subcategories?.length || 0} treks available
+                                        </span>
+                                    </div>
                                 </div>
 
-                                {/* Hover Border Effect */}
                                 <div className="absolute inset-0 border-2 border-transparent group-hover:border-white/30 rounded-2xl sm:rounded-3xl transition-all duration-500"></div>
 
-                                {/* Subtle Hover Overlay */}
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B4DBA]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                            </div>
+                            </Link>
                         );
                     })}
                 </div>

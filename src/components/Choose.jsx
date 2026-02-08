@@ -78,11 +78,11 @@ const Choose = () => {
 
       <div className="relative max-w-7xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center pb-16">
           <h2 className="text-4xl font-serif text-[#0b1c3d]">
             Why Choose Us
           </h2>
-          <p className="mt-4 text-gray-500 max-w-xl mx-auto">
+          <p className="pt-4 text-gray-500 max-w-xl mx-auto">
             Designed for travelers who want more than just a destination
           </p>
         </div>
@@ -112,7 +112,7 @@ const Choose = () => {
                               transition duration-500 pointer-events-none" />
 
               {/* WOW Icon */}
-              <div className="relative z-10 mb-6">
+              <div className="relative z-10 pb-6">
                 {/* glow */}
                 <div className="absolute inset-0 rounded-full
                                 bg-[#6dc5f1]/30 blur-xl
@@ -134,7 +134,7 @@ const Choose = () => {
               </div>
 
               {/* Content */}
-              <h3 className="relative z-10 text-xl font-semibold text-[#0b1c3d] mb-3">
+              <h3 className="relative z-10 text-xl font-semibold text-[#0b1c3d] pb-3">
                 {feature.title}
               </h3>
               <p className="relative z-10 text-gray-600 leading-relaxed text-sm">

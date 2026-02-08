@@ -285,7 +285,7 @@ const Navbar = () => {
                         style={{ animationDelay: `${index * 0.05}s` }}
                       >
                         <div className="text-base font-medium text-gray-800">{category.name}</div>
-                        <div className="text-sm text-gray-500 mt-1">{category.duration}</div>
+                        <div className="text-sm text-gray-500 pt-1">{category.duration}</div>
                       </Link>
                     ))}
                   </div>
@@ -314,7 +314,7 @@ const Navbar = () => {
                         style={{ animationDelay: `${index * 0.05}s` }}
                       >
                         <div className="text-base font-medium text-gray-800">{region.name}</div>
-                        <div className="text-sm text-gray-500 mt-1">{region.difficultyRange}</div>
+                        <div className="text-sm text-gray-500 pt-1">{region.difficultyRange}</div>
                       </Link>
                     ))}
                   </div>

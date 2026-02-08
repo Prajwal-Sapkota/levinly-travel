@@ -175,7 +175,7 @@ const Tours = () => {
                       {/* Content overlay on image */}
                       <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8">
                         {/* Duration Badge - more prominent on center */}
-                        <div className={`mb-3 transition-all duration-300
+                        <div className={`pb-3 transition-all duration-300
                           ${displayOffset === 0 ? "scale-105" : "scale-95"}`}>
                           <span className={`inline-block backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium transition-all duration-300
                             ${displayOffset === 0 
@@ -220,7 +220,7 @@ const Tours = () => {
           </div>
 
           {/* Navigation Dots */}
-          <div className="flex justify-center gap-2 mt-6 md:mt-8">
+          <div className="flex justify-center gap-2 pt-6 md:pt-8">
             {displayedCategories.map((_, index) => (
               <button
                 key={index}
@@ -238,7 +238,7 @@ const Tours = () => {
         </div>
 
         {/* View All Button */}
-        <div className="flex justify-center mt-8 md:mt-12">
+        <div className="flex justify-center pt-8 md:pt-12">
           <Link
             to="/tours"
             className="inline-flex items-center gap-2 px-8 py-4 bg-[#6dc5f1] text-white

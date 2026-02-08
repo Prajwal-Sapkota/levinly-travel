@@ -77,7 +77,7 @@ const TrekkingDropdown = ({ onClose }) => {
                       <h4 className="text-[15px] font-medium text-gray-800">
                         {region.name}
                       </h4>
-                      <p className="text-xs text-gray-500 mt-0.5">
+                      <p className="text-xs text-gray-500 pt-0.5">
                         {region.subcategories?.length} treks available
                       </p>
                     </div>
@@ -102,11 +102,11 @@ const TrekkingDropdown = ({ onClose }) => {
         {/* RIGHT — TREKS */}
         <div className="w-[68%] p-10  relative">
           {/* Header */}
-          <div className="mb-8">
+          <div className="pb-8">
             <h3 className="text-xl font-semibold text-gray-800 tracking-tight">
               {activeRegion?.name}
             </h3>
-            <p className="text-sm text-gray-500 mt-1 ">
+            <p className="text-sm text-gray-500 pt-1 ">
               Handpicked Himalayan trekking journeys designed for unforgettable experiences
             </p>
           </div>
@@ -143,7 +143,7 @@ const TrekkingDropdown = ({ onClose }) => {
                     {trek.name}
                   </h4>
 
-                  <p className="relative mt-4 text-xs text-gray-500 flex items-center gap-2">
+                  <p className="relative pt-4 text-xs text-gray-500 flex items-center gap-2">
                     <span className="inline-block w-1.5 h-1.5 rounded-full bg-amber-400" />
                     {trek.duration}
                   </p>

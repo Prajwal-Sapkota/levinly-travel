@@ -28,7 +28,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-12 md:pt-16 lg:pt-20">
         {/* Main Content - Stack on mobile, grid on desktop */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-14">
-          
+
           {/* Left Column - Partners & Tours */}
           <div className="space-y-8 md:space-y-10">
             {/* Partners Section */}
@@ -136,6 +136,7 @@ const Footer = () => {
 
         {/* Contact Info - Stack on mobile, grid on tablet/desktop */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 py-8 md:py-10 lg:py-12">
+
           {/* Location */}
           <div className="flex items-start gap-3 sm:gap-4">
             <div className="w-8 h-8 sm:w-10 sm:h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -156,8 +157,20 @@ const Footer = () => {
             </div>
             <div>
               <h4 className="font-medium text-sm sm:text-base">Contact</h4>
-              <p className="text-white/70 text-xs sm:text-sm">+977 9701562819</p>
-              <p className="text-white/70 text-xs sm:text-sm">+977 9866298333</p>
+
+              <Link
+                to={{ pathname: "tel:+9779701562819" }}
+                className="block text-white/70 text-xs sm:text-sm hover:text-[#6dc5f1] transition"
+              >
+                +977 9701562819
+              </Link>
+
+              <Link
+                to={{ pathname: "tel:+9779866298333" }}
+                className="block text-white/70 text-xs sm:text-sm hover:text-[#6dc5f1] transition"
+              >
+                +977 9866298333
+              </Link>
             </div>
           </div>
 
@@ -168,23 +181,39 @@ const Footer = () => {
             </div>
             <div>
               <h4 className="font-medium text-sm sm:text-base">Email</h4>
-              <p className="text-white/70 text-xs sm:text-sm break-words">
+
+              <Link
+                to={{ pathname: "mailto:levinlytravel2024@gmail.com" }}
+                className="block text-white/70 text-xs sm:text-sm break-words hover:text-[#6dc5f1] transition"
+              >
                 levinlytravel2024@gmail.com
-              </p>
-              <p className="text-white/70 text-xs sm:text-sm break-words">
+              </Link>
+
+              <Link
+                to={{ pathname: "mailto:info@levinlytravel.com" }}
+                className="block text-white/70 text-xs sm:text-sm break-words hover:text-[#6dc5f1] transition"
+              >
                 info@levinlytravel.com
-              </p>
+              </Link>
             </div>
           </div>
-        </div>
 
+        </div>
         {/* Copyright */}
         <div className="pt-6 md:pt-8 border-t border-white/20 text-center">
           <p className="text-white/60 text-xs sm:text-sm">
             © {new Date().getFullYear()} Levinly Travel. All rights reserved.
           </p>
           <p className="text-white/40 text-[10px] sm:text-xs py-1">
-            Crafted By S.A.I.T Solution Nepal
+            Crafted By{" "}
+            <a
+              href="https://www.sait.com.np/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/60 hover:text-[#6dc5f1] transition-colors duration-300"
+            >
+              S.A.I.T Solution Nepal
+            </a>
           </p>
         </div>
       </div>

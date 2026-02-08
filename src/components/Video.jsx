@@ -57,7 +57,7 @@ const Video = () => {
             <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold md:font-extrabold drop-shadow-xl">
               Kailash Manasarovar
             </h2>
-            <p className="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl mt-1 md:mt-2 drop-shadow-lg">
+            <p className="text-white/80 text-sm sm:text-base md:text-lg lg:text-xl pt-1 md:pt-2 drop-shadow-lg">
               Spiritual Journey to the Himalayas
             </p>
           </div>

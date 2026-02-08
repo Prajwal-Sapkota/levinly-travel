@@ -1,11 +1,14 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
   const imageRefs = useRef([]);
   const textRef = useRef(null);
   const sectionRef = useRef(null);
   const ticking = useRef(false);
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     // Scroll rotation for images - exact same effect as before
@@ -28,7 +31,7 @@ const About = () => {
       if (!sectionRef.current) return false;
       const rect = sectionRef.current.getBoundingClientRect();
       return (
-        rect.top < window.innerHeight * 0.8 && 
+        rect.top < window.innerHeight * 0.8 &&
         rect.bottom > 0
       );
     };
@@ -91,24 +94,20 @@ const About = () => {
           {/* LEFT – SOFT ELEGANT TEXT CARD */}
           <div ref={textRef} className="order-2 lg:order-1">
             <div className="bg-white p-12 lg:p-16 rounded-3xl border border-[#E6DED6] shadow-sm">
-              {/* Accent Line */}
-              <div className="w-20 h-[2px] bg-[#083A8F] mb-6"></div>
 
-              <h2 className="text-4xl sm:text-5xl font-semibold text-[#1F2933] leading-tight mb-6">
-                Experience Travel
-                <br />
-                <span className="text-[#1F2933]">Like Never Before</span>
+              <h2 className="text-4xl  font-semibold text-[#1F2933] leading-tight pb-6">
+                Experience Travel Like Never Before
               </h2>
 
-              <div className="space-y-6 mb-10">
-                <p className="text-lg text-[#6B7280] leading-relaxed">
-                  Our mission is to craft unforgettable travel experiences by providing 
-                  personalized and immersive tours to the world's most stunning destinations. 
-                  With a passion for exploration and a commitment to exceptional service, 
+              <div className="space-y-6 pb-10">
+                <p className="text-lg text-[#6B7280] leading-relaxed text-justify">
+                  Our mission is to craft unforgettable travel experiences by providing
+                  personalized and immersive tours to the world's most stunning destinations.
+                  With a passion for exploration and a commitment to exceptional service,
                   we ensure every journey with us is unique and memorable.
                 </p>
-                <p className="text-lg text-[#6B7280] leading-relaxed">
-                  Join us and discover new horizons, create lasting memories, and 
+                <p className="text-lg text-[#6B7280] leading-relaxed text-justify">
+                  Join us and discover new horizons, create lasting memories, and
                   experience travel like never before.
                 </p>
               </div>
@@ -122,6 +121,11 @@ const About = () => {
                   hover:text-[#083A8F]
                   transition-colors duration-300
                 "
+                onClick={() => {
+                  navigate("/about-us");
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+
               >
                 Learn More About Us
                 <span className="transition-transform group-hover:translate-x-1">
@@ -160,7 +164,7 @@ const About = () => {
                     src={`/images/${images[1].src}`}
                     alt={images[1].alt}
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
-                    
+
                     width="817"
                     height="546"
                   />
