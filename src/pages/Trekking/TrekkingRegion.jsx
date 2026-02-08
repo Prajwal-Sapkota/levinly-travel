@@ -148,7 +148,7 @@ const TrekkingRegion = () => {
 
               <Link
                 to={`/trekking/${region.slug}#treks`}
-                className="group inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#2c5aa0] text-white font-medium hover:bg-[#1a365d] hover:shadow-lg transition-all duration-300 text-sm sm:text-base pb-8 sm:pb-10 rounded-lg"
+                className="group inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#2c5aa0] text-white font-medium hover:bg-[#1a365d] hover:shadow-lg transition-all duration-300 text-sm sm:text-base mb-8 sm:mb-10 rounded-lg"
               >
                 Explore All Treks
                 <FiArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-2 transition-transform duration-300" />
@@ -195,25 +195,25 @@ const TrekkingRegion = () => {
             <div className="text-center p-4">
               <div className="text-sm text-gray-500 pb-2">Altitude Range</div>
               <div className="text-xl font-serif font-bold text-[#1a365d]">{region.altitudeRange}</div>
-              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto pt-3"></div>
+              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto mt-3"></div>
             </div>
 
             <div className="text-center p-4">
               <div className="text-sm text-gray-500 pb-2">Difficulty Range</div>
               <div className="text-xl font-serif font-bold text-[#1a365d]">{region.difficultyRange}</div>
-              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto pt-3"></div>
+              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto mt-3"></div>
             </div>
 
             <div className="text-center p-4">
               <div className="text-sm text-gray-500 pb-2">Trek Duration</div>
               <div className="text-xl font-serif font-bold text-[#1a365d]">{region.trekkingDays}</div>
-              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto pt-3"></div>
+              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto mt-3"></div>
             </div>
 
             <div className="text-center p-4">
               <div className="text-sm text-gray-500 pb-2">Total Treks</div>
               <div className="text-xl font-serif font-bold text-[#1a365d]">{region.subcategories.length} routes</div>
-              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto pt-3"></div>
+              <div className="w-12 h-0.5 bg-gradient-to-r from-transparent via-[#2c5aa0] to-transparent mx-auto mt-3"></div>
             </div>
           </div>
         </div>
