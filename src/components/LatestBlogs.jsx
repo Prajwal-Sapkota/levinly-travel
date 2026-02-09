@@ -70,9 +70,9 @@ const LatestBlogs = () => {
                                     </div>
 
                                     {/* Title */}
-                                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#0b1c3d] pb-2 sm:pb-3 md:pb-4 line-clamp-2 min-h-[2.5rem] sm:min-h-[3rem] md:min-h-[3.5rem]">
+                                    <h2 className="text-base sm:text-lg md:text-xl font-bold text-[#0b1c3d] pb-2 sm:pb-3 md:pb-4 line-clamp-2 min-h-[2.5rem] sm:min-h-[3rem] md:min-h-[3.5rem]">
                                         {blog.title}
-                                    </h3>
+                                    </h2>
 
                                     {/* Excerpt */}
                                     <p className="text-gray-600 text-xs sm:text-sm pb-4 sm:pb-5 md:pb-6 line-clamp-2 sm:line-clamp-3 flex-grow">

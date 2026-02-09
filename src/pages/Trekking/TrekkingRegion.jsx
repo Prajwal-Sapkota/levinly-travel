@@ -367,14 +367,9 @@ const TrekkingRegion = () => {
                   </div>
 
                   {/* Price & CTA */}
-                  <div className={`pt-8 sm:pt-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 ${reverse ? "md:flex-row-reverse" : ""
+                  <div className={`pt-8 sm:pt-10  items-start justify-between gap-4 ${reverse ? "md:flex-row-reverse" : ""
                     }`}>
-                    <div>
-                      <div className="text-2xl sm:text-3xl font-bold text-[#1a365d]">
-                        ${trek.price?.perPerson}
-                      </div>
-                      <div className="text-sm text-gray-500">per person • All inclusive</div>
-                    </div>
+                    
 
                     <Link
                       to={`/trekking/${region.slug}/${trek.slug}`}

@@ -39,8 +39,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed pb-4 sm:pb-6">
-              Experience the ultimate adventure on legendary trails like Everest Base Camp, 
-              Annapurna Circuit, and Langtang Valley. Our expertly guided treks offer 
+              Experience the ultimate adventure on legendary trails. Our expertly guided treks offer 
               breathtaking vistas, cultural immersion, and memories that last a lifetime.
             </p>
 

@@ -211,14 +211,14 @@ const Footer = () => {
           </p>
           <p className="text-gray-300 text-xs sm:text-sm py-1">
             Crafted By{" "}
-            <a
-              href="https://www.sait.com.np/"
+            <Link
+              to="https://www.sait.com.np/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-200 hover:text-[#6dc5f1] transition-colors duration-300"
             >
               S.A.I.T Solution Nepal
-            </a>
+            </Link>
           </p>
 
         </div>

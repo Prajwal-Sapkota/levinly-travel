@@ -136,16 +136,7 @@ const TrekkingCategories = () => {
                         label="Duration" 
                         value={region.trekkingDays} 
                       />
-                      <Info 
-                        icon={<FiActivity size={14} className="md:w-auto md:h-auto" />} 
-                        label="Difficulty" 
-                        value={region.difficultyRange} 
-                      />
-                      <Info
-                        icon={<FiMapPin size={14} className="md:w-auto md:h-auto" />}
-                        label="Routes"
-                        value={`${region.subcategories?.length || 0}`}
-                      />
+                     
                     </div>
 
                     {/* CTA */}

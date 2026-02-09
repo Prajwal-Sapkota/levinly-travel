@@ -226,7 +226,7 @@ const Tours = () => {
                 key={index}
                 onClick={() => goToSlide(index)}
                 disabled={isTransitioning}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${active === index
+                className={`w-4 h-4 rounded-full transition-all duration-300 ${active === index
                   ? "bg-[#0b1c3d] w-6"
                   : "bg-gray-300 hover:bg-gray-400"
                   } disabled:opacity-50 disabled:cursor-not-allowed`}
