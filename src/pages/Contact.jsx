@@ -4,12 +4,14 @@ import ContactForm from "./Contact/ContactForm";
 import Hero from "./Contact/Hero"
 
 const Contact = () => {
-    return(
+    return (
         <div className="overflow-x-hidden">
-            <Navbar/>
-            <Hero/>
-            <ContactForm/>
-            <Footer/>
+            <Navbar />
+            <main>
+                <Hero />
+                <ContactForm />
+            </main>
+            <Footer />
         </div>
     )
 }

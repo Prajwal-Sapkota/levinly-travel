@@ -90,13 +90,24 @@ const LatestBlogs = () => {
                                         </span>
                                     </div>
 
-                                    {/* Hover: Read More Button */}
-                                    <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 md:p-6 bg-gradient-to-t from-white via-white to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out">
-                                        <div className="w-full flex items-center justify-center gap-1 sm:gap-2 px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3 bg-[#0b1c3d] text-white text-xs sm:text-sm md:text-base font-semibold rounded-full group-hover:bg-[#6dc5f1] group-hover:scale-105 transition-all duration-300 shadow-md md:shadow-lg">
+                                    <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 md:p-6
+                bg-gradient-to-t from-white via-white to-transparent
+                translate-y-full group-hover:translate-y-0
+                transition-transform duration-300 ease-out">
+
+                                        <div className="w-full flex items-center justify-center gap-1 sm:gap-2
+                  px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 md:py-3
+                  bg-[#0b1c3d] text-white
+                  text-xs sm:text-sm md:text-base font-semibold
+                  rounded-full
+                  hover:bg-[#09162f] hover:scale-105
+                  transition-all duration-300
+                  shadow-md md:shadow-lg">
                                             Read Full Story
                                             <FaArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
                                         </div>
                                     </div>
+
                                 </div>
                             </article>
                         </Link>
@@ -114,8 +125,10 @@ const LatestBlogs = () => {
                 >
                     <Link
                         to="/blogs"
-                        onClick={() => window.scrollTo(0,0)}
-                        className="inline-flex items-center gap-2 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-[#6dc5f1] text-white text-sm sm:text-base md:text-lg rounded-full font-medium hover:bg-[#0b1c3d] hover:text-[#6dc5f1] transition-all duration-300 shadow-md md:shadow-lg hover:shadow-xl"
+                        onClick={() => window.scrollTo(0, 0)}
+                        className="inline-flex items-center gap-2 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-[#6dc5f1] text-[#0b1c3d]
+             
+             hover:bg-[#0b1c3d] hover:text-white  text-sm sm:text-base md:text-lg rounded-full font-medium transition-all duration-300 shadow-md md:shadow-lg hover:shadow-xl"
                     >
                         View All Blogs
                         <FaArrowRight className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" />

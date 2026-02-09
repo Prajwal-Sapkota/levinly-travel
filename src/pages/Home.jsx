@@ -11,19 +11,21 @@ import Video from "../components/Video";
 import VideoGallery from "../components/VideoGallery";
 
 const Home = () => {
-    return(
+    return (
         <div className="overflow-x-hidden">
-            <Navbar/>
-            <Hero/>
-            <Tours/>
-            <About/>
-            <Trekking/>
-            <Video/>
-            <Popular/>
-            <Choose/>
-            <VideoGallery/>
-            <LatestBlogs/>
-            <Footer/>
+            <Navbar />
+            <main>
+                <Hero />
+                <Tours />
+                <About />
+                <Trekking />
+                <Video />
+                <Popular />
+                <Choose />
+                <VideoGallery />
+                <LatestBlogs />
+            </main>
+            <Footer />
         </div>
     )
 }

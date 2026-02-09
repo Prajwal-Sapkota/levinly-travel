@@ -82,9 +82,9 @@ const Trekking = () => {
 
                                 {/* Content */}
                                 <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 md:p-8">
-                                    <h3 className="text-xl sm:text-2xl font-bold text-white">
+                                    <h2 className="text-xl sm:text-2xl font-bold text-white">
                                         {region.name}
-                                    </h3>
+                                    </h2>
                                     <div className="mt-2 flex items-center">
                                         <span className="text-sm sm:text-base text-white/90">
                                             {region.subcategories?.length || 0} treks available

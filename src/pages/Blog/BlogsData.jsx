@@ -89,9 +89,9 @@ const BlogData = () => {
                                     </div>
                                 </div>
 
-                                <h3 className="text-lg sm:text-xl font-bold text-[#0b1c3d] pb-3 group-hover:text-[#0b1c3d]/90 transition-colors duration-300 line-clamp-2 min-h-[3.5rem] sm:min-h-[3.5rem]">
+                                <h2 className="text-lg sm:text-xl font-bold text-[#0b1c3d] pb-3 group-hover:text-[#0b1c3d]/90 transition-colors duration-300 line-clamp-2 min-h-[3.5rem] sm:min-h-[3.5rem]">
                                     {blog.title}
-                                </h3>
+                                </h2>
 
                                 <div className="mt-auto pt-4 border-t border-gray-100">
                                     <Link

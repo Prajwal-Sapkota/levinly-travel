@@ -20,6 +20,12 @@ const Footer = () => {
     "/images/partner4.jpg",
     "/images/partner5.jpg",
   ];
+  const socialLinks = [
+    { icon: FaFacebookF, label: "Facebook", url: "#" },
+    { icon: FaInstagram, label: "Instagram", url: "#" },
+    { icon: FaYoutube, label: "YouTube", url: "#" },
+    { icon: FaLinkedinIn, label: "LinkedIn", url: "#" },
+  ];
 
   const tours = ["Nepal", "India", "Tibet", "Thailand", "Singapore"];
 
@@ -95,22 +101,21 @@ const Footer = () => {
               </h4>
 
               <div className="flex gap-2 sm:gap-3 md:gap-4">
-                {[FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn].map(
-                  (Icon, i) => (
-                    <Link
-                      key={i}
-                      to="#"
-                      className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-11 lg:h-11 rounded-full
-                                 flex items-center justify-center
-                                 bg-white/10 border border-white/20
-                                 hover:bg-[#6dc5f1]
-                                 hover:text-[#0b3d63]
-                                 transition-all duration-300 text-sm sm:text-base"
-                    >
-                      <Icon />
-                    </Link>
-                  )
-                )}
+                {socialLinks.map(({ icon: Icon, label, url }) => (
+                  <Link
+                    key={label}
+                    to={url}
+                    aria-label={label}
+                    className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 lg:w-11 lg:h-11
+                 rounded-full flex items-center justify-center
+                 bg-white/10 border border-white/20
+                 hover:bg-[#6dc5f1]
+                 hover:text-[#0b3d63]
+                 transition-all duration-300 text-sm sm:text-base"
+                  >
+                    <Icon aria-hidden="true" />
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
@@ -144,7 +149,7 @@ const Footer = () => {
             </div>
             <div>
               <h4 className="font-medium text-sm sm:text-base">Location</h4>
-              <p className="text-white/70 text-xs sm:text-sm">
+              <p className="text-white/70 text-sm">
                 Naya Bazar 17, Kathmandu 44600, Nepal
               </p>
             </div>
@@ -160,14 +165,14 @@ const Footer = () => {
 
               <Link
                 to={{ pathname: "tel:+9779701562819" }}
-                className="block text-white/70 text-xs sm:text-sm hover:text-[#6dc5f1] transition"
+                className="block py-2 text-white/70 text-sm  hover:text-[#6dc5f1] transition"
               >
                 +977 9701562819
               </Link>
 
               <Link
                 to={{ pathname: "tel:+9779866298333" }}
-                className="block text-white/70 text-xs sm:text-sm hover:text-[#6dc5f1] transition"
+                className="block  text-white/70 text-sm  hover:text-[#6dc5f1] transition"
               >
                 +977 9866298333
               </Link>
@@ -184,14 +189,14 @@ const Footer = () => {
 
               <Link
                 to={{ pathname: "mailto:levinlytravel2024@gmail.com" }}
-                className="block text-white/70 text-xs sm:text-sm break-words hover:text-[#6dc5f1] transition"
+                className="block py-2 text-white/70 text-sm break-words hover:text-[#6dc5f1] transition"
               >
                 levinlytravel2024@gmail.com
               </Link>
 
               <Link
                 to={{ pathname: "mailto:info@levinlytravel.com" }}
-                className="block text-white/70 text-xs sm:text-sm break-words hover:text-[#6dc5f1] transition"
+                className="block text-white/70 text-sm break-words hover:text-[#6dc5f1] transition"
               >
                 info@levinlytravel.com
               </Link>
@@ -204,17 +209,18 @@ const Footer = () => {
           <p className="text-white/60 text-xs sm:text-sm">
             © {new Date().getFullYear()} Levinly Travel. All rights reserved.
           </p>
-          <p className="text-white/40 text-[10px] sm:text-xs py-1">
+          <p className="text-gray-300 text-xs sm:text-sm py-1">
             Crafted By{" "}
             <a
               href="https://www.sait.com.np/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white/60 hover:text-[#6dc5f1] transition-colors duration-300"
+              className="text-gray-200 hover:text-[#6dc5f1] transition-colors duration-300"
             >
               S.A.I.T Solution Nepal
             </a>
           </p>
+
         </div>
       </div>
     </footer>

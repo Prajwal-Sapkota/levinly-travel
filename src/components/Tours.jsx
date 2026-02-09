@@ -186,12 +186,12 @@ const Tours = () => {
                         </div>
 
                         {/* Category Name - larger and bolder on center */}
-                        <h3 className={`font-serif font-semibold text-white transition-all duration-300
+                        <h2 className={`font-serif font-semibold text-white transition-all duration-300
                           ${displayOffset === 0
                             ? "text-2xl md:text-3xl lg:text-4xl"
                             : "text-xl md:text-2xl"}`}>
                           {category.name}
-                        </h3>
+                        </h2>
                       </div>
 
                       {/* Glow effect for center card */}
@@ -226,9 +226,9 @@ const Tours = () => {
                 key={index}
                 onClick={() => goToSlide(index)}
                 disabled={isTransitioning}
-                className={`w-2 h-2 rounded-full transition-all duration-300 ${active === index
-                    ? "bg-[#0b1c3d] w-6"
-                    : "bg-gray-300 hover:bg-gray-400"
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${active === index
+                  ? "bg-[#0b1c3d] w-6"
+                  : "bg-gray-300 hover:bg-gray-400"
                   } disabled:opacity-50 disabled:cursor-not-allowed`}
                 aria-label={`Go to tour ${index + 1}`}
               />
@@ -240,8 +240,11 @@ const Tours = () => {
         <div className="flex justify-center pt-8 md:pt-12">
           <Link
             to="/tours"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-[#6dc5f1] text-white
-                     rounded-full font-medium hover:bg-[#0b1c3d] hover:text-[#6dc5f1] transition"
+            className="inline-flex items-center gap-2 px-8 py-4
+             bg-[#6dc5f1] text-[#0b1c3d]
+             rounded-full font-medium
+             hover:bg-[#0b1c3d] hover:text-white
+             transition"
           >
             View All Tours
             <span className="group-hover:translate-x-1 transition-transform text-xl">→</span>

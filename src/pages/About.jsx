@@ -4,15 +4,17 @@ import Content from "./About/Content";
 import Hero from "./About/Hero"
 import Mission from "./About/Mission";
 
-const About = () =>{
-    return(
+const About = () => {
+    return (
         <div className="overflow-x-hidden">
-            <Navbar/>
-            <Hero/>
-            <Mission/>
-            <Content/>
-            
-            <Footer/>
+            <Navbar />
+            <main>
+                <Hero />
+                <Mission />
+                <Content />
+            </main>
+
+            <Footer />
         </div>
 
     )

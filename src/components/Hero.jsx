@@ -49,7 +49,7 @@ const Hero = () => {
 
   // Create duplicated slides for continuous effect
   const allSlides = [...slides, ...slides];
-  const allImageSets = shuffledImageSets.length > 0 
+  const allImageSets = shuffledImageSets.length > 0
     ? [...shuffledImageSets, ...shuffledImageSets]
     : [];
 
@@ -61,13 +61,13 @@ const Hero = () => {
   // Scale-in appearing effect ONLY ONCE when component loads
   useEffect(() => {
     if (hasAnimated) return;
-    
+
     setTimeout(() => {
       // Content scale and slide up effect
       if (contentRef.current) {
         contentRef.current.style.opacity = '0';
         contentRef.current.style.transform = 'scale(0.95) translateY(10px)';
-        
+
         setTimeout(() => {
           contentRef.current.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
           contentRef.current.style.opacity = '1';
@@ -82,7 +82,7 @@ const Hero = () => {
           if (img) {
             img.style.opacity = '0';
             img.style.transform = 'scale(0.9)';
-            
+
             setTimeout(() => {
               img.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
               img.style.opacity = '1';
@@ -98,13 +98,13 @@ const Hero = () => {
 
   const nextSlide = () => {
     if (isTransitioning) return;
-    
+
     setIsTransitioning(true);
     setAnimate(true);
-    
+
     if (current === slides.length - 1) {
       setCurrent(prev => prev + 1);
-      
+
       setTimeout(() => {
         setAnimate(false);
         setCurrent(0);
@@ -118,14 +118,14 @@ const Hero = () => {
 
   const prevSlide = () => {
     if (isTransitioning) return;
-    
+
     setIsTransitioning(true);
     setAnimate(true);
-    
+
     if (current === 0) {
       setAnimate(false);
       setCurrent(slides.length);
-      
+
       setTimeout(() => {
         setAnimate(true);
         setCurrent(slides.length - 1);
@@ -142,7 +142,7 @@ const Hero = () => {
     const interval = setInterval(() => {
       nextSlide();
     }, 5000);
-    
+
     return () => clearInterval(interval);
   }, [current, isTransitioning]);
 
@@ -158,20 +158,20 @@ const Hero = () => {
           {allSlides.map((slide, index) => {
             const originalIndex = index % slides.length;
             const slideIndex = Math.min(index, allSlides.length - 1);
-            
+
             return (
               <div key={index} className="min-w-full flex-shrink-0 w-full">
                 {/* Desktop Grid */}
                 <div className="hidden lg:grid grid-cols-2 grid-rows-2 gap-6 h-[96vh]">
                   {/* CONTENT - Desktop */}
-                  <div 
+                  <div
                     ref={index === 0 ? contentRef : null}
                     className="bg-white p-8 flex flex-col justify-center
                                 shadow-xl border border-black/5
                                 translate-x-8 translate-y-8 z-20 h-[380px]"
-                    style={hasAnimated ? {} : { 
-                      opacity: 0, 
-                      transform: 'scale(0.95) translateY(10px)' 
+                    style={hasAnimated ? {} : {
+                      opacity: 0,
+                      transform: 'scale(0.95) translateY(10px)'
                     }}
                   >
                     <p className="text-xs tracking-widest text-gray-500 mb-3">
@@ -196,7 +196,7 @@ const Hero = () => {
                   {allImageSets[slideIndex]?.map((img, i) => (
                     <div key={i} className="overflow-hidden">
                       <img
-                        ref={el => {
+                        ref={(el) => {
                           if (!imageRefs.current[index]) {
                             imageRefs.current[index] = [];
                           }
@@ -205,13 +205,16 @@ const Hero = () => {
                           }
                         }}
                         src={img}
-                        alt=""
+                        alt={index === 0 ? "Beautiful mountain view" : ""} // meaningful alt for LCP
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                        style={index === 0 && !hasAnimated ? { 
-                          opacity: 0, 
-                          transform: 'scale(0.9)' 
-                        } : {}}
+                        fetchPriority={index === 0 ? "high" : "auto"} // ⚡ Important for LCP
+                        style={
+                          index === 0 && !hasAnimated
+                            ? { opacity: 0, transform: "scale(0.9)" }
+                            : {}
+                        }
                       />
+
                     </div>
                   ))}
                 </div>
@@ -233,13 +236,13 @@ const Hero = () => {
                         src={allImageSets[slideIndex]?.[0] || "/images/hero1.webp"}
                         alt=""
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                        style={index === 0 && !hasAnimated ? { 
-                          opacity: 0, 
-                          transform: 'scale(0.9)' 
+                        style={index === 0 && !hasAnimated ? {
+                          opacity: 0,
+                          transform: 'scale(0.9)'
                         } : {}}
                       />
                     </div>
-                    
+
                     <div className="h-48 overflow-hidden rounded-xl shadow-lg">
                       <img
                         ref={el => {
@@ -253,13 +256,13 @@ const Hero = () => {
                         src={allImageSets[slideIndex]?.[1] || "/images/hero2.jpg"}
                         alt=""
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                        style={index === 0 && !hasAnimated ? { 
-                          opacity: 0, 
-                          transform: 'scale(0.9)' 
+                        style={index === 0 && !hasAnimated ? {
+                          opacity: 0,
+                          transform: 'scale(0.9)'
                         } : {}}
                       />
                     </div>
-                    
+
                     <div className="h-48 overflow-hidden rounded-xl shadow-lg">
                       <img
                         ref={el => {
@@ -273,22 +276,22 @@ const Hero = () => {
                         src={allImageSets[slideIndex]?.[2] || "/images/hero3.jpg"}
                         alt=""
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                        style={index === 0 && !hasAnimated ? { 
-                          opacity: 0, 
-                          transform: 'scale(0.9)' 
+                        style={index === 0 && !hasAnimated ? {
+                          opacity: 0,
+                          transform: 'scale(0.9)'
                         } : {}}
                       />
                     </div>
                   </div>
 
                   {/* CONTENT - Mobile */}
-                  <div 
+                  <div
                     ref={index === 0 ? contentRef : null}
                     className="bg-white p-6 flex flex-col justify-center
                                 shadow-xl border border-black/5 rounded-lg pt-4"
-                    style={hasAnimated ? {} : { 
-                      opacity: 0, 
-                      transform: 'scale(0.95) translateY(10px)' 
+                    style={hasAnimated ? {} : {
+                      opacity: 0,
+                      transform: 'scale(0.95) translateY(10px)'
                     }}
                   >
                     <p className="text-xs tracking-widest text-gray-500 mb-3">
@@ -375,11 +378,10 @@ const Hero = () => {
                 setCurrent(index);
                 setTimeout(() => setIsTransitioning(false), 700);
               }}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                (current % slides.length) === index 
-                  ? "bg-black w-6" 
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${(current % slides.length) === index
+                  ? "bg-black w-6"
                   : "bg-gray-300"
-              }`}
+                }`}
               aria-label={`Go to slide ${index + 1}`}
               disabled={isTransitioning}
             />

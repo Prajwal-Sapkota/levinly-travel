@@ -4,12 +4,14 @@ import BlogData from "./Blog/BlogsData";
 import Hero from "./Blog/Hero"
 
 const Blog = () => {
-    return(
+    return (
         <div className="overfloe-x-hidden">
-            <Navbar/>
-            <Hero/>
-            <BlogData/>
-            <Footer/>
+            <Navbar />
+            <main>
+                <Hero />
+                <BlogData />
+            </main>
+            <Footer />
         </div>
     )
 }

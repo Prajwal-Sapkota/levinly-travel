@@ -147,7 +147,9 @@ const Popular = () => {
           <Link
             to="/tours"
             onClick={handleClick}
-            className="inline-flex items-center gap-2 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-[#6dc5f1] text-white text-sm sm:text-base md:text-lg rounded-full font-medium hover:bg-[#0b1c3d] hover:text-[#6dc5f1] transition-all duration-300 shadow-md md:shadow-lg hover:shadow-xl"
+            className="inline-flex items-center gap-2 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-[#6dc5f1] text-[#0b1c3d]
+             
+             hover:bg-[#0b1c3d] hover:text-white text-sm sm:text-base md:text-lg rounded-full font-medium  transition-all duration-300 shadow-md md:shadow-lg hover:shadow-xl"
           >
             Explore All Tours
             <FaArrowRight className="group-hover:translate-x-2 transition-transform" />
