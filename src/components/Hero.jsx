@@ -255,6 +255,9 @@ const Hero = () => {
                         }}
                         src={allImageSets[slideIndex]?.[1] || "/images/hero2.jpg"}
                         alt=""
+                        fetchPriority="high"
+                        loading="eager"
+                        decoding="async"
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                         style={index === 0 && !hasAnimated ? {
                           opacity: 0,
