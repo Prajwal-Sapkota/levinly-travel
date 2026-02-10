@@ -119,6 +119,7 @@ const ToursCategories = () => {
                   <div className="pt-8 md:pt-12 opacity-100 md:opacity-0 md:translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700">
                     <Link
                       to={`/tours/${cat.slug || cat.id}`}
+                      onClick={()=>{window.scrollTo(0,0);}}
                       className="inline-flex items-center gap-4 text-[#2c5aa0] text-base md:text-lg font-semibold hover:text-[#1e429f] transition-colors duration-300"
                     >
                       Discover Journey

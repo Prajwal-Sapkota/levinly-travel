@@ -137,13 +137,15 @@ const ToursRegion = () => {
               <Link
                 to={`/tours/${region.slug}#tours`}
                 className="group inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#2c5aa0] text-white font-medium hover:bg-[#1a365d] hover:shadow-lg transition-all duration-300 text-sm sm:text-base mb-8 sm:mb-10 rounded-lg"
+                onClick={() => { window.scrollTo(0, 0); }}
+
               >
                 Explore All Tours
                 <FiArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-2 transition-transform duration-300" />
               </Link>
 
-              
-              
+
+
             </div>
 
             {/* IMAGE */}
@@ -157,7 +159,7 @@ const ToursRegion = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
 
-                
+
               </div>
             </div>
           </div>
@@ -214,7 +216,7 @@ const ToursRegion = () => {
                 "Value for Money - All-inclusive packages at competitive prices",
                 "Memorable Experiences - Create lasting memories with unique activities"
               ];
-              
+
               const [title, description] = themes[index]?.includes(':')
                 ? themes[index].split(':').map(part => part.trim())
                 : [themes[index], ''];
@@ -303,10 +305,10 @@ const ToursRegion = () => {
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
-                  
-                 
 
-                 
+
+
+
                 </div>
 
                 {/* CONTENT */}
@@ -315,7 +317,7 @@ const ToursRegion = () => {
                     <span className="text-xs tracking-widest uppercase text-gray-500 font-medium">
                       {tour.duration}
                     </span>
-                    
+
                   </div>
 
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#1a365d] leading-tight">
@@ -360,11 +362,13 @@ const ToursRegion = () => {
                   {/* Price & CTA */}
                   <div className={`pt-8 sm:pt-10  items-start sm:items-center justify-between gap-4 ${reverse ? "md:flex-row-reverse" : ""
                     }`}>
-                    
+
 
                     <Link
                       to={`/tours/${region.slug}/${tour.slug}`}
                       className="group inline-flex items-center gap-3 text-[#2c5aa0] font-semibold text-base"
+                      onClick={() => { window.scrollTo(0, 0); }}
+
                     >
                       <span className="group-hover:underline">View Details</span>
                       <span className="w-10 h-10 rounded-full bg-gradient-to-r from-[#2c5aa0] to-[#1a365d] flex items-center justify-center group-hover:scale-110 transition-all duration-300 shadow-lg">

@@ -41,6 +41,7 @@ const LatestBlogs = () => {
                         <Link
                             key={blog.id}
                             to={`/blogs/${blog.slug || blog.id}`}
+                            onClick={() => window.scrollTo(0, 0)}
                             className="group block"
                             style={{
                                 opacity: animate ? 1 : 0,

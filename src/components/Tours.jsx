@@ -240,6 +240,7 @@ const Tours = () => {
         <div className="flex justify-center pt-8 md:pt-12">
           <Link
             to="/tours"
+            onClick={()=>{window.scrollTo(0,0);}}
             className="inline-flex items-center gap-2 px-8 py-4
              bg-[#6dc5f1] text-[#0b1c3d]
              rounded-full font-medium

@@ -451,6 +451,8 @@ const ToursDetail = () => {
 
                                     <Link
                                         to="/contact"
+                                        onClick={() => { window.scrollTo(0, 0); }}
+
                                         className="w-full py-4 bg-gradient-to-r from-[#2c5aa0] to-[#1a365d] text-white rounded-xl font-bold hover:shadow-2xl transition-all duration-300 flex items-center justify-center gap-3 group"
                                     >
                                         <span>Contact Us Today</span>
@@ -549,6 +551,8 @@ const ToursDetail = () => {
                                 <Link
                                     key={similarTour.id}
                                     to={`/tours/${region.slug}/${similarTour.slug}`}
+                                    onClick={() => { window.scrollTo(0, 0); }}
+
                                     className="group"
                                 >
                                     <div className="aspect-video rounded-xl overflow-hidden pb-4 sm:pb-6">
@@ -576,7 +580,7 @@ const ToursDetail = () => {
                     <div className="text-center pt-8 sm:pt-12">
                         <Link
                             to={`/tours/${region.slug}`}
-                            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                            onClick={() => { window.scrollTo(0, 0); }}
                             className="inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-[#1a365d] text-white rounded-xl hover:bg-[#2c5aa0] transition-all duration-300 text-sm sm:text-base"
                         >
                             <FiCompass /> View All {region.name} Tours

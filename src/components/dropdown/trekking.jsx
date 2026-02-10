@@ -24,8 +24,8 @@ const TrekkingDropdown = ({ onClose }) => {
                   <Link
                     to={`/trekking/${region.slug}`}
                     onClick={() => {
-                      window.scrollTo(0,0); 
-                      onClose?.(); 
+                      window.scrollTo(0, 0);
+                      onClose?.();
                     }}
                     className={`group relative flex items-center gap-4 px-5 py-4 rounded-2xl transition-all duration-300 ${isActive ? "bg-white shadow-lg shadow-black/5 scale-[1.01]" : "hover:bg-white/70"}`}
                   >
@@ -53,10 +53,13 @@ const TrekkingDropdown = ({ onClose }) => {
                 <Link
                   key={trek.id}
                   to={`/trekking/${activeRegion.slug}/${trek.slug}`}
-                  onClick={onClose}
-                  className="group relative bg-white rounded-2xl p-4 border border-[#eee2d8] transition-all duration-300 hover:-translate-y-1.5 hover:border-amber-400 hover:shadow-2xl hover:shadow-black/10"
+                  onClick={() => {
+                    onClose();              
+                    window.scrollTo(0, 0);   
+                  }}
+                  className="group relative bg-white rounded-2xl p-4 border border-[#eee2d8] transition-all duration-300 hover:-translate-y-1.5  hover:shadow-2xl hover:shadow-black/10"
                 >
-                  <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-300 bg-gradient-to-br from-amber-100/40 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-300  pointer-events-none" />
                   <h4 className="relative text-sm font-medium text-gray-800 line-clamp-3">{trek.name}</h4>
                 </Link>
               ))}

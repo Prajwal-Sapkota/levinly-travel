@@ -31,13 +31,13 @@ const ToursHero = () => {
     <section className="relative bg-[#fdf6f3] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 lg:pt-32 pb-4 lg:pb-18">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-          
+
           {/* IMAGE - TOP ON MOBILE */}
           <div className="relative order-1 lg:order-2">
             <div className="relative">
               <div className="absolute -right-2 sm:-right-3 lg:-right-4 -top-2 sm:-top-3 lg:-top-4 w-full h-full bg-[#eee2d8] rounded-lg" />
-              
-              <div 
+
+              <div
                 ref={imageRef}
                 className="relative rounded-lg overflow-hidden shadow-lg border border-[#eee2d8]"
               >
@@ -69,12 +69,16 @@ const ToursHero = () => {
             </h1>
 
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed pb-4 sm:pb-6">
-              From breathtaking Himalayan treks to immersive cultural journeys, 
-              we craft unforgettable travel experiences that connect you with the 
+              From breathtaking Himalayan treks to immersive cultural journeys,
+              we craft unforgettable travel experiences that connect you with the
               heart and soul of every destination.
             </p>
 
-            <button className="group inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 border border-black text-black font-medium hover:bg-black hover:text-white transition-all duration-300 text-sm sm:text-base">
+            <button
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+              className="group inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 border border-black text-black font-medium hover:bg-black hover:text-white transition-all duration-300 text-sm sm:text-base">
               Explore All Tours
               <FiArrowRight className="w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" />
             </button>

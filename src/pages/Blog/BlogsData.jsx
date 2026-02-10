@@ -96,6 +96,7 @@ const BlogData = () => {
                                 <div className="mt-auto pt-4 border-t border-gray-100">
                                     <Link
                                         to={`/blogs/${blog.slug}`}
+                                        onClick={()=>{window.scrollTo(0,0);}}
                                         className="group inline-flex items-center justify-between w-full"
                                     >
                                         {/* Text */}

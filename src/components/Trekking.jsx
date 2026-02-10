@@ -68,7 +68,7 @@ const Trekking = () => {
                                 to={`/trekking/${region.slug}`}
                                 className="group relative h-[280px] sm:h-[320px] md:h-[380px] lg:h-[420px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 block"
                                 style={animationStyle}
-                                onClick={handleClick}
+                                onClick={()=>{handleClick(); window.scrollTo(0,0);}}
                             >
                                 {/* Background Image */}
                                 <img

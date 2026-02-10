@@ -21,7 +21,7 @@ const TrekkingDetail = () => {
   // Scroll to top on mount and handle section highlighting
   useEffect(() => {
     window.scrollTo(0, 0);
-    
+
     const handleScroll = () => {
       const sections = ['overview', 'itinerary', 'included', 'essentials', 'gallery'];
       const headerOffset = 120;
@@ -70,8 +70,8 @@ const TrekkingDetail = () => {
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (!lightboxOpen || !trek?.images?.gallery) return;
-      
-      switch(e.key) {
+
+      switch (e.key) {
         case 'Escape':
           closeLightbox();
           break;
@@ -98,6 +98,8 @@ const TrekkingDetail = () => {
           <Link
             to="/trekking"
             className="inline-flex items-center gap-3 px-8 py-4 bg-[#1a365d] text-white rounded-xl hover:bg-[#2c5aa0] transition-all duration-300 shadow-lg hover:shadow-xl"
+            onClick={() => { window.scrollTo(0, 0); }}
+
           >
             <FiArrowLeft /> Browse All Treks
           </Link>
@@ -120,14 +122,14 @@ const TrekkingDetail = () => {
 
   const goToPrevious = () => {
     if (!trek.images?.gallery) return;
-    setCurrentImageIndex(prev => 
+    setCurrentImageIndex(prev =>
       prev === 0 ? trek.images.gallery.length - 1 : prev - 1
     );
   };
 
   const goToNext = () => {
     if (!trek.images?.gallery) return;
-    setCurrentImageIndex(prev => 
+    setCurrentImageIndex(prev =>
       prev === trek.images.gallery.length - 1 ? 0 : prev + 1
     );
   };
@@ -194,6 +196,8 @@ const TrekkingDetail = () => {
                 <Link
                   to="/contact"
                   className="group inline-flex items-center gap-3 px-6 sm:px-8 py-3.5 bg-gradient-to-r from-[#2c5aa0] to-[#1a365d] text-white rounded-xl font-semibold hover:shadow-xl transition-all duration-300"
+                  onClick={() => { window.scrollTo(0, 0); }}
+
                 >
                   <span>Inquire About This Trek</span>
                   <FiChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -227,11 +231,10 @@ const TrekkingDetail = () => {
                   <button
                     key={section.id}
                     onClick={() => handleTabClick(section.id)}
-                    className={`flex items-center gap-2 px-5 py-3 rounded-lg transition-all duration-300 whitespace-nowrap ${
-                      activeSection === section.id
-                        ? 'bg-[#1a365d] text-white shadow-md'
-                        : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
-                    }`}
+                    className={`flex items-center gap-2 px-5 py-3 rounded-lg transition-all duration-300 whitespace-nowrap ${activeSection === section.id
+                      ? 'bg-[#1a365d] text-white shadow-md'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                      }`}
                   >
                     {section.icon}
                     <span className="text-sm font-medium">{section.label}</span>
@@ -278,7 +281,7 @@ const TrekkingDetail = () => {
                           className="group relative bg-white rounded-xl border border-[#eee2d8] transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/10"
                         >
                           <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition duration-300 bg-gradient-to-br from-amber-100/40 via-transparent to-transparent pointer-events-none" />
-                          
+
                           <div className="relative p-5 sm:p-6">
                             <div className="flex items-start gap-4">
                               <div className="flex-shrink-0">
@@ -394,16 +397,18 @@ const TrekkingDetail = () => {
                     <h3 className="text-xl font-serif text-[#1a365d] pb-2">Ready for Adventure?</h3>
                     <p className="text-gray-600 text-sm">Get personalized trek information</p>
                   </div>
-                  
+
                   <Link
                     to="/contact"
                     className="w-full py-4 bg-gradient-to-r from-[#2c5aa0] to-[#1a365d] text-white rounded-xl font-bold hover:shadow-2xl transition-all duration-300 flex items-center justify-center gap-3 group"
+                    onClick={() => { window.scrollTo(0, 0); }}
+
                   >
                     <span>Contact Us Today</span>
                     <FiChevronRightIcon className="group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>
-                
+
                 <div className="bg-[#fcf6f2] border-t border-gray-200 p-6">
                   <div className="flex items-center gap-3 text-gray-700">
                     <FiAlertCircle className="text-[#2c5aa0] flex-shrink-0" />
@@ -415,7 +420,7 @@ const TrekkingDetail = () => {
               {/* Quick Facts Card */}
               <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-6">
                 <h3 className="text-lg font-semibold text-[#1a365d] pb-4 border-b border-gray-100">Quick Facts</h3>
-                
+
                 <div className="space-y-4 pt-4">
                   <div className="flex items-center justify-between py-2">
                     <div className="flex items-center gap-3">
@@ -424,7 +429,7 @@ const TrekkingDetail = () => {
                     </div>
                     <span className="font-medium text-gray-900">{trek.duration}</span>
                   </div>
-                  
+
                   <div className="flex items-center justify-between py-2">
                     <div className="flex items-center gap-3">
                       <FiTrendingUp className="text-[#2c5aa0]" />
@@ -432,7 +437,7 @@ const TrekkingDetail = () => {
                     </div>
                     <span className="font-medium text-gray-900">{trek.maxAltitude}</span>
                   </div>
-                  
+
                   <div className="flex items-center justify-between py-2">
                     <div className="flex items-center gap-3">
                       <FiActivity className="text-[#2c5aa0]" />
@@ -440,7 +445,7 @@ const TrekkingDetail = () => {
                     </div>
                     <span className="font-medium text-gray-900">{trek.difficulty}</span>
                   </div>
-                  
+
                   {trek.ageRequirement && (
                     <div className="flex items-center justify-between py-2">
                       <div className="flex items-center gap-3">
@@ -450,7 +455,7 @@ const TrekkingDetail = () => {
                       <span className="font-medium text-gray-900">{trek.ageRequirement}</span>
                     </div>
                   )}
-                  
+
                   {trek.permits && trek.permits.length > 0 && (
                     <div className="pt-4 border-t border-gray-100">
                       <div className="text-sm font-medium text-gray-700 pb-3">Required Permits</div>
@@ -488,6 +493,8 @@ const TrekkingDetail = () => {
                   key={similarTrek.id}
                   to={`/trekking/${region.slug}/${similarTrek.slug}`}
                   className="group"
+                  onClick={() => { window.scrollTo(0, 0); }}
+
                 >
                   <div className="aspect-video rounded-xl overflow-hidden pb-4 sm:pb-6">
                     <img
@@ -514,7 +521,7 @@ const TrekkingDetail = () => {
           <div className="text-center pt-8 sm:pt-12">
             <Link
               to={`/trekking/${region.slug}`}
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              onClick={() => { window.scrollTo(0, 0); }}
               className="inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 py-3 sm:py-4 bg-[#1a365d] text-white rounded-xl hover:bg-[#2c5aa0] transition-all duration-300 text-sm sm:text-base"
             >
               <FiCompass /> View All {region.name} Treks
@@ -557,7 +564,7 @@ const TrekkingDetail = () => {
               alt={`${trek.name} ${currentImageIndex + 1}`}
               className="max-h-[80vh] max-w-full rounded-lg shadow-2xl"
             />
-            
+
             {/* Image counter */}
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 text-white px-4 py-2 rounded-full text-sm backdrop-blur-sm">
               {currentImageIndex + 1} / {trek.images.gallery.length}
@@ -565,8 +572,8 @@ const TrekkingDetail = () => {
           </div>
 
           {/* Click outside to close */}
-          <div 
-            className="absolute inset-0 -z-10 cursor-pointer" 
+          <div
+            className="absolute inset-0 -z-10 cursor-pointer"
             onClick={closeLightbox}
             aria-label="Close lightbox"
           />

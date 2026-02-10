@@ -272,8 +272,10 @@ const Navbar = () => {
               {/* TOURS Section */}
               <div className="border-b border-[#eee2d8] opacity-0 animate-[fadeIn_0.3s_ease-out_0.2s_forwards]">
                 <button
-                  onClick={() => setMobileSubmenu(mobileSubmenu === "TOURS" ? null : "TOURS")}
-                  className="w-full p-5 text-left hover:bg-gray-50 transition-colors flex items-center justify-between"
+                  onClick={() => {
+                    setMobileSubmenu(mobileSubmenu === "TOURS" ? null : "TOURS");
+                    window.scrollTo(0,0);
+                  }} className="w-full p-5 text-left hover:bg-gray-50 transition-colors flex items-center justify-between"
                 >
                   <span className="text-lg font-medium text-gray-800">TOURS</span>
                   <FiChevronDown className={`text-gray-500 transition-transform ${mobileSubmenu === "TOURS" ? "rotate-180" : ""}`} />
@@ -300,7 +302,9 @@ const Navbar = () => {
               {/* TREKKING Section */}
               <div className="border-b border-[#eee2d8] opacity-0 animate-[fadeIn_0.3s_ease-out_0.3s_forwards]">
                 <button
-                  onClick={() => setMobileSubmenu(mobileSubmenu === "TREKKING" ? null : "TREKKING")}
+                  onClick={() =>{ setMobileSubmenu(mobileSubmenu === "TREKKING" ? null : "TREKKING");
+                    window.scrollTo(0,0);
+                  }}
                   className="w-full p-5 text-left hover:bg-gray-50 transition-colors flex items-center justify-between"
                 >
                   <span className="text-lg font-medium text-gray-800">TREKKING</span>

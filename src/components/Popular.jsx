@@ -60,7 +60,7 @@ const Popular = () => {
             <Link
               key={i}
               to={`/tours/${tour.regionSlug}/${tour.slug}`}
-              onClick={handleClick}
+              onClick={()=> { handleClick(); window.scrollTo(0,0);}}
               style={{
                 opacity: visible ? 1 : 0,
                 transform: visible
@@ -146,7 +146,7 @@ const Popular = () => {
         <div className="flex justify-center pt-20">
           <Link
             to="/tours"
-            onClick={handleClick}
+            onClick={()=> {handleClick(); window.scrollTo(0,0);}}
             className="inline-flex items-center gap-2 px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 bg-[#6dc5f1] text-[#0b1c3d]
              
              hover:bg-[#0b1c3d] hover:text-white text-sm sm:text-base md:text-lg rounded-full font-medium  transition-all duration-300 shadow-md md:shadow-lg hover:shadow-xl"

@@ -123,7 +123,7 @@ const About = () => {
                 "
                 onClick={() => {
                   navigate("/about-us");
-                  window.scrollTo({ top: 0, behavior: "smooth" });
+                  window.scrollTo(0, 0);
                 }}
 
               >

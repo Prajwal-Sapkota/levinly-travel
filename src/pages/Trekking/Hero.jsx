@@ -31,7 +31,7 @@ const Hero = () => {
     <section className="relative bg-[#fdf7f3] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 lg:pt-32 pb-4 ">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-          
+
           {/* CONTENT */}
           <div ref={textRef} className="order-2 lg:order-1">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-serif font-light leading-tight text-gray-900 pb-4 sm:pb-6">
@@ -39,11 +39,15 @@ const Hero = () => {
             </h1>
 
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed pb-4 sm:pb-6">
-              Experience the ultimate adventure on legendary trails. Our expertly guided treks offer 
+              Experience the ultimate adventure on legendary trails. Our expertly guided treks offer
               breathtaking vistas, cultural immersion, and memories that last a lifetime.
             </p>
 
-            <button className="group inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 border border-black text-black font-medium hover:bg-black hover:text-white transition-all duration-300 text-sm sm:text-base mb-6 sm:mb-8">
+            <button
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+              className="group inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 border border-black text-black font-medium hover:bg-black hover:text-white transition-all duration-300 text-sm sm:text-base mb-6 sm:mb-8">
               Explore Trekking Routes
               <FiArrowRight className="w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" />
             </button>
@@ -80,8 +84,8 @@ const Hero = () => {
           <div className="relative order-1 lg:order-2">
             <div className="relative">
               <div className="absolute -right-2 sm:-right-3 lg:-right-4 -top-2 sm:-top-3 lg:-top-4 w-full h-full bg-[#eee2d8] rounded-lg" />
-              
-              <div 
+
+              <div
                 ref={imageRef}
                 className="relative rounded-lg overflow-hidden shadow-lg border border-[#eee2d8]"
               >

@@ -80,6 +80,7 @@ const BlogDetail = () => {
                     <p className="text-gray-600 pb-8 max-w-md mx-auto">The blog post you're looking for doesn't exist or has been moved.</p>
                     <Link
                         to="/blogs"
+                        onClick={()=>{window.scrollTo(0,0);}}
                         className="inline-flex items-center gap-3 px-8 py-4 bg-[#1a365d] text-white rounded-xl hover:bg-[#2c5aa0] transition-all duration-300"
                     >
                         <FiArrowLeft /> Back to Blogs

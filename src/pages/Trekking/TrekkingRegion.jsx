@@ -149,6 +149,8 @@ const TrekkingRegion = () => {
               <Link
                 to={`/trekking/${region.slug}#treks`}
                 className="group inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#2c5aa0] text-white font-medium hover:bg-[#1a365d] hover:shadow-lg transition-all duration-300 text-sm sm:text-base mb-8 sm:mb-10 rounded-lg"
+                onClick={() => { window.scrollTo(0, 0); }}
+
               >
                 Explore All Treks
                 <FiArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-2 transition-transform duration-300" />
@@ -221,7 +223,7 @@ const TrekkingRegion = () => {
 
       {/* Region Highlights - Glassmorphism Design */}
       <div ref={highlightsRef} className="max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 relative overflow-hidden">
-        
+
 
         <div className="relative">
           <div className="text-center pb-20">
@@ -278,7 +280,7 @@ const TrekkingRegion = () => {
                       </div>
                     </div>
 
-                    
+
 
                     {/* Inner shadow on hover */}
                     <div className="absolute inset-0 rounded-2xl shadow-[inset_0_2px_20px_rgba(44,90,160,0.1)] opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
@@ -293,7 +295,7 @@ const TrekkingRegion = () => {
       {/* TREKS SECTION WITH ANIMATIONS */}
       <div id="treks" className="max-w-7xl mx-auto px-4 sm:px-6 pb-20 sm:pb-28 pt-8">
         <div className="text-center pb-16">
-          
+
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-[#1a365d] pb-4">
             Available <span className="text-[#2c5aa0]">Treks</span>
           </h2>
@@ -324,9 +326,9 @@ const TrekkingRegion = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
 
-                  
 
-                  
+
+
 
                   {/* Bottom gradient overlay */}
                   <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/80 to-transparent" />
@@ -338,7 +340,7 @@ const TrekkingRegion = () => {
                     <span className="text-xs tracking-widest uppercase text-gray-500 font-medium">
                       {trek.duration}
                     </span>
-                   
+
                   </div>
 
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-[#1a365d] leading-tight">
@@ -369,11 +371,13 @@ const TrekkingRegion = () => {
                   {/* Price & CTA */}
                   <div className={`pt-8 sm:pt-10  items-start justify-between gap-4 ${reverse ? "md:flex-row-reverse" : ""
                     }`}>
-                    
+
 
                     <Link
                       to={`/trekking/${region.slug}/${trek.slug}`}
                       className="group inline-flex items-center gap-3 text-[#2c5aa0] font-semibold text-base"
+                      onClick={() => { window.scrollTo(0, 0); }}
+
                     >
                       <span className="group-hover:underline">View Details</span>
                       <span className="w-10 h-10 rounded-full bg-gradient-to-r from-[#2c5aa0] to-[#1a365d] flex items-center justify-center group-hover:scale-110 transition-all duration-300 shadow-lg">

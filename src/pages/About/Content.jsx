@@ -196,7 +196,11 @@ const Content = () => {
                 ensuring your journey is not just enjoyable but extraordinary.
               </p>
 
-              <button className="group inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 lg:px-10 py-3 sm:py-4 bg-black text-white font-medium rounded-full hover:scale-105 transition-all duration-300 text-sm sm:text-base">
+              <button
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                className="group inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 lg:px-10 py-3 sm:py-4 bg-black text-white font-medium rounded-full hover:scale-105 transition-all duration-300 text-sm sm:text-base">
                 Start Your Adventure
                 <FiArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 sm:group-hover:translate-x-2 transition-transform" />
               </button>
