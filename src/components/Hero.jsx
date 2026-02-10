@@ -207,7 +207,7 @@ const Hero = () => {
                         src={img}
                         alt={index === 0 ? "Beautiful mountain view" : ""} // meaningful alt for LCP
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                        fetchPriority={index === 0 ? "high" : "auto"} // ⚡ Important for LCP
+                        fetchPriority="high" 
                         style={
                           index === 0 && !hasAnimated
                             ? { opacity: 0, transform: "scale(0.9)" }
