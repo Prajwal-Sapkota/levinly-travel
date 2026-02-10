@@ -165,14 +165,14 @@ const Footer = () => {
 
               <Link
                 to={{ pathname: "tel:+9779701562819" }}
-                className="block py-2 text-white/70 text-sm  hover:text-[#6dc5f1] transition"
+                className="block py-2 px-1 text-white/70 text-sm  hover:text-[#6dc5f1] transition"
               >
                 +977 9701562819
               </Link>
 
               <Link
                 to={{ pathname: "tel:+9779866298333" }}
-                className="block  text-white/70 text-sm  hover:text-[#6dc5f1] transition"
+                className="block px-1 text-white/70 text-sm  hover:text-[#6dc5f1] transition"
               >
                 +977 9866298333
               </Link>
@@ -189,14 +189,14 @@ const Footer = () => {
 
               <Link
                 to={{ pathname: "mailto:levinlytravel2024@gmail.com" }}
-                className="block py-2 text-white/70 text-sm break-words hover:text-[#6dc5f1] transition"
+                className="block py-2 px-1 text-white/70 text-sm break-words hover:text-[#6dc5f1] transition"
               >
                 levinlytravel2024@gmail.com
               </Link>
 
               <Link
                 to={{ pathname: "mailto:info@levinlytravel.com" }}
-                className="block text-white/70 text-sm break-words hover:text-[#6dc5f1] transition"
+                className="block px-1 text-white/70 text-sm break-words hover:text-[#6dc5f1] transition"
               >
                 info@levinlytravel.com
               </Link>

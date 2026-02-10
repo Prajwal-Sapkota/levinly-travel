@@ -378,7 +378,7 @@ const Hero = () => {
                 setCurrent(index);
                 setTimeout(() => setIsTransitioning(false), 700);
               }}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${(current % slides.length) === index
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${(current % slides.length) === index
                   ? "bg-black w-6"
                   : "bg-gray-300"
                 }`}

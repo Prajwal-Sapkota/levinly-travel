@@ -112,10 +112,16 @@ const Navbar = () => {
 
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
             className="p-3 border border-[#eee2d8] bg-white shadow-lg rounded-full hover:scale-105 transition-transform"
           >
-            {mobileOpen ? <FiX size={22} className="text-gray-700" /> : <FiMenu size={22} className="text-gray-700" />}
+            {mobileOpen ? (
+              <FiX size={22} className="text-gray-700" aria-hidden="true" />
+            ) : (
+              <FiMenu size={22} className="text-gray-700" aria-hidden="true" />
+            )}
           </button>
+
         </div>
 
         {/* Desktop Grid */}
