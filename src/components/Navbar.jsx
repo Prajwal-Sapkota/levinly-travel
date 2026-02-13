@@ -153,7 +153,7 @@ const Navbar = () => {
               </Link>
               <FiChevronDown className={`w-3 h-3 ml-1 transition-all duration-300 ${activeDropdown === "tours" ? "rotate-180 text-gray-800" : "text-gray-600"}`} />
               {activeDropdown === "tours" && (
-                <div className="absolute top-full left-1/2 -translate-x-[18.5%] pt-6">
+                <div className="absolute top-full left-1/2 -translate-x-[16%] pt-6">
                   <ToursDropdown onClose={() => setActiveDropdown(null)} />
                 </div>
               )}            </li>
@@ -172,7 +172,7 @@ const Navbar = () => {
               </Link>
               <FiChevronDown className={`w-3 h-3 ml-1 transition-all duration-300 ${activeDropdown === "trekking" ? "rotate-180 text-gray-800" : "text-gray-600"}`} />
               {activeDropdown === "trekking" && (
-                <div className="absolute top-full left-1/2 -translate-x-[27%] pt-6">
+                <div className="absolute top-full left-1/2 -translate-x-[16%] pt-6">
                   <TrekkingDropdown onClose={() => setActiveDropdown(null)} />
                 </div>
               )}

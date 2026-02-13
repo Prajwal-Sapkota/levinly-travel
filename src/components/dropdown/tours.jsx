@@ -8,6 +8,8 @@ const ToursDropdown = ({ onClose }) => {
     toursData.categories[0]?.id
   );
   const contentRef = useRef(null);
+  // Add ref for right panel
+  const rightPanelRef = useRef(null);
 
   const activeCategory = useMemo(
     () => toursData.categories.find((c) => c.id === hoveredCategory),
@@ -26,12 +28,19 @@ const ToursDropdown = ({ onClose }) => {
     }
   }, [hoveredCategory]);
 
+  // Add useEffect to scroll right panel to top when category changes
+  useEffect(() => {
+    if (rightPanelRef.current) {
+      rightPanelRef.current.scrollTop = 0;
+    }
+  }, [hoveredCategory]);
+
   return (
-    <div className="w-[1500px] bg-[#fdf7f3] rounded-[32px] border border-[#eee2d8] shadow-2xl shadow-black/10 overflow-hidden">
+    <div className="w-[1400px] bg-[#fdf7f3] rounded-[32px] border border-[#eee2d8] shadow-2xl shadow-black/10 overflow-hidden">
       <div ref={contentRef} className="h-full flex">
 
         {/* LEFT — CATEGORIES */}
-        <div className="w-[36%] bg-gradient-to-b from-[#fdf7f3] via-[#faf3ee] to-[#f6ede6] border-r border-[#eee2d8] p-5 overflow-y-auto">
+        <div className="w-[40%] bg-gradient-to-b from-[#fdf7f3] via-[#faf3ee] to-[#f6ede6] border-r border-[#eee2d8] p-5 overflow-y-auto">
           <div className="space-y-4">
             {toursData.categories.map((category) => {
               const isActive = hoveredCategory === category.id;
@@ -58,13 +67,25 @@ const ToursDropdown = ({ onClose }) => {
         </div>
 
         {/* RIGHT — TOURS */}
-        <div className="w-[64%] p-5 overflow-y-auto">
+        <div 
+          ref={rightPanelRef}
+          className="w-[60%] p-5 overflow-y-auto
+            [&::-webkit-scrollbar]:w-1.5
+            [&::-webkit-scrollbar-track]:bg-gray-100/50
+            [&::-webkit-scrollbar-track]:rounded-full
+            [&::-webkit-scrollbar-thumb]:bg-gray-400
+            [&::-webkit-scrollbar-thumb]:rounded-full
+            [&::-webkit-scrollbar-thumb]:border-2
+            [&::-webkit-scrollbar-thumb]:border-transparent
+            [&::-webkit-scrollbar-thumb]:bg-clip-padding
+            [&::-webkit-scrollbar-thumb:hover]:bg-amber-500"
+        >
           <div className="pb-8">
             <h3 className="text-xl font-semibold text-gray-800 tracking-tight">{activeCategory?.name}</h3>
           </div>
 
           {activeCategory?.subcategories?.length ? (
-            <div className="grid grid-cols-3 gap-6">
+            <div className="space-y-4">
               {activeCategory.subcategories.map((tour) => (
                 <Link
                   key={tour.id}
@@ -72,10 +93,15 @@ const ToursDropdown = ({ onClose }) => {
                   onClick={() => {
                     onClose();
                     window.scrollTo(0, 0);
-                  }} className="group relative bg-white rounded-2xl p-4 border border-[#eee2d8] transition-all duration-300 hover:-translate-y-1.5  hover:shadow-2xl hover:shadow-black/10 "
+                  }}
+                  className="group relative bg-white rounded-2xl p-4 border border-[#eee2d8] transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-black/10 block w-full"
                 >
-                  <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-300  pointer-events-none" />
-                  <h4 className="relative text-sm font-medium text-gray-800 ">{tour.name}</h4>
+                  <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-300 pointer-events-none" />
+                  <div className="relative flex items-center justify-between">
+                    <h4 className="text-sm font-medium text-gray-800 transition-colors">
+                      {tour.name}
+                    </h4>
+                  </div>
                 </Link>
               ))}
             </div>
